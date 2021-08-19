@@ -1,0 +1,36 @@
+[03-May-2021 15:55:04 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[03-May-2021 15:55:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[03-May-2021 15:55:19 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[03-May-2021 15:55:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[03-May-2021 15:57:07 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[03-May-2021 15:57:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[11-May-2021 13:28:24 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[11-May-2021 13:28:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[11-May-2021 13:29:07 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[11-May-2021 13:29:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:47:52 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:47:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:48:25 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:48:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:51:29 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:51:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:51:46 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:51:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:51:58 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:51:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:52:17 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:52:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:52:29 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:52:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:52:36 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:52:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:33 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:33 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:45 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:58 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:58 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:59 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:53:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:54:07 UTC] PHP Notice:  Undefined variable: post in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11
+[14-May-2021 15:54:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/pzrbb37o0o5s/public_html/app/helpers/validateTopic.php on line 11

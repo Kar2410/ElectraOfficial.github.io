@@ -1,0 +1,136 @@
+
+/*About Electra Section*/
+.about-section{
+	margin: 50px 10px;
+	padding-bottom: 30px;
+	background-color: #e6f6f7;
+	overflow: hidden;
+	align-items: center;
+}
+
+.left-container{
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	padding: 20px 40px 20px;
+	box-shadow: 0 10px 10px 10px rgba(69, 71, 71, 0.5);
+}
+
+
+
+.left-container ul{
+	text-align: left;
+}
+
+
+@media screen and (max-width: 650px) {
+
+  .left-container{
+  	width: auto;
+  	margin: inherit;
+  }
+
+}
+
+/*Keywords Section*/
+.main{
+	margin: auto;
+	background-color: #e6f6f7;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.heading{
+	margin: auto;
+	text-align: center;
+}
+
+.keywords-components{
+	margin: 40px;
+	padding: 20px;
+	box-shadow: 0 10px 10px 10px rgba(69, 71, 71, 0.2);
+	display: inline-block;
+}
+
+/*About Team Section*/
+.team{
+	background: #fff;
+}
+
+.title-box{
+	text-align: center;
+	margin: 100px auto 50px;
+}
+
+.title-box h1{
+	font-size: 60px;
+}
+
+.title-box h2{
+	margin-top: 10px;
+}
+
+.profile-box{
+	width: 240px;
+	height: 240px;
+	background-color: #e6e4e1;
+
+	border-radius: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0 7px 7px 7px rgba(00, 00, 00, 0.2);
+	padding: 20px;
+	position: relative;
+	    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-box img{
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border-radius: 50px;
+	transition: .5s;
+}
+
+.profile-box i{
+	color: white;
+	margin: auto;
+	width: 20px;
+	transition: transform .5s;
+}
+
+.profile-box i:hover{
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+.profile-box p{
+	text-align: center;
+	line-height: 25px;
+	color: #555;
+	position: absolute;
+	bottom: 10px;
+}
+
+.team-row{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 85%;
+	margin: auto;
+}
+
+.profile-box img:hover{
+	width: 200px;
+	z-index: 1;
+	border-radius: 4px;
+}
+
+.profile-box:hover{
+	background: #00bbc2;
+	color: #fff;
+}
+
