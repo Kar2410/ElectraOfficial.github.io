@@ -345,7 +345,7 @@
                         <a href="https://www.facebook.com/arko.kashyap "> <i class="fab fa-facebook fa-2x "></i></a>
                         <a href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/ "><i
                                 class="fab fa-linkedin fa-2x "></i> </a>
-                        <a href=" "> <i class="fab fa-github fa-2x "></i></a>
+                        <a href="#"> <i class="fab fa-github fa-2x "></i></a>
 
                     </div>
                 </div>
@@ -382,7 +382,7 @@
                                 class="fab fa-facebook fa-2x "></i></a>
                         <a href=" https://www.linkedin.com/in/nihal-dwivedi-6623281a0/ "><i
                                 class="fab fa-linkedin fa-2x "></i> </a>
-                        <a href=" "> <i class="fab fa-github fa-2x "></i></a>
+                        <a href="#"> <i class="fab fa-github fa-2x "></i></a>
 
                     </div>
                 </div>
@@ -454,9 +454,9 @@
                     <h3 class="card-title "><strong>Biju Borah</strong></h3>
                     <p class="rank ">Technical Member(Web-D)</p>
                     <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href=" "> <i class="fab fa-facebook fa-2x "></i></a>
-                        <a href=" "><i class="fab fa-linkedin fa-2x "></i> </a>
-                        <a href=" "> <i class="fab fa-github fa-2x "></i></a>
+                        <a href="#"> <i class="fab fa-facebook fa-2x "></i></a>
+                        <a href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><i class="fab fa-linkedin fa-2x "></i> </a>
+                        <a href="https://github.com/biju-borah"> <i class="fab fa-github fa-2x "></i></a>
 
                     </div>
                 </div>
