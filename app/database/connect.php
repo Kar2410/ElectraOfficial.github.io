@@ -3,7 +3,7 @@
 $host = 'localhost';
 $user = 'root';
 $pass = '';
-$db_name = 'blog2';
+$db_name = 'datadk';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 
