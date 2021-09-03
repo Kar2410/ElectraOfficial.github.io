@@ -63,9 +63,9 @@
       <div class="profile-box">
          <h4>Bolisetti</h4>
          <h5>Dheeraj</h5>
-         <a href="https://www.facebook.com/bolisetti.dheeraj.7"><i class="fab fa-facebook-square fa-2x "></i></a>
-         <a href="https://www.linkedin.com/in/bolisetti-dheeraj/"><i class="fab fa-linkedin fa-2x" style="margin-left: 10px;"></i></a>
-         <img src="assets/images/about/dheeraj_bhaiya.jpg">
+<!--          <a href="https://www.facebook.com/bolisetti.dheeraj.7"><i class="fab fa-facebook-square fa-2x "></i></a> -->
+<!--          <a href="https://www.linkedin.com/in/bolisetti-dheeraj/"><i class="fab fa-linkedin fa-2x" style="margin-left: 10px;"></i></a> -->
+<!--          <img src="assets/images/about/dheeraj_bhaiya.jpg"> -->
          <p>President - Electra Society</p>
       </div>
       <div class="profile-box">
