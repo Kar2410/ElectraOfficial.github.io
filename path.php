@@ -1,4 +1,4 @@
 <?php
 
 define("ROOT_PATH", realpath(dirname(__FILE__)));
-define("BASE_URL", "http://ElectraDevMode/");
+define("BASE_URL", "http://localhost/ElectraDevMode/");
