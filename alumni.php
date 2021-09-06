@@ -320,7 +320,7 @@ body{
 
             <div class="card " >
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/pr2020.jpg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -338,7 +338,7 @@ body{
 <br>
             <div class="card " >
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/gs2020.jpg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -365,7 +365,7 @@ body{
         <div class="accordion-panel">
             <div class="card ">
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/pr2019.jpeg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -383,7 +383,7 @@ body{
 
             <div class="card ">
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/gs2019.jpeg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -409,7 +409,7 @@ body{
         <div class="accordion-panel">
             <div class="card ">
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/pr2018.jpeg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -426,7 +426,7 @@ body{
 
             <div class="card ">
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/gs2018.jpeg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -452,7 +452,7 @@ body{
         <div class="accordion-panel">
             <div class="card ">
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/pr2017.jpeg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
@@ -468,7 +468,7 @@ body{
 
             <div class="card ">
                 <div class="img-holder">
-                    <img src="Group 1.svg" class="img-bg" alt="Card image cap">
+                    <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
                     <img src="assets/images/alumni/gs2017.jpg" alt="" class="img-tag">
                 </div>
                 <div class="card-body text-center">
