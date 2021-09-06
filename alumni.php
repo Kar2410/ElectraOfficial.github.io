@@ -28,7 +28,7 @@
 
     <style>
 
-body{
+body,html{
             /* font-family: Arial, Helvetica, sans-serif; */
             
             background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%);
