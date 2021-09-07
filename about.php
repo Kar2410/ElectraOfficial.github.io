@@ -6,15 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<title>About</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/about.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/about.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 
    <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
 	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
 
 
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b0f1c3ae66.js" crossorigin="anonymous"></script>
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
@@ -23,9 +22,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+      /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
         body {
-            background: #fafafa;
+            background: #ffffff;
             margin: 0;
             padding: 0;
         }
@@ -66,7 +65,7 @@
 
         }
         main .jumbotron {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Segoe Ui', sans-serif;
             position: relative;
             background: none;
             padding-bottom: 10px;
@@ -87,6 +86,8 @@
             opacity: 0.3;
             z-index: 1;
         }
+
+       
 
         main .lead {
             font-weight: 500;
@@ -127,6 +128,8 @@
             margin-bottom: 0.25em;
         }
 
+        .team{background:transparent;}
+
         #team .wrapper {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -161,19 +164,23 @@
             margin-left: auto;
             margin-right: auto;
             height: 25rem;
-            font-family: 'Montserrat', sans-serif;
+            
         }
 
         #team .card-title {
-            font-size: 1.5rem;
+            font-size: 24px;
             text-align: center;
             margin-top: -5px;
+            font-family: 'Segoe Ui', sans-serif;
+            color:black;
         }
 
         #team .rank {
             text-align: center;
             font-size: 1.2rem;
-            margin-top: -10px;
+            margin-top: -2px;
+            font-size:17px;
+            font-family: 'Segoe Ui', sans-serif;
         }
 
         #team .img-tag:hover {
@@ -203,6 +210,8 @@
             font-size: 2rem;
             font-weight: bold;
             margin: 50px 50px;
+           font-family: 'Segoe Ui', sans-serif;
+           color:black;
         }
     </style>
 </head>	
@@ -237,10 +246,10 @@
         </div>
 
         <div class="twelve mt-3 "
-            style="font-family: 'Montserrat', sans-serif;font-size: 1.5rem;margin: 10px;text-align: center; font-weight: bolder;font-variant: small-caps;">
+            style="font-family:Segoe Ui; font-size: 1.5rem;margin: 10px;text-align: center; font-weight: bolder;font-variant: small-caps;">
             Keywords of Electra Society</div>
 
-        <div class="mb-1" style="font-family: 'Montserrat', sans-serif;">
+        <div class="mb-1" style="font-family: 'Segoe Ui', sans-serif;">
             <div class="container-fluid p-0 "
                 style="overflow-x: hidden; font-family: var(--font2); width: 80%; margin: auto;text-align: justify; ">
                 <ul style="font-size:1.1rem;margin-left:auto;margin-right: auto; ">
@@ -269,7 +278,7 @@
     </main>
 
    <section id="team">
-        <div class="team "><h3>OUR TEAM<h3></div>
+        <div class="team " ><h3>OUR TEAM<h3></div>
         <div class="our " style="border-bottom: #080808 2px solid;"><h4>OUR SENIOR MEMBERS</h4></div>
 
 
@@ -359,7 +368,7 @@
                 <div class="card-body text-center ">
                     <h3 class="card-title "><strong>Priyanki Priyam Borgohain</strong></h3>
                     <p class="rank ">Assistant General Secretary</p>
-                    <div style="display: flex;align-items: center;justify-content: space-around; ">
+                    <div style="display: flex;align-items: center;justify-content: space-around;margin-top:-5px ">
                         <a href="https://www.facebook.com/pihu.gohain.58 "> <i class="fab fa-facebook fa-2x "></i></a>
                         <a href="https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/ "><i
                                 class="fab fa-linkedin fa-2x "></i> </a>
@@ -518,23 +527,7 @@
                 </div>
             </div>
 
-            <div class="card " style="width: 18rem;border-radius: 25px; ">
-                <div class="img-holder ">
-                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/shibam.jpg " alt=" " class="img-tag ">
-                </div>
-                <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Shibam Debnath</strong></h3>
-                    <p class="rank ">Technical Member(Graphic)</p>
-                    <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/ind.iconic "> <i class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/mwlite/in/shibam-debnath-25b235206 "><i
-                                class="fab fa-linkedin fa-2x "></i> </a>
-                        <!-- <a href=" "> <i class=" fab fa-github fa-2x "></i></a> -->
-
-                    </div>
-                </div>
-            </div>
+           
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
@@ -648,7 +641,7 @@
                     <img src="assets/images/about/gillian.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
-                    <h3 class="rank "><strong>Gillian Anthony</strong></h3>
+                    <h3 class="card-title "><strong>Gillian Anthony</strong></h3>
                     <p class="rank ">Executive Member</p>
                     <div style="display: flex;align-items: center;justify-content: space-around; ">
                         <a href="https://www.facebook.com/gillian.anthony.18 "> <i
@@ -659,39 +652,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card " style="width: 18rem;border-radius: 25px; ">
-                <div class="img-holder ">
-                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/suman.jpeg " alt=" " class="img-tag ">
-                </div>
-                <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Suman Goswami</strong></h3>
-                    <p class="rank ">Executive Member</p>
-                    <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/profile.php?id=100058459812857 "> <i
-                                class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/suman-goswami-aabb93218/ "><i
-                                class="fab fa-linkedin fa-2x "></i> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="card " style="width: 18rem;border-radius: 25px; ">
-                <div class="img-holder ">
-                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/soumya.jpg " alt=" " class="img-tag ">
-                </div>
-                <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Soumya Soni</strong></h3>
-                    <p class="rank ">Executive Member</p>
-                    <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/profile.php?id=100056034555533 "> <i
-                                class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/soumya-soni-7a060719b "><i
-                                class="fab fa-linkedin fa-2x "></i> </a>
 
-                    </div>
-                </div>
-            </div>
+
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
@@ -709,40 +671,44 @@
                     </div>
                 </div>
             </div>
+
+           
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/adrita.jpg " alt=" " class="img-tag ">
+                    <img src="assets/images/about/soumya.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Adrita Buragohain</strong></h3>
+                    <h3 class="card-title "><strong>Soumya Soni</strong></h3>
                     <p class="rank ">Executive Member</p>
                     <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/adrita.buragohain.7 "> <i
+                        <a href="https://www.facebook.com/profile.php?id=100056034555533 "> <i
                                 class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/adrita-buragohain-460080219 "><i
+                        <a href="https://www.linkedin.com/in/soumya-soni-7a060719b "><i
                                 class="fab fa-linkedin fa-2x "></i> </a>
-                        <a href="https://github.com/Adrita2002 "> <i class="fab fa-github fa-2x "></i></a>
 
                     </div>
                 </div>
             </div>
+           
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/agneesh.jpg " alt=" " class="img-tag ">
+                    <img src="assets/images/about/suman.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Agneesh Dasgupta</strong></h3>
+                    <h3 class="card-title "><strong>Suman Goswami</strong></h3>
                     <p class="rank ">Executive Member</p>
                     <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/agneesh.dasgupta "> <i class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/agneesh-dasgupta-81090a1bb "><i
+                        <a href="https://www.facebook.com/profile.php?id=100058459812857 "> <i
+                                class="fab fa-facebook fa-2x "></i></a>
+                        <a href="https://www.linkedin.com/in/suman-goswami-aabb93218/ "><i
                                 class="fab fa-linkedin fa-2x "></i> </a>
-
                     </div>
                 </div>
             </div>
+          
+            
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
@@ -759,23 +725,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card " style="width: 18rem;border-radius: 25px; ">
-                <div class="img-holder ">
-                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/subhanan.jpg " alt=" " class="img-tag ">
-                </div>
-                <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Subhanan Goswami</strong></h3>
-                    <p class="rank ">Executive Member</p>
-                    <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/profile.php?id=100010018535611 "> <i
-                                class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/subhanan-goswami-2a08031b1 "><i
-                                class="fab fa-linkedin fa-2x "></i> </a>
-
-                    </div>
-                </div>
-            </div>
+            
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
