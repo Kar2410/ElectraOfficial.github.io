@@ -1,9 +1,9 @@
 <?php
 
 $host = 'localhost';
-$user = 'ElectraBlogDb';
-$pass = 'Electrasociety#blog';
-$db_name = 'blog2';
+$user = 'root';
+$pass = '';
+$db_name = 'datadk';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 
