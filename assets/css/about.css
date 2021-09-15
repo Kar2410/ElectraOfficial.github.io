@@ -1,136 +1,209 @@
-
-/*About Electra Section*/
-.about-section{
-	margin: 50px 10px;
-	padding-bottom: 30px;
-	background-color: #e6f6f7;
-	overflow: hidden;
-	align-items: center;
+body {
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
-.left-container{
-	text-align: center;
-	width: 100%;
-	display: inline-block;
-	padding: 20px 40px 20px;
-	box-shadow: 0 10px 10px 10px rgba(69, 71, 71, 0.5);
+main h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
 }
 
-
-
-.left-container ul{
-	text-align: left;
+main .twelve h1 {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+    padding-bottom: 13px;
 }
 
-
-@media screen and (max-width: 650px) {
-
-  .left-container{
-  	width: auto;
-  	margin: inherit;
-  }
-
+main .divider {
+    margin: 30px 30px;
+    border: none;
+    height: 20px;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='100%' width='100%'><defs><pattern id='dotted' width='15' height='20' patternTransform='rotate(0 0 0)' patternUnits='userSpaceOnUse'><circle cx='3' cy='3' r='3' fill='teal'/><circle cx='12' cy='12' r='3' fill='teal'/> </pattern></defs><rect width='100%' height='100%' fill='url(%23dotted)'/></svg> ");
 }
 
-/*Keywords Section*/
-.main{
-	margin: auto;
-	background-color: #e6f6f7;
-	padding: 10px;
-	align-items: center;
-	justify-content: center;
-	overflow: hidden;
+@media only screen and (max-width: 700px) {
+    main .name {
+        flex-direction: column;
+    }
 }
 
-.heading{
-	margin: auto;
-	text-align: center;
+main .jumbotron {
+    font-family: 'Segoe Ui', sans-serif;
+    position: relative;
+    background: none;
+    padding-bottom: 10px;
 }
 
-.keywords-components{
-	margin: 40px;
-	padding: 20px;
-	box-shadow: 0 10px 10px 10px rgba(69, 71, 71, 0.2);
-	display: inline-block;
+main .jumbotron:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/ee-dept.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
 }
 
-/*About Team Section*/
-.team{
-	background: #fff;
+main .lead {
+    font-weight: 500;
+    font-weight: bold;
+    text-align: center;
 }
 
-.title-box{
-	text-align: center;
-	margin: 100px auto 50px;
+@media only screen and (max-width: 700px) {
+    main .lead {
+        text-align: center;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 }
 
-.title-box h1{
-	font-size: 60px;
+main .heading {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+    padding-bottom: 13px;
 }
 
-.title-box h2{
-	margin-top: 10px;
+main .heading:before {
+    background-color: #008489;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 5px;
 }
 
-.profile-box{
-	width: 240px;
-	height: 240px;
-	background-color: #e6e4e1;
+main .heading:after {
+    background-color: #008489;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 0.25em;
+}
 
-	border-radius: 10px;
-	margin-bottom: 30px;
-	box-shadow: 0 7px 7px 7px rgba(00, 00, 00, 0.2);
-	padding: 20px;
-	position: relative;
-	    margin-left: auto;
+.team {
+    background: transparent;
+}
+
+#team .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+#team .img-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#team .img-bg {
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+#team .img-tag {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: white 2px solid;
+    box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.33);
+    margin-top: -25px;
+    transition: transform .5s;
+}
+
+#team .card {
+    box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+    margin-left: auto;
     margin-right: auto;
+    height: 25rem;
 }
 
-.profile-box img{
-	width: 100px;
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	border-radius: 50px;
-	transition: .5s;
+#team .card-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: -5px;
+    font-family: 'Segoe Ui', sans-serif;
+    color: black;
 }
 
-.profile-box i{
-	color: white;
-	margin: auto;
-	width: 20px;
-	transition: transform .5s;
+#team .rank {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: -2px;
+    font-size: 17px;
+    font-family: 'Segoe Ui', sans-serif;
 }
 
-.profile-box i:hover{
-	transform: scale(1.5);
-	cursor: pointer;
+#team .img-tag:hover {
+    transform: scale(1.2);
+    transition: transform .5s;
 }
 
-.profile-box p{
-	text-align: center;
-	line-height: 25px;
-	color: #555;
-	position: absolute;
-	bottom: 10px;
+#team .fab {
+    transition: transform .5s;
+    color: black;
+    margin-bottom: 0;
 }
 
-.team-row{
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	width: 85%;
-	margin: auto;
+#team .fab:hover {
+    transform: scale(1.3);
+    transition: transform .5s;
 }
 
-.profile-box img:hover{
-	width: 200px;
-	z-index: 1;
-	border-radius: 4px;
+#team .team {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bolder;
 }
 
-.profile-box:hover{
-	background: #00bbc2;
-	color: #fff;
+#team .our {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 50px 50px;
+    font-family: 'Segoe Ui', sans-serif;
+    color: black;
 }
 
+@media only screen and (max-width: 700px) {
+    #team .team {
+        font-size: 3rem;
+    }
+    #team .our {
+        font-size: 1.5rem;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
