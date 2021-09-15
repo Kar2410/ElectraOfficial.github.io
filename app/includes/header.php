@@ -4,6 +4,7 @@
     </a>
             <img src="<?php echo BASE_URL . 'assets/images/logo/elelogo.png' ?>">
 
+
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">
         
