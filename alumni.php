@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="assets/css/alumni.css">
 
 
-   <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
-
 
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -36,7 +34,7 @@
   <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
 
    <br><br><br>
-  <h1 class="our" style="color: white;font-variant: small-caps;font-size: 3.5rem;font-weight: bolder;text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+  <h1 class="our" style="color: white;font-variant: small-caps;font-weight: bolder;text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);">Our Alumni</h1>
     <br><br>
 
@@ -112,6 +110,7 @@
                     </div>
                 </div>
             </div>
+            <br>
 
             <div class="card ">
                 <div class="img-holder">
@@ -155,7 +154,7 @@
                     </div>
                 </div>
             </div>
-
+<br>
             <div class="card ">
                 <div class="img-holder">
                     <img src="assets/images/logo/bg.svg" class="img-bg" alt="Card image cap">
@@ -197,7 +196,7 @@
                     </div>
                 </div>
             </div>
-
+<br>
             <div class="card ">
                 <div class="img-holder">
                     <img src="assets/images/logo/bg.svg" class="img-bg" alt="Card image cap">
@@ -225,6 +224,18 @@
         <br><br><br><br><br>
     <br><br><br><br><br>
    
+
+
+
+
+
+
+
+
+
+
+
+    
 
     <!--script for collapse and hide  -->
     <script>

@@ -6,14 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<title>About</title>
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/about.css"> -->
+	
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/about.css">
 
-
-   <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
-
+   
+	
 
     <script src="https://kit.fontawesome.com/b0f1c3ae66.js" crossorigin="anonymous"></script>
 
@@ -23,10 +21,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 
-   <style>
-      /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
-       
-    </style>
+   
 </head>	
 <body>
 
@@ -100,7 +95,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/bullbul_bhaiya.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -119,7 +114,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/gaurav_bhaiya.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -138,7 +133,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/Prastuti.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -157,7 +152,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/arko.png " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -175,7 +170,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/Priyanki.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -193,7 +188,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/Nihal.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -212,7 +207,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/kartik.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -230,7 +225,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/Sonali.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -247,7 +242,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/Sarmistha.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -269,7 +264,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/biju.JPG" alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -286,7 +281,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/debasish.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -305,7 +300,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/ritesh.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -324,7 +319,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/tanmay.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -344,7 +339,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/reetom.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -362,7 +357,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/rohan.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -381,7 +376,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/juman.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -398,15 +393,33 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/ajay.jpg " alt=" " class="img-tag ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/about/arpit.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Gudla Ajay Babu</strong></h3>
-                    <p class="rank ">Executive Member</p>
+                    <h3 class="card-title "><strong>Arpit Jaiswal</strong></h3>
+                    <p class="rank ">Technical Member(Graphic)</p>
                     <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/ajay.dhoni.904 "> <i class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/ajay-gudla-31545b20a "><i
+                        <a href="https://www.facebook.com/arpit.jaiswal.965/ "> <i class="fab fa-facebook fa-2x "></i></a>
+                        <a href="https://www.linkedin.com/in/arpit-jaiswal-7166b0201/"><i
+                                class="fab fa-linkedin fa-2x "></i> </a>
+                        <a href="https://github.com/arpit-jaiswal11 "> <i class="fab fa-github fa-2x "></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card " style="width: 18rem;border-radius: 25px; ">
+                <div class="img-holder ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/about/prakritish.jpg " alt=" " class="img-tag ">
+                </div>
+                <div class="card-body text-center ">
+                    <h3 class="card-title "><strong>Prokritish Nissan Bora</strong></h3>
+                    <p class="rank ">Technical Member(Graphic)</p>
+                    <div style="display: flex;align-items: center;justify-content: space-around; ">
+                        <a href=" https://www.facebook.com/prakritish.nissan "> <i class="fab fa-facebook fa-2x "></i></a>
+                        <a href=" https://www.linkedin.com/in/prakritish-nissan-249428220/ "><i
                                 class="fab fa-linkedin fa-2x "></i> </a>
 
                     </div>
@@ -415,25 +428,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
-                    <img src="assets/images/about/debalina.jpg " alt=" " class="img-tag ">
-                </div>
-                <div class="card-body text-center ">
-                    <h3 class="card-title "><strong>Debalina Borah</strong></h3>
-                    <p class="rank ">Executive Member</p>
-                    <div style="display: flex;align-items: center;justify-content: space-around; ">
-                        <a href="https://www.facebook.com/debalina.borah.9 "> <i class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a "><i
-                                class="fab fa-linkedin fa-2x "></i> </a>
-                        <a href="https://github.com/Debalina-Borah "> <i class="fab fa-github fa-2x "></i></a>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="card " style="width: 18rem;border-radius: 25px; ">
-                <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/miraj.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -450,7 +445,44 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/about/ajay.jpg " alt=" " class="img-tag ">
+                </div>
+                <div class="card-body text-center ">
+                    <h3 class="card-title "><strong>Gudla Ajay Babu</strong></h3>
+                    <p class="rank ">Executive Member</p>
+                    <div style="display: flex;align-items: center;justify-content: space-around; ">
+                        <a href="https://www.facebook.com/ajay.dhoni.904 "> <i class="fab fa-facebook fa-2x "></i></a>
+                        <a href="https://www.linkedin.com/in/ajay-gudla-31545b20a "><i
+                                class="fab fa-linkedin fa-2x "></i> </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card " style="width: 18rem;border-radius: 25px; ">
+                <div class="img-holder ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/about/debalina.jpg " alt=" " class="img-tag ">
+                </div>
+                <div class="card-body text-center ">
+                    <h3 class="card-title "><strong>Debalina Borah</strong></h3>
+                    <p class="rank ">Executive Member</p>
+                    <div style="display: flex;align-items: center;justify-content: space-around; ">
+                        <a href="https://www.facebook.com/debalina.borah.9 "> <i class="fab fa-facebook fa-2x "></i></a>
+                        <a href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a "><i
+                                class="fab fa-linkedin fa-2x "></i> </a>
+                        <a href="https://github.com/Debalina-Borah "> <i class="fab fa-github fa-2x "></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="card " style="width: 18rem;border-radius: 25px; ">
+                <div class="img-holder ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/gillian.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -469,7 +501,7 @@
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/kavya.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -488,7 +520,7 @@
            
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/soumya.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -506,7 +538,7 @@
            
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/suman.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -524,7 +556,7 @@
             
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/shriyal.jpeg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
@@ -541,7 +573,7 @@
             
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
-                    <img src="assets/images/logo/bg.svg" class="img-bg " alt="Card image cap ">
+                    <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
                     <img src="assets/images/about/reisha.jpg " alt=" " class="img-tag ">
                 </div>
                 <div class="card-body text-center ">
