@@ -1,6 +1,6 @@
 <header>
     <a class="logo" href="<?php echo BASE_URL . '/index'; ?>">
-        <h1 class="logo-text"><span>Electra</span>Society</h1>
+        <h1 class="logo-text" style=" font-family: 'Work Sans', sans-serif !important;"><span>Electra</span>Society</h1>
     </a>
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">

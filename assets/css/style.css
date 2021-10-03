@@ -7,8 +7,8 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background: #f6f6f6;
-    font-family: "Lora", serif;
+    background: linear-gradient(315deg, rgb(217, 228, 245) 0%, rgb(245, 227, 230) 74%);;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 h1,
@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Candal", serif;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif
     color: #5c5b5b;
     margin: 5px;
 }
@@ -90,12 +90,12 @@ a {
 /* NAVBAR */
 
 header {
-    background: #008489;
+    /*background: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% ) !important;*/
     height: 66px;
 }
 
 header * {
-    color: white;
+    color: rgb(22, 20, 20);
 }
 
 header .logo {
@@ -112,12 +112,12 @@ header img {
 
 header .logo-text {
     margin: 9px;
-    font-family: "Candal", serif;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
-header .logo-text span {
+/*header .logo-text span {
     color: #05f7ff;
-}
+} */
 
 header ul {
     float: right;
@@ -149,7 +149,7 @@ header ul li ul li {
 }
 
 header ul li ul li a {
-    padding: 10px;
+    padding: 0px;
     background: white;
     color: #444;
 }
@@ -165,15 +165,18 @@ header ul li ul li a:hover {
 header ul li a {
     display: block;
     padding: 21px;
-    font-size: 1.1em;
+    font-size: 0.9em;
     text-decoration: none;
     z-index: 11;
     position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 header ul li a:hover {
-    background: #006669;
-    transition: 0.5s;
+    background:rgba(255, 255, 255, 0.5) !important;
+    border: none;
+   
 }
 
 header .menu-toggle {
@@ -198,6 +201,7 @@ header .menu-toggle {
 .post-slider .slider-title {
     text-align: center;
     margin: 30px auto;
+    font-weight: 800 !important;
 }
 
 .post-slider .next {
@@ -231,14 +235,19 @@ header .menu-toggle {
     height: 330px;
     margin: 0px 10px;
     display: inline-block;
-    background: white;
+    background:rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
+}
+.post-slider .post-wrapper .post:hover{
+    background:rgba(255, 255, 255, 0.5);
+
 }
 
 .post-slider .post-wrapper .post .post-info {
     height: 130px;
     padding: 0px 5px;
+    text-transform: capitalize;
 }
 
 .post-slider .post-wrapper .post .slider-image {
@@ -259,18 +268,22 @@ header .menu-toggle {
 .content .main-content {
     width: 70%;
     float: left;
+    
 }
 
 .content .main-content.single {
-    background: white;
+    background: rgba(255, 255, 255, 0.4);
     padding: 20px 50px;
-    font-size: 1.1em;
-    border-radius: 5px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
 }
+
 
 .content .main-content.single .post-title {
     text-align: center;
     margin-bottom: 40px;
+    font-weight: 700;
 }
 
 .content .main-content .post {
@@ -278,8 +291,17 @@ header .menu-toggle {
     height: 270px;
     margin: 20px auto;
     border-radius: 5px;
-    background: white;
+    background:rgba(255, 255, 255, 0.4);
     position: relative;
+    text-transform: capitalize;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur( 4px );
+
+}
+
+.content .main-content .post:hover{
+    background: rgba(255, 255, 255, 0.8) !important;
+
 }
 
 .content .popular .post {
@@ -350,7 +372,7 @@ header .menu-toggle {
 }
 
 .content .sidebar .section {
-    background: white;
+    background: rgba(255, 255, 255, 0.4);
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
@@ -394,6 +416,7 @@ header .menu-toggle {
     border-radius: 5px;
 }
 
+
 .auth-content .form-title {
     text-align: center;
 }
@@ -414,8 +437,8 @@ header .menu-toggle {
 /* FOOTER */
 
 .footer {
-    background: #303036;
-    color: #d3d3d3;
+    background: rgba(255, 255, 255, 0.4);
+    color: #3b3b3b;
     height: 400px;
     position: relative;
 }
@@ -432,11 +455,11 @@ header .menu-toggle {
 
 .footer .footer-content h1,
 .footer .footer-content h2 {
-    color: white;
+    color: rgb(155, 155, 155);
 }
 
 .footer .footer-content .about h1 span {
-    color: #05f7ff;
+    color:  linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);;
 }
 
 .footer .footer-content .about .contact span {
@@ -459,8 +482,8 @@ header .menu-toggle {
 }
 
 .footer .footer-content .about .socials a:hover {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid rgb(136, 136, 136);
+    color: rgb(119, 105, 105);
     transition: all 0.3s;
 }
 
@@ -472,14 +495,13 @@ header .menu-toggle {
 }
 
 .footer .footer-content .links ul a:hover {
-    color: white;
     margin-left: 15px;
     transition: all 0.3s;
 }
 
 .footer .footer-content .contact-form .contact-input {
-    background: #272727;
-    color: #bebdbd;
+    background: linear-gradient(-20deg, rgba(169, 172, 177, 0.3) 0%, rgba(185, 170, 192, 0.3) 100%, rgba(204, 111, 247, 0.3)60%);;
+    color: #707070;
     margin-bottom: 10px;
     line-height: 1.5rem;
     padding: 0.9rem 1.4rem;
@@ -487,18 +509,20 @@ header .menu-toggle {
 }
 
 .footer .footer-content .contact-form .contact-input:focus {
-    background: #1a1a1a;
+    background:linear-gradient(-20deg, rgba(205, 208, 212, 0.3) 0%, rgba(215, 198, 223, 0.3) 100%, rgba(204, 111, 247, 0.3)60%);;
 }
 
 .footer .footer-content .contact-form .contact-btn {
     float: right;
     font-size: 1.1em;
     font-family: "Lora", serif;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #1a1b1d;
 }
 
 .footer .footer-bottom {
-    background: #343a40;
-    color: #686868;
+    background: #1a1b1d;
+    color: #747474;
     height: 50px;
     width: 100%;
     text-align: center;
@@ -598,7 +622,7 @@ header .menu-toggle {
     }
     header .logo-text {
         margin: 9px;
-        font-family: 'Candal', serif;
+        font-family: 'Work Sans', sans-serif;
         font-size: 29px;
     }
     header img {

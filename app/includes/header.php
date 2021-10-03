@@ -1,8 +1,9 @@
 <header>
+<img src="<?php echo BASE_URL . '/elelogo.png' ?>">
     <a href="<?php echo BASE_URL . '/index' ?>" class="logo">
-      <h1 class="logo-text"><span>Electra</span>Society</h1>
+      <h1 class="logo-text" style=" font-family: 'Work Sans', sans-serif !important;"><span>Electra</span>Society</h1>
     </a>
-            <img src="<?php echo BASE_URL . '/elelogo.png' ?>">
+        
 
     <i class="fa fa-bars menu-toggle"></i>
     <ul class="nav">

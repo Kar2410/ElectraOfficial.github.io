@@ -58,7 +58,7 @@
     </div>
 
     <div class="footer-bottom">
-      &copy; electranits.com | Designed by Electra Society
+      &copy; electranits.com | Designed by Electrical Engineering Society
     </div>
   </div>
 
