@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b0f1c3ae66.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
@@ -36,277 +39,142 @@
     <style>
         body,
         html {
-            /* font-family: Arial, Helvetica, sans-serif; */
-
-            /* background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%);
-            background-attachment: fixed; */
-
             margin: 0;
-        }
-
-        .control {
-            background-color: #de0000;
-            border-radius: 6px;
-            padding: 5px 10px;
-            border-style: none;
-            font-family: arial;
-            font-size: 1em;
-            font-weight: bold;
-            color: #fff;
-            outline: none;
-            margin: 10px;
-        }
-
-        .control:hover {
-            cursor: pointer;
-            color: #e8e8e8;
-        }
-
-        .control:active {
-            color: #000000;
-            padding: 4px 9px;
-            font-size: .95em;
-        }
-
-        /* Main accordion container 
-========================================================================== */
-
-        .accordion {
-            width: 50%;
-            margin: 10px auto 0;
-            padding: 5px 20px;
-            border-radius: 20px;
-            border: 2px solid white;
-            /* color: white; */
-            transition: all .5s ease;
-            z-index: 3;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-
-
-        .accordion:hover {
-            cursor: pointer;
-            background-color: teal;
-            border: 1px solid teal;
-            text-decoration: none;
-
-
-        }
-
-        /* Main accordion title 
-========================================================================== */
-
-        .accordion h1 {
-            display: inline;
-            font-weight: 100;
-            font-size: 25px;
-        }
-
-        /* Main accordion arrow 
-========================================================================== */
-
-        .accordion button {
-            float: right;
-            font-size: 20px;
-            background-color: transparent;
-            border-style: none;
             padding: 0;
-            margin: 0;
-            margin-top: 10px;
-            outline: none;
+            background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%);
+
         }
 
-        /* Accordion dropdown panel
-========================================================================== */
-
-        .accordion-panel {
+        /* updated */
+        #card-section {
             display: flex;
-            justify-content: space-between;
-            margin: 0 auto;
-            padding: 10px 15px;
-            width: 80%;
-            border-width: 2px;
-            /* background-color: #fafafad4;
-            border-color: #e3e3e3; */
-            /* border-style: solid; */
-            border-top: none;
-            border-bottom-left-radius: 25px;
-            border-bottom-right-radius: 25px;
-            z-index: 1;
-        }
-
-        /* Rotate class for dropdown button
-========================================================================== */
-
-        .rotate {
-            -moz-transition: all .5s linear;
-            -webkit-transition: all .5s linear;
-            transition: all .5s linear;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            /* background: linear-gradient(to right, #000428, #004e92); */
+            background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%);
+            min-height: 100vh;
         }
 
-        .rotate.up {
-            -moz-transform: rotate(180deg);
-            -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-        }
-
-
-
-
-        .img-holder {
-            display: flex;
+        .card-container {
             position: relative;
+            z-index: 1;
+            display: flex;
             justify-content: center;
             align-items: center;
+            flex-wrap: wrap;
+            margin: 40px 0;
         }
 
-        .img-bg {
-            width: 100%;
-            border-top-left-radius: 25px;
-            border-top-right-radius: 25px;
+        .card-container .card {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.05);
+            margin: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
         }
 
-        .img-tag {
-            position: absolute;
+        .card-container .card .content {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0.6;
+            transition: 0.5s;
+        }
+
+        .card-container .card:hover .content {
+            opacity: 1;
+            transform: translateY(-20px);
+        }
+
+        .card-container .card .content .imgBx {
+            position: relative;
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            border: white 2px solid;
-            box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.33);
-            margin-top: -25px;
-            transition: transform .5s;
-            z-index: 1;
+            overflow: hidden;
+            border: 10px solid rgba(0, 0, 0, 0.25);
         }
 
-        .card {
-            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-            margin-left: auto;
-            margin-right: auto;
-            /* height: 25rem; */
-            background-color: white;
-            z-index: 1;
-            font-family: Arial, Helvetica, sans-serif;
-            width: 18rem;
-            border-radius: 25px;
+        .card-container .card .content .imgBx img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
-        .card-title {
-            font-size: 1.5rem;
+        .card-container .card .content .contentBx h3 {
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 500;
+            font-size: 18px;
             text-align: center;
-            margin-top: -5px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: black;
+            margin: 20px 0 10px;
+            line-height: 1.1em;
         }
 
-        .rank {
-            text-align: center;
-            font-size: 1.2rem;
-            margin-top: 20px;
-            font-family: Arial, Helvetica, sans-serif;
+        .card-container .card .content .contentBx h3 span {
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: initial;
         }
 
-        .img-tag:hover {
-            transform: scale(1.2);
-            transition: transform .5s;
+        .card-container .card .sci {
+            position: absolute;
+            display: flex;
+            bottom: 50px;
+            padding-left: 0 !important;
         }
 
-        .fab {
-            transition: transform .5s;
-            color: black;
-            margin-bottom: 10px;
-            font-size: 1.5em;
+        .card-container .card .sci li {
+            list-style: none;
+            margin: 0 25px;
+            transform: translateY(40px);
+            transition: 0.5s;
+            opacity: 0;
         }
 
-        .fab:hover {
-            transform: scale(1.3);
-            transition: transform .5s;
+        .card-container .card .sci li a {
+            color: #fff;
+            font-size: 24px;
         }
 
-        .our {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
+        .card-container .card:hover .sci li {
+            transform: translateY(0);
+            opacity: 1;
         }
 
-        .year {
-            font-family: Arial, Helvetica, sans-serif;
-            color: white;
+        .card-container .card .sci li:nth-child(2) {
+            transition-delay: 0.1s;
+        }
 
+        .card-container .card .sci li:nth-child(3) {
+            transition-delay: 0.2s;
         }
 
 
-
-
-        /* //////for mobile devices */
-
-        @media only screen and (max-width:700px) {
-
-            .card-title {
-                font-size: 0.8rem;
-                text-align: center;
-                margin-top: -3px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: black;
+        /* for mobile screen no hover effect */
+        @media screen and (max-width:768px) {
+            .card-container .card .sci li {
+                transform: translateY(0);
+                opacity: 1;
             }
 
-            .rank {
-                text-align: center;
-                font-size: 0.5rem;
-                margin-top: 0px;
-                font-family: Arial, Helvetica, sans-serif;
+            .card-container .card .content {
+                opacity: 1;
+                transform: translateY(-20px);
             }
-
-            .img-tag {
-
-                width: 5rem;
-                height: 5rem;
-
-
-            }
-
-            .accordion {
-                width: 90%;
-
-            }
-
-            .accordion-panel {
-
-                justify-content: space-between;
-                width: 90%;
-
-            }
-
-            .card {
-                width: 45%;
-            }
-        }
-
-        /* /////////between 700px & 1144px */
-
-
-        @media only screen and (min-width:701px) and (max-width:1144px) {
-            .our {
-                display: block;
-                width: 50%;
-                margin: auto;
-                text-align: center;
-            }
-
-            .accordion {
-                width: 90%;
-
-            }
-
-            .accordion-panel {
-
-                justify-content: space-between;
-                width: 90%;
-
-            }
-
-
         }
     </style>
 </head>
@@ -330,150 +198,181 @@
                 </nav>
                 <div class="content-wrap">
                     <section id="section-linebox-1">
-                        <div class="accordion-container">
-                            <div class="accordion-panel">
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/pr2020.jpg" alt="" class="img-tag">
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Bolisetti Dheeraj</strong></h3>
-                                        <p class="rank">President</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
-                                            <a href=" https://www.facebook.com/bolisetti.dheeraj.7"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
-                                            <a href="https://www.linkedin.com/in/bolisetti-dheeraj/ "><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
+                        <div id='card-section'>
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/pr2020.jpg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Bolisetti Dheeraj<br /><span>President</span></h3>
                                         </div>
                                     </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/bolisetti.dheeraj.7"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/bolisetti-dheeraj"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/gs2020.jpg" alt="" class="img-tag">
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Tanmay Sardar</strong></h3>
-                                        <p class="rank">General Secretary</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
-                                            <a href="https://www.facebook.com/tanmay.sardar.7355"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
-                                            <a href="https://www.linkedin.com/in/tanmay-s-14206213a/"><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
+
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/gs2020.jpg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Tanmay Sardar<br /><span>General Secretary</span></h3>
                                         </div>
                                     </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/tanmay.sardar.7355"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/tanmay-s-14206213a"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section id="section-linebox-2">
-                        <div class="accordion-container">
-                            <div class="accordion-panel">
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/pr2019.jpeg" alt="" class="img-tag">
+                        <div id='card-section'>
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/pr2019.jpeg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Binit Roy<br /><span>President</span></h3>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Binit Roy</strong></h3>
-                                        <p class="rank">President</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
+                                    <ul class="sci">
+                                        <li>
                                             <a href="https://www.facebook.com/binit.roy.338"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
                                             <a href="https://www.linkedin.com/in/binit-roy-b4154b160/"><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
-                                        </div>
-                                    </div>
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/gs2019.jpeg" alt="" class="img-tag">
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Swapnil Jadon</strong></h3>
-                                        <p class="rank">General Secretary</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
-                                            <a href="https://www.facebook.com/swapnil.jadon.5"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
-                                            <a href="https://www.linkedin.com/in/swapnil-jadon/"><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
+
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/gs2019.jpeg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Swapnil Jadon<br /><span>General Secretary</span></h3>
                                         </div>
                                     </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/swapnil.jadon.5"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/swapnil-jadon/"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section id="section-linebox-3">
-                        <div class="accordion-container">
-                            <div class="accordion-panel">
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/pr2018.jpeg" alt="" class="img-tag">
+                        <div id='card-section'>
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/pr2018.jpeg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Anish Paul<br /><span>President</span></h3>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Anish Paul</strong></h3>
-                                        <p class="rank">President</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
-
+                                    <ul class="sci">
+                                        <li>
                                             <a href="https://www.linkedin.com/in/anishpaul95/"><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
-                                        </div>
-                                    </div>
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/gs2018.jpeg" alt="" class="img-tag">
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Ashim Kr. Goswami</strong></h3>
-                                        <p class="rank">General Secretary</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
-                                            <a href="https://www.facebook.com/ashim.goswami.581"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
-                                            <a href="https://www.linkedin.com/in/ashim-goswami-bb25a2110/"><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
+
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/gs2018.jpeg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Ashim Kr. Goswami<br /><span>General Secretary</span></h3>
                                         </div>
                                     </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/ashim.goswami.581"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/ashim-goswami-bb25a2110/"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section id="section-linebox-4">
-                        <div class="accordion-container">
-                            <div class="accordion-panel">
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/pr2017.jpeg" alt="" class="img-tag">
+                        <div id='card-section'>
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/pr2017.jpeg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Aditya Singh Rajput<br /><span>President</span></h3>
+                                        </div>
                                     </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>Aditya Singh Rajput</strong></h3>
-                                        <p class="rank">President</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
+                                    <ul class="sci">
+                                        <li>
                                             <a href="https://www.facebook.com/aditya.raj.3990418"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
-                                        </div>
-                                    </div>
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="card ">
-                                    <div class="img-holder">
-                                        <img src="assets/images/bg.svg" class="img-bg" alt="Card image cap">
-                                        <img src="assets/images/alumni/gs2017.jpg" alt="" class="img-tag">
-                                    </div>
-                                    <div class="card-body text-center">
-                                        <h3 class="card-title "><strong>V.K. Sonkar</strong></h3>
-                                        <p class="rank">General Secretary</p>
-                                        <div style="display: flex;align-items: center;justify-content: space-around;">
-                                            <a href="  https://www.facebook.com/vinaykumar.sonkar.98"><i
-                                                    class="fab fa-facebook fa-2x"></i></a>
-                                            <a href="https://www.linkedin.com/in/vk-sonkar-0b335a163"><i
-                                                    class="fab fa-linkedin fa-2x"></i></a>
+
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/gs2017.jpg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>V.K. Sonkar<br /><span>General Secretary</span></h3>
                                         </div>
                                     </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/vinaykumar.sonkar.98"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/vk-sonkar-0b335a163"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -497,4 +396,4 @@
     </script>
 
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
-</body>                                     
+</body>
