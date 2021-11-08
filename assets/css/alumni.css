@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
 body {
-	background-color: #e7ecea;
 	color: #74777b;
 	font-weight: 400;
 	font-size: 1em;
@@ -21,7 +20,7 @@ body {
 	padding: 5em 0;
 	font-size: 1.25em;
 	min-height: 100%;
-	background-color: #e7ecea;
+	background-color: transparent !important;
 }
 
 .tabs {

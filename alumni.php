@@ -41,10 +41,14 @@
         html {
             margin: 0;
             padding: 0;
-            background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%);
-
+            /* background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%); */
         }
 
+        .container{
+            background-image: url('assets/images/alumni/alumni-bg.svg');
+            background-position: center;
+            background-size: cover;
+        }
         /* updated */
         #card-section {
             display: flex;
@@ -52,7 +56,7 @@
             align-items: center;
             flex-wrap: wrap;
             /* background: linear-gradient(to right, #000428, #004e92); */
-            background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%);
+            /* background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%); */
             min-height: 100vh;
         }
 
