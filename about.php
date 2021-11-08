@@ -2,34 +2,40 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta charset="utf-8">
-	<title>About</title>
-	<!-- <link rel="stylesheet" type="text/css" href="assets/css/about.css"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8">
+    <title>About</title>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/about.css"> -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-   <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
 
 
     <script src="https://kit.fontawesome.com/b0f1c3ae66.js" crossorigin="anonymous"></script>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet"> 
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
 
-   <style>
-      /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
         body {
             background: #ffffff;
             margin: 0;
             padding: 0;
         }
+
         main h1 {
             position: relative;
             padding: 0;
@@ -41,7 +47,7 @@
         }
 
         main .twelve h1 {
-            font-size: 26px;
+            font-size: 32px;
             font-weight: 700;
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -66,6 +72,7 @@
             }
 
         }
+
         main .jumbotron {
             font-family: 'Work Sans', sans-serif;
             position: relative;
@@ -91,11 +98,12 @@
             z-index: 1;
         }
 
-       
+
 
         main .lead {
-            font-weight: 500;
-            font-weight: bold;
+            font-size:large;
+            font-weight: 900;
+            /* font-weight: bolder; */
             text-align: center;
         }
 
@@ -132,7 +140,9 @@
             margin-bottom: 0.25em;
         }
 
-        .team{background:transparent;}
+        .team {
+            background: transparent;
+        }
 
         #team .wrapper {
             display: grid;
@@ -168,7 +178,7 @@
             margin-left: auto;
             margin-right: auto;
             height: 25rem;
-            
+
         }
 
         #team .card-title {
@@ -176,14 +186,14 @@
             text-align: center;
             margin-top: -5px;
             font-family: 'Segoe Ui', sans-serif;
-            color:black;
+            color: black;
         }
 
         #team .rank {
             text-align: center;
             font-size: 1.2rem;
             margin-top: -2px;
-            font-size:17px;
+            font-size: 17px;
             font-family: 'Segoe Ui', sans-serif;
         }
 
@@ -214,16 +224,23 @@
             font-size: 2rem;
             font-weight: bold;
             margin: 50px 50px;
-           font-family: 'Segoe Ui', sans-serif;
-           color:black;
+            font-family: 'Segoe Ui', sans-serif;
+            color: black;
+        }
+        @media screen and (max-width:768px) {
+            .container-fluid ul{
+                margin-left: calc(1rem - 40px) !important;
+            }
+            
         }
     </style>
-</head>	
+</head>
+
 <body>
 
-<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 
-<main>
+    <main>
         <div class="jumbotron">
             <br>
             <h1 class="heading" style="text-align: center;">About Us</h1>
@@ -232,12 +249,13 @@
             <p class="lead "> <u>Faculty Advisor:</u> Dr. Prasanta Roy</p>
             <br>
             <p
-                style="padding:0 2rem;font-size: 1.2rem;margin-left:auto;margin-right: auto; font-weight: 500;text-align: justify; ">
+                style="padding:0 2rem;font-size: 1.2rem;margin-left:auto;margin-right: auto; font-weight: 700;text-align: justify; ">
                 Forming a society of its own under each and every department is an age old tradition in NITS. Hence,
                 Electrical Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between
                 the teachers and the students. It serves
                 various other purposes for the betterment of the students-</p>
-            <ul style="padding:0 2rem;font-size: 1.2rem;margin-left:auto;margin-right: auto; font-weight: 500;text-align:justify ">
+            <ul
+                style="padding:0 2rem;font-size: 1.2rem;margin-left:auto;margin-right: auto; font-weight: 700;text-align:justify ">
                 <li>The society helps in bringing out the best of its student traits.</li>
                 <li>The Electra Society aims at providing guidance to the students in undertaking various activities.
                 </li>
@@ -246,7 +264,7 @@
                     technologies.</li>
             </ul>
 
-      
+
         </div>
 
         <div class="twelve mt-3 "
@@ -281,9 +299,13 @@
 
     </main>
 
-   <section id="team">
-        <div class="team " ><h3>OUR TEAM<h3></div>
-        <div class="our " style="border-bottom: #080808 2px solid;"><h4>OUR SENIOR MEMBERS</h4></div>
+    <section id="team">
+        <div class="team ">
+            <h3>OUR TEAM<h3>
+        </div>
+        <div class="our " style="border-bottom: #080808 2px solid;">
+            <h4>OUR SENIOR MEMBERS</h4>
+        </div>
 
 
 
@@ -453,7 +475,9 @@
                 </div>
             </div>
         </div>
-        <div class="our " style="border-bottom: #080808 2px solid; "><h4>OUR JUNIOR MEMBERS</h4></div>
+        <div class="our " style="border-bottom: #080808 2px solid; ">
+            <h4>OUR JUNIOR MEMBERS</h4>
+        </div>
 
         <div class="wrapper ">
 
@@ -468,7 +492,8 @@
                     <p class="rank ">Technical Member(Web-D)</p>
                     <div style="display: flex;align-items: center;justify-content: space-around; ">
                         <a href="#"> <i class="fab fa-facebook fa-2x "></i></a>
-                        <a href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><i class="fab fa-linkedin fa-2x "></i> </a>
+                        <a href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><i
+                                class="fab fa-linkedin fa-2x "></i> </a>
                         <a href="https://github.com/biju-borah"> <i class="fab fa-github fa-2x "></i></a>
 
                     </div>
@@ -531,7 +556,7 @@
                 </div>
             </div>
 
-           
+
 
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
@@ -676,7 +701,7 @@
                 </div>
             </div>
 
-           
+
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
@@ -694,7 +719,7 @@
                     </div>
                 </div>
             </div>
-           
+
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
@@ -711,8 +736,8 @@
                     </div>
                 </div>
             </div>
-          
-            
+
+
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
@@ -729,7 +754,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="card " style="width: 18rem;border-radius: 25px; ">
                 <div class="img-holder ">
                     <img src="assets/images/bg.svg" class="img-bg " alt="Card image cap ">
@@ -754,10 +779,10 @@
     </section>
 
 
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Custom Script -->
     <script src="assets/js/scripts.js"></script>
 
-     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
+    <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
 </body>

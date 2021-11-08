@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
 body {
-	background-color: #e7ecea;
 	color: #74777b;
 	font-weight: 400;
 	font-size: 1em;
-	font-family: 'Raleway', Arial, sans-serif;
+	/* font-family: 'Raleway', Arial, sans-serif; */
 }
 
 .container a {
@@ -21,7 +20,7 @@ body {
 	padding: 5em 0;
 	font-size: 1.25em;
 	min-height: 100%;
-	background-color: #e7ecea;
+	background-color: transparent !important;
 }
 
 .tabs {
@@ -130,11 +129,11 @@ body {
 
 .tabs-style-linebox nav a:hover,
 .tabs-style-linebox nav a:focus {
-	color: #008489;
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .tabs-style-linebox nav li.tab-current a {
-	color: #fff;
+	color: #161414;
 }
 
 .tabs-style-linebox nav a::after {
@@ -162,7 +161,7 @@ body {
 .tabs-style-linebox nav a:hover::after,
 .tabs-style-linebox nav a:focus::after,
 .tabs-style-linebox nav li.tab-current a::after {
-	background: #008489;
+	background: rgba(255, 255, 255, 0.5);
 }
 
 @media screen and (max-width: 58em) {
