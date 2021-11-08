@@ -118,7 +118,8 @@
         }
 
         .card-container .card .content .contentBx h3 {
-            color: #fff;
+            /* color: #fff; */
+            color: #5c5b5b;
             text-transform: uppercase;
             letter-spacing: 2px;
             font-weight: 500;
@@ -150,7 +151,8 @@
         }
 
         .card-container .card .sci li a {
-            color: #fff;
+            /* color: #fff; */
+            color: #5c5b5b;
             font-size: 24px;
         }
 
