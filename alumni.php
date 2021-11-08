@@ -45,9 +45,9 @@
         }
 
         .container{
-            background-image: url('assets/images/alumni/alumni-bg.svg');
+            /* background-image: url('assets/images/alumni/alumni-bg.svg');
             background-position: center;
-            background-size: cover;
+            background-size: cover; */
         }
         /* updated */
         #card-section {
