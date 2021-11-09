@@ -77,7 +77,7 @@ if (isset($_GET['t_id'])) {
     <div class="content clearfix">
 
       <!-- Main Content -->
-      <!-- <div class="main-content"> -->
+      <div class="main-content">
         <h1 class="recent-post-title"><?php echo $postsTitle ?></h1>
 
         <?php foreach ($posts as $post): ?>
