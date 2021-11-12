@@ -7,7 +7,8 @@ body {
     height: 100%;
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(315deg, rgb(217, 228, 245) 0%, rgb(245, 227, 230) 74%);;
+    background: linear-gradient(315deg, rgb(217, 228, 245) 0%, rgb(245, 227, 230) 74%);
+    ;
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
@@ -115,6 +116,7 @@ header .logo-text {
     font-family: "Poppins", -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
+
 /*header .logo-text span {
     color: #05f7ff;
 } */
@@ -174,9 +176,8 @@ header ul li a {
 }
 
 header ul li a:hover {
-    background:rgba(255, 255, 255, 0.5) !important;
+    background: rgba(255, 255, 255, 0.5) !important;
     border: none;
-   
 }
 
 header .menu-toggle {
@@ -235,13 +236,13 @@ header .menu-toggle {
     height: 330px;
     margin: 0px 10px;
     display: inline-block;
-    background:rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     box-shadow: 1rem 1rem 1rem -1rem #a0a0a033;
 }
-.post-slider .post-wrapper .post:hover{
-    background:rgba(255, 255, 255, 0.5);
 
+.post-slider .post-wrapper .post:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .post-slider .post-wrapper .post .post-info {
@@ -268,7 +269,6 @@ header .menu-toggle {
 .content .main-content {
     width: 70%;
     float: left;
-    
 }
 
 .content .main-content.single {
@@ -278,7 +278,6 @@ header .menu-toggle {
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.7);
 }
-
 
 .content .main-content.single .post-title {
     text-align: center;
@@ -291,17 +290,15 @@ header .menu-toggle {
     height: 270px;
     margin: 20px auto;
     border-radius: 5px;
-    background:rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.4);
     position: relative;
     text-transform: capitalize;
     backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur( 4px );
-
+    -webkit-backdrop-filter: blur( 4px);
 }
 
-.content .main-content .post:hover{
+.content .main-content .post:hover {
     background: rgba(255, 255, 255, 0.8) !important;
-
 }
 
 .content .popular .post {
@@ -416,7 +413,6 @@ header .menu-toggle {
     border-radius: 5px;
 }
 
-
 .auth-content .form-title {
     text-align: center;
 }
@@ -459,7 +455,8 @@ header .menu-toggle {
 }
 
 .footer .footer-content .about h1 span {
-    color:  linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);;
+    color: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    ;
 }
 
 .footer .footer-content .about .contact span {
@@ -500,7 +497,8 @@ header .menu-toggle {
 }
 
 .footer .footer-content .contact-form .contact-input {
-    background: linear-gradient(-20deg, rgba(169, 172, 177, 0.3) 0%, rgba(185, 170, 192, 0.3) 100%, rgba(204, 111, 247, 0.3)60%);;
+    background: linear-gradient(-20deg, rgba(169, 172, 177, 0.3) 0%, rgba(185, 170, 192, 0.3) 100%, rgba(204, 111, 247, 0.3)60%);
+    ;
     color: #707070;
     margin-bottom: 10px;
     line-height: 1.5rem;
@@ -509,7 +507,8 @@ header .menu-toggle {
 }
 
 .footer .footer-content .contact-form .contact-input:focus {
-    background:linear-gradient(-20deg, rgba(205, 208, 212, 0.3) 0%, rgba(215, 198, 223, 0.3) 100%, rgba(204, 111, 247, 0.3)60%);;
+    background: linear-gradient(-20deg, rgba(205, 208, 212, 0.3) 0%, rgba(215, 198, 223, 0.3) 100%, rgba(204, 111, 247, 0.3)60%);
+    ;
 }
 
 .footer .footer-content .contact-form .contact-btn {
