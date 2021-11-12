@@ -273,7 +273,7 @@ if (isset($_GET['t_id'])) {
         </div>
     </section>
     <!--Work-Section/-->
-    <!--Feature-Section-->
+    <!--  key-Feature-Section-->
     <section class="fix">
 
         <div class="container" id="feature">
@@ -323,7 +323,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/2mobile.png" alt="" style="margin-top: -30px;">
+                    <img src="home/images/logo/brownlogo.png" alt="" style="margin-top: -30px;">
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
@@ -388,7 +388,9 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="panel text-center single-blog">
                         <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                        <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
+                      
+                          <img src="home/images/logo/brownlogo.png" alt="" class="img-full">
+
 
                         <div class="padding-20">
                             <ul class="list-unstyled list-inline">
