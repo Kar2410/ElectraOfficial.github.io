@@ -493,18 +493,8 @@ if (isset($_GET['t_id'])) {
         <div class="space-80"></div>
     </section>
     <!--Team-Section/-->
-    <!--Client-Section-->
 
-    <!--Client-Section-->
-    <!--Price-section-->
-
-    <!--Price-section/-->
-    <!--Question-section-->
-   
-    <!--Question-section/-->
-    <!--Download-Section-->
-
-    <!--Download-Section/-->
+  
     <!--Blog-Section-->
     <section id="blog">
         <div class="space-40"></div>
@@ -561,8 +551,9 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
+  <!-- blog ends -->
 
-
+   <!-- faq section begin -->
 
     <section class="fix" id="faq">
         <div class="space-80"></div>
@@ -621,6 +612,7 @@ if (isset($_GET['t_id'])) {
         <div class="space-40"></div>
     </section>
 
+  <!-- faq ends   -->
 
     <!--Footer-area-->
 
