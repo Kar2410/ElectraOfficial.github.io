@@ -569,8 +569,13 @@ if (isset($_GET['t_id'])) {
             </div>
             <div class="space-60"></div>
             <div class="row">
-                <?php foreach ($posts as $post) : ?>
-
+                
+                <?php
+                $i = 0;
+                foreach ($posts as $post) :
+                    if ($i++ > 2) break;
+                
+                ?>
 
 
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
