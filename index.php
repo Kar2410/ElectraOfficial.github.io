@@ -95,11 +95,11 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#home">Home</a></li>
                         <li><a href="#work">About</a></li>
                         <li><a href="announcement.php">Announcements</a></li>
-                        <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
                         <li><a href="#team">Team</a></li>
 
                         <li><a href="#blog">Blog</a></li>
-
+                        <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
+                         
                         <li><a href="alumni.php">Alumni</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
