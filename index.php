@@ -2,6 +2,7 @@
 include("path.php");
 include(ROOT_PATH . "/app/controllers/topics.php");
 
+// posts
 $posts = array();
 $postsTitle = 'Recent Posts';
 
@@ -14,6 +15,23 @@ if (isset($_GET['t_id'])) {
 } else {
     $posts = getPublishedPosts();
 }
+// post ends
+// announcemnts start
+
+$announcements = array();
+$announcementsTitle = 'Recent Announcements';
+
+if (isset($_GET['t_id'])) {
+  $announcements = getPostsByTopicId($_GET['t_id']);
+  $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
+} else if (isset($_POST['search-term'])) {
+  $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
+  $announcements = searchAnnouncements($_POST['search-term']);
+} else {
+  $announcements = getPublishedAnnouncements();
+}
+
+// announcements ends
 
 ?>
 
@@ -96,7 +114,7 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#work">About</a></li>
                         <li><a href="#team">Team</a></li>
 
-                        <li><a href="announcement.php">Announcements</a></li>
+                        <li><a href="#announcement">Announcements</a></li>
 
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
@@ -494,7 +512,67 @@ if (isset($_GET['t_id'])) {
     </section>
     <!--Team-Section/-->
 
-  
+    <!-- announcements section begins -->
+
+    <section id="announcement">
+        <div class="space-40"></div>
+        <div class="container">
+            <div class="row wow fadeInUp">
+                <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
+                    <h3 class="text-uppercase"> ANNOUNCEMENTS</h3>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="row">
+                
+                <?php
+                $i = 0;
+                foreach ($announcements as $post) :
+                    if ($i++ > 2) break;
+                
+                ?>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="panel text-center single-blog">
+                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                        <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
+
+                        <div class="padding-20">
+                            <ul class="list-unstyled list-inline">
+                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                <li><span class="ti-calendar"></span> </li>
+                            </ul>
+                            <div class="space-10"></div>
+                            <a href="blog-details-right-sidebar.html">
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                            </a>
+                            <div class="space-15"></div>
+                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                            <div class="space-20"></div>
+                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                            <div class="space-20"></div>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+
+            </div>
+            <div class="row">
+                <div class="space-60"></div>
+                <div class="col-xs-12 text-center">
+                    <a href="announcement.php" class="btn btn-link active">View All</a>
+                </div>
+                <div class="space-60"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- announcements section ends -->
+
+
     <!--Blog-Section-->
     <section id="blog">
         <div class="space-40"></div>
