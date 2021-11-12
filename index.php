@@ -98,9 +98,10 @@ if (isset($_GET['t_id'])) {
                         <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
                         <li><a href="#team">Team</a></li>
 
-                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="#blog">Blog</a></li>
 
                         <li><a href="alumni.php">Alumni</a></li>
+                        <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
                         <!-- login user/admin -->
                         <?php if (isset($_SESSION['id'])) : ?>
@@ -118,7 +119,8 @@ if (isset($_GET['t_id'])) {
                             <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
 
                         <?php endif; ?>
-
+                      
+                         
 
                     </ul>
                 </div>
@@ -497,7 +499,7 @@ if (isset($_GET['t_id'])) {
 
     <!--Price-section/-->
     <!--Question-section-->
-    <section class="fix">
+    <section class="fix" id="faq">
         <div class="space-80"></div>
         <div class="container">
             <div class="row wow fadeInUp">
