@@ -76,9 +76,11 @@ a {
 }
 
 .success {
-    color: #3a6e3a;
-    border: 1px solid #3a6e3a;
-    background: #bcf5bc;
+    color: #ffffff;
+    border: 1px solid #3ccdbb;
+    /* background: #bcf5bc; */
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
 }
 
 .error {
