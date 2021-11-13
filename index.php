@@ -323,7 +323,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/brownlogo.png" alt="" style="margin-top: -30px;">
+                    <img src="home/images/logo/bluelogo.png" alt="" >
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
@@ -389,7 +389,7 @@ if (isset($_GET['t_id'])) {
                     <div class="panel text-center single-blog">
                         <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
                       
-                          <img src="home/images/logo/brownlogo.png" alt="" class="img-full">
+                          <img src="home/images/logo/bluelogo.png" alt="" class="img-full">
 
 
                         <div class="padding-20">
