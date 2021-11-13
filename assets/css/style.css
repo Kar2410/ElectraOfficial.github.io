@@ -561,7 +561,9 @@ header .menu-toggle {
     }
     header ul {
         width: 100%;
-        background: #0e94a0;
+        /* background: #0e94a0; */
+        background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
         max-height: 0px;
         overflow: hidden;
     }
@@ -578,12 +580,14 @@ header .menu-toggle {
     }
     header ul li ul li a {
         padding: 10px;
-        background: #0e94a0;
+        /* background: #0e94a0; */
+        background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
+        background: rgba(0, 0, 0, 0) linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%) repeat scroll 0 0;
         color: white;
         padding-left: 50px;
     }
     header ul li ul li a:hover {
-        background: #006669;
+        background: #16c9f6;
     }
     header ul li ul li a.logout {
         color: red;

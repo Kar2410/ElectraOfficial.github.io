@@ -389,7 +389,7 @@ if (isset($_GET['t_id'])) {
                     <div class="panel text-center single-blog">
                         <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
                       
-                          <img src="home/images/logo/bluelogo.png" alt="" class="img-full">
+                          <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
 
                         <div class="padding-20">
