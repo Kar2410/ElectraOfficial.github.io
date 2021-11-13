@@ -57,7 +57,7 @@ if (isset($_GET['t_id'])) {
 
         <?php foreach ($announcements as $post): ?>
           <div class="post">
-            <img src="assets/images/ELECTRALOGO.png" alt="" class="slider-image">
+            <img src="assets/images/bluelogo.png" alt="" class="slider-image">
             <div class="post-info">
               <h4><a href="announce_single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h4>
               <i class="far fa-user"> <?php echo $post['username']; ?></i>
@@ -82,7 +82,7 @@ if (isset($_GET['t_id'])) {
 
         <?php foreach ($announcements as $post): ?>
           <div class="post clearfix">
-            <img src="assets/images/ELECTRALOGO.png" alt="" class="post-image">
+            <img src="assets/images/bluelogo.png" alt="" class="post-image">
             <div class="post-preview">
               <h2><a href="announce_single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h2>
               <i class="far fa-user"> <?php echo $post['username']; ?></i>
