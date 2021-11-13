@@ -22,13 +22,13 @@ $announcements = array();
 $announcementsTitle = 'Recent Announcements';
 
 if (isset($_GET['t_id'])) {
-  $announcements = getPostsByTopicId($_GET['t_id']);
-  $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
+    $announcements = getPostsByTopicId($_GET['t_id']);
+    $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
 } else if (isset($_POST['search-term'])) {
-  $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
-  $announcements = searchAnnouncements($_POST['search-term']);
+    $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
+    $announcements = searchAnnouncements($_POST['search-term']);
 } else {
-  $announcements = getPublishedAnnouncements();
+    $announcements = getPublishedAnnouncements();
 }
 
 // announcements ends
@@ -123,19 +123,30 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
                         <!-- login user/admin -->
+                     
                         <?php if (isset($_SESSION['id'])) : ?>
-                        <li>
-                            <a href="#">
-                                <i class="fa fa-user"></i>
-                                <?php echo $_SESSION['username']; ?>
-                                <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
-                            </a>
-                            <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="ti-user"></i>
+                                    <?php echo $_SESSION['username']; ?>
+                                    <i class="ti-angle-down"></i>
 
-                        </li>
+                                </a>
+                                <ul id="dropdown">
+                                    <?php if ($_SESSION['admin']) : ?>
+
+
+                                        <li><a href="<?php echo BASE_URL . '/admin/dashboard' ?>">Dashboard</a></li>
+                                    <?php endif; ?>
+
+                                    <li><a href="<?php echo BASE_URL . '/resource' ?>">Resources</a></li>
+                                    <li><a href="<?php echo BASE_URL . '/logout' ?>" class="logout">Logout</a></li>
+
+                                </ul>
+                            </li>
                         <?php else : ?>
-
-                        <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
+                            <!-- <li><a href="<?php echo BASE_URL . '/register' ?>">Sign Up</a></li> -->
+                            <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
 
                         <?php endif; ?>
 
@@ -158,62 +169,38 @@ if (isset($_GET['t_id'])) {
                             <div class="item">
                                 <h1 style="font-size: 70px;">Electra Society <br /></h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
-                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
-                                    Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
 
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Idea:</h1>
                                 <div class="space-10"></div>
-                                <p> It requires a small idea to start for something big. Electra Society is open for any
-                                    productive idea from its fellow members and it implements every feasible idea in the
-                                    events and activities that it conducts. </p>
+                                <p> It requires a small idea to start for something big. Electra Society is open for any productive idea from its fellow members and it implements every feasible idea in the events and activities that it conducts. </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
-                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
-                                    Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society<br />Concept:</h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo"
-                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
-                                    Video</a>
+                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Teamwork: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo"
-                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
-                                    Video</a>
+                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Development: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
-                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
-                                    Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
                         </div>
                     </div>
@@ -221,8 +208,7 @@ if (isset($_GET['t_id'])) {
                 <div class="hidden-xs hidden-sm col-md-4">
 
 
-                    <div class="item"><img src="home/images/logo/circlelogo.png"
-                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
+                    <div class="item"><img src="home/images/logo/circlelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
 
 
 
@@ -245,8 +231,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">About Us</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
-                        ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -307,8 +292,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Keywords of Electra Society</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
-                        ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -319,8 +303,7 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Idea</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -334,8 +317,7 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Concept</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -366,8 +348,7 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Teamwork</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
                             </div>
                         </div>
                     </a>
@@ -381,8 +362,7 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
                             </div>
                         </div>
                     </a>
@@ -402,8 +382,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> ANNOUNCEMENTS</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
-                        ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -413,44 +392,35 @@ if (isset($_GET['t_id'])) {
                 $i = 0;
                 foreach ($announcements as $post) :
                     if ($i++ > 2) break;
-                
+
                 ?>
 
 
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="panel text-center single-blog">
-                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="panel text-center single-blog">
+                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
 
-                        <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
+                            <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
 
-                        <div class="padding-20">
-                            <ul class="list-unstyled list-inline">
-                                <li> <i class="ti-user">
-                                        <?php echo $post['username']; ?>
-                                    </i></li>
-                                <i class="ti-calendar">
-                                    <?php echo date('F j, Y', strtotime($post['created_at'])); ?>
-                                </i>
-                                <li><span class="ti-calendar"></span> </li>
-                            </ul>
-                            <div class="space-10"></div>
-                            <a href="blog-details-right-sidebar.html">
-                                <h3><a href="single.php?id=<?php echo $post['id']; ?>">
-                                        <?php echo $post['title']; ?>
-                                    </a></h3>
-                            </a>
-                            <div class="space-15"></div>
-                            <p>
-                                <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?>
-                            </p>
-                            <div class="space-20"></div>
-                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read
-                                more</a>
-                            <div class="space-20"></div>
+                            <div class="padding-20">
+                                <ul class="list-unstyled list-inline">
+                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                    <li><span class="ti-calendar"></span> </li>
+                                </ul>
+                                <div class="space-10"></div>
+                                <a href="blog-details-right-sidebar.html">
+                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                                </a>
+                                <div class="space-15"></div>
+                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                                <div class="space-20"></div>
+                                <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                                <div class="space-20"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -474,8 +444,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> BLOG</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
-                        ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -485,41 +454,33 @@ if (isset($_GET['t_id'])) {
                 $i = 0;
                 foreach ($posts as $post) :
                     if ($i++ > 2) break;
-                
+
                 ?>
 
 
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="panel text-center single-blog">
-                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                        <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
+                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="panel text-center single-blog">
+                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                            <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
 
-                        <div class="padding-20">
-                            <ul class="list-unstyled list-inline">
-                                <li> <i class="ti-user">
-                                        <?php echo $post['username']; ?>
-                                    </i></li>
-                                <i class="ti-calendar">
-                                    <?php echo date('F j, Y', strtotime($post['created_at'])); ?>
-                                </i>
-                                <li><span class="ti-calendar"></span> </li>
-                            </ul>
-                            <div class="space-10"></div>
-                            <a href="blog-details-right-sidebar.html">
-                                <h3><a href="single.php?id=<?php echo $post['id']; ?>">
-                                        <?php echo $post['title']; ?>
-                                    </a></h3>
-                            </a>
-                            <div class="space-15"></div>
-                            <p>
-                                <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?>
-                            </p>
-                            <div class="space-20"></div>
-                            <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                            <div class="space-20"></div>
+                            <div class="padding-20">
+                                <ul class="list-unstyled list-inline">
+                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                    <li><span class="ti-calendar"></span> </li>
+                                </ul>
+                                <div class="space-10"></div>
+                                <a href="blog-details-right-sidebar.html">
+                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                                </a>
+                                <div class="space-15"></div>
+                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                                <div class="space-20"></div>
+                                <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                                <div class="space-20"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -543,8 +504,7 @@ if (isset($_GET['t_id'])) {
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Our Team</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
-                        ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
