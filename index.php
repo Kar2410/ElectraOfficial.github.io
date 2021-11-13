@@ -118,28 +118,28 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
                         <li><a href="#team">Team</a></li>
-                         
+
                         <li><a href="alumni.php">Alumni</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
                         <!-- login user/admin -->
                         <?php if (isset($_SESSION['id'])) : ?>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-user"></i>
-                                    <?php echo $_SESSION['username']; ?>
-                                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
-                                </a>
-                                <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-user"></i>
+                                <?php echo $_SESSION['username']; ?>
+                                <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
+                            </a>
+                            <ul>
 
-                            </li>
+                        </li>
                         <?php else : ?>
 
-                            <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
+                        <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
 
                         <?php endif; ?>
-                      
-                         
+
+
 
                     </ul>
                 </div>
@@ -158,38 +158,62 @@ if (isset($_GET['t_id'])) {
                             <div class="item">
                                 <h1 style="font-size: 70px;">Electra Society <br /></h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
 
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Idea:</h1>
                                 <div class="space-10"></div>
-                                <p> It requires a small idea to start for something big. Electra Society is open for any productive idea from its fellow members and it implements every feasible idea in the events and activities that it conducts. </p>
+                                <p> It requires a small idea to start for something big. Electra Society is open for any
+                                    productive idea from its fellow members and it implements every feasible idea in the
+                                    events and activities that it conducts. </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society<br />Concept:</h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Teamwork: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Development: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                         </div>
                     </div>
@@ -197,7 +221,8 @@ if (isset($_GET['t_id'])) {
                 <div class="hidden-xs hidden-sm col-md-4">
 
 
-                    <div class="item"><img src="home/images/logo/circlelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
+                    <div class="item"><img src="home/images/logo/circlelogo.png"
+                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
 
 
 
@@ -220,7 +245,8 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">About Us</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -281,7 +307,8 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Keywords of Electra Society</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -292,7 +319,8 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Idea</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -306,7 +334,8 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Concept</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -323,7 +352,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/bluelogo.png" alt="" >
+                    <img src="home/images/logo/bluelogo.png" alt="">
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
@@ -337,7 +366,8 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Teamwork</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                         </div>
                     </a>
@@ -351,7 +381,8 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                         </div>
                     </a>
@@ -371,12 +402,13 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> ANNOUNCEMENTS</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
             <div class="row">
-                
+
                 <?php
                 $i = 0;
                 foreach ($announcements as $post) :
@@ -388,24 +420,33 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="panel text-center single-blog">
                         <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                      
-                          <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
+
+                        <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
 
                         <div class="padding-20">
                             <ul class="list-unstyled list-inline">
-                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                <li> <i class="ti-user">
+                                        <?php echo $post['username']; ?>
+                                    </i></li>
+                                <i class="ti-calendar">
+                                    <?php echo date('F j, Y', strtotime($post['created_at'])); ?>
+                                </i>
                                 <li><span class="ti-calendar"></span> </li>
                             </ul>
                             <div class="space-10"></div>
                             <a href="blog-details-right-sidebar.html">
-                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>">
+                                        <?php echo $post['title']; ?>
+                                    </a></h3>
                             </a>
                             <div class="space-15"></div>
-                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                            <p>
+                                <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?>
+                            </p>
                             <div class="space-20"></div>
-                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read
+                                more</a>
                             <div class="space-20"></div>
                         </div>
                     </div>
@@ -422,7 +463,7 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
-    
+
     <!-- announcements section ends -->
 
 
@@ -433,12 +474,13 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> BLOG</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
             <div class="row">
-                
+
                 <?php
                 $i = 0;
                 foreach ($posts as $post) :
@@ -454,16 +496,24 @@ if (isset($_GET['t_id'])) {
 
                         <div class="padding-20">
                             <ul class="list-unstyled list-inline">
-                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                <li> <i class="ti-user">
+                                        <?php echo $post['username']; ?>
+                                    </i></li>
+                                <i class="ti-calendar">
+                                    <?php echo date('F j, Y', strtotime($post['created_at'])); ?>
+                                </i>
                                 <li><span class="ti-calendar"></span> </li>
                             </ul>
                             <div class="space-10"></div>
                             <a href="blog-details-right-sidebar.html">
-                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>">
+                                        <?php echo $post['title']; ?>
+                                    </a></h3>
                             </a>
                             <div class="space-15"></div>
-                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                            <p>
+                                <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?>
+                            </p>
                             <div class="space-20"></div>
                             <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
                             <div class="space-20"></div>
@@ -482,10 +532,10 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
-  <!-- blog ends -->
+    <!-- blog ends -->
 
 
-  
+
     <!--Team-Section-->
     <section class="gray-bg" id="team">
         <div class="space-40"></div>
@@ -493,7 +543,8 @@ if (isset($_GET['t_id'])) {
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Our Team</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -636,7 +687,7 @@ if (isset($_GET['t_id'])) {
     </section>
     <!--Team-Section/-->
 
-   <!-- faq section begin -->
+    <!-- faq section begin -->
 
     <section class="fix" id="faq">
         <div class="space-80"></div>
@@ -644,7 +695,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Frequently asked questions</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Feel free to contact us for any query !</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -654,35 +705,107 @@ if (isset($_GET['t_id'])) {
                     <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Sedeiusmod tempor inccsetetur aliquatraiy? </a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse1">Q: Brief about Department of Electrical Engineering, National
+                                        Institute of Technology, Silchar.</a></h4>
                             </div>
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">The Department of Electrical Engineering of NIT, Silchar is one
+                                    of the finest and well equipped Electrical departments of the north-east region. It
+                                    boasts of having a highly qualified faculty with an unparalled level of expertise in
+                                    their field. Under the able Headship of Dr. B. K. Roy and a strong faculty team, the
+                                    Department offers an 8 Semester B.Tech. Programme in Electrical Engineering, a four
+                                    Semester M.Tech. Programme in Power Energy Systems Engineering
+                                    and also a well integrated Ph.D. programme. The department offers core courses in
+                                    Power Systems, Control Systems, Electrical Machines, Instrumentation, Switchgear and
+                                    Industrial Protection, Microprocessors and Microcontrollers
+                                    etc. Apart from these, the final year students can choose from a wide array of
+                                    electives in the form of Computer Aided Power Systems, Flexible AC Transmission etc.
+                                    In coordination with the highly stimulating lectures and quality
+                                    enhancing tutorials in these courses, various practical courses are also held in the
+                                    state-of-the-art Lab facilities of the department like Machine Lab, Measurement Lab,
+                                    Circuit Theory Lab and Microprocessor Lab, to name a few.
+                                    The Department of Electrical Engineering is dynamic and vibrant in true sense.
+                                    Various research and development activities taken up by the department put the
+                                    students on busy schedules enabling them to blend to the modern industrial
+                                    requirements. The course structure is constantly restructured to meet the ever
+                                    changing requirements of the volatile industrial market, keeping the essence of the
+                                    core Electrical Engineering intact. The pure expertise and dedication
+                                    of the faculty members along with infrastructural facilities coupled with the
+                                    perseverance of the students have catapulted the branch to the top league. Placement
+                                    offers to the students have always shown an ever increasing trend
+                                    and promise to be the best in future with the incoming boom of Power sector. The
+                                    department also has its own society, the 'Electra' comprising of the faculty members
+                                    and the 300 strong student members. It caters to all the academic
+                                    and co-curricular persona of the branch. Cultural events for the members are never
+                                    scarce along with quizzes, aptitude tests, presentations and industrial tours which
+                                    are organised to bring the best out of a today's Electrical
+                                    Engineer.</div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse2">Q: Brief about the academics of Electrical Engineering
+                                        Department .</a></h4>
                             </div>
-                            <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                            <div id="collapse2" class="panel-collapse collapse in">
+                                <div class="panel-body">: The Electrical Engineering Department was established in 1977
+                                    along with the establishment of Institute. It has been one of the best departments
+                                    in terms of infrastructural facilities and faculties. It has got many well equipped
+                                    labs with modern equipment ranging from the highly equipped Machine Lab to the
+                                    latest PCs in the Computer Labs. It also has a well equipped CAD laboratory.</div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse3">Q: What Are the projects undertaken by Electrical
+                                        Engineering<br>Department ? </a></h4>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div class="panel-body">: The Electrical Engineering Department is actively involved in
+                                    undertaking many projects both at the student and at the faculty level. Some of the
+                                    projects that have been undertaken by the Department are as follows: <br> 1. Digital
+                                    Signal Processing and Application in Power Electronics Apparatus<br> 2. Fault
+                                    Detection and Diagnosis in dynamical systems<br> 3. Solid State Control of D.C.
+                                    Drive using Microprocessor based firing.<br> 4. Generation of Fuzzy rules
+                                    to enhance PS stability.<br> 5. Fabrication of Three Converter Bridge circuit for
+                                    Speed Control of D.C. Drives.<br> 6. Industrial Automation<br> 7. Artificial Neural
+                                    Network based Automatic Generation Control of two area Reheat
+                                    Thermal System.<br> 8. Security constrained Economic Load Dispatch with value point
+                                    loading using Genetic Algorithm.<br> 9. Analysis of Automatic Generation Control of
+                                    a two Hydro-Thermal system in Dispute Mode.<br> 10. Design
+                                    and Development of a Fuzzy Controller for a Servomotor.<br>
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse4">Q: What are the Courses involved ?</a></h4>
                             </div>
                             <div id="collapse4" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div class="panel-body"><b>Core</b><br> 1. Circuit Theory<br> 2. Electrical Engineering
+                                    Materials<br> 3. Linear Electronic Circuits<br> 4. Measurement & Measuring
+                                    Instruments<br> 5. Electromagnetic Fields<br> 6. Control System<br> 7. Power
+                                    System<br> 8. Electrical
+                                    Machines<br> 9. Digital Electronic Circuits<br> 10. Microprocessor Systems and
+                                    Applications<br> 11. Industrial Electronics<br> 12. Industrial Instrumentation<br>
+                                    13. Switchgear and Protection<br> 14. Principles of Communication<br> 15. Electric
+                                    Drives<br> 16. Renewable Energy Source and Management<br> 17. Signal Processing and
+                                    Applications<br> 18. Computer Applications in Electrical Engineering<br>
+
+
+                                    <b>Electives</b><br> 1. High Voltage Engineering<br> 2. Higher Control System<br> 3.
+                                    Digital Computer Organisation<br> 4. Computer Application in Power System<br> 5.
+                                    Hydro Electric Engineering<br> 6. Electric Power Utilisation and
+                                    Traction<br> 7. E.H.V., A.C. and D.C. Transmission<br> 8. Industrial Management<br>
+                                    9. Control System Components and System Design<br> 10. Fault Detection and
+                                    Diagnostic<br> 11. Electrodynamics and Advanced Field Theory.<br>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -695,7 +818,7 @@ if (isset($_GET['t_id'])) {
         <div class="space-40"></div>
     </section>
 
-  <!-- faq ends   -->
+    <!-- faq ends   -->
 
     <!--Footer-area-->
 
@@ -720,7 +843,8 @@ if (isset($_GET['t_id'])) {
     <!--Active JS-->
     <script src="home/js/main.js"></script>
     <!--Maps JS-->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>
     <script src="home/js/maps.js"></script>
 </body>
 
