@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 * {
     box-sizing: border-box;
 }
@@ -8,7 +9,7 @@ body {
     padding: 0px;
     margin: 0px;
     /* background: #f6f6f6; */
-    font-family: "Lora", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -17,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Candal", serif;
+    font-family: 'Poppins', sans-serif;
     color: #5c5b5b;
     margin: 5px;
 }
@@ -40,7 +41,7 @@ a {
     border: 1px solid transparent;
     border-radius: 0.25rem;
     font-size: 1.08em;
-    font-family: "Lora", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-big {
@@ -63,7 +64,7 @@ a {
     color: #444;
     line-height: 1.5rem;
     font-size: 1.2em;
-    font-family: "Lora", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .msg {
@@ -114,11 +115,11 @@ header img {
 
 header .logo-text {
     margin: 9px;
-    font-family: "Candal", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header .logo-text span {
-    color: #05f7ff;
+    color: white;
 }
 
 header ul {
@@ -420,6 +421,7 @@ header .menu-toggle {
     color: #d3d3d3;
     height: 400px;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer .footer-content {
@@ -495,7 +497,7 @@ header .menu-toggle {
 .footer .footer-content .contact-form .contact-btn {
     float: right;
     font-size: 1.1em;
-    font-family: "Lora", serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer .footer-bottom {
@@ -604,7 +606,7 @@ header .menu-toggle {
     }
     header .logo-text {
         margin: 9px;
-        font-family: 'Candal', serif;
+        font-family: 'Poppins', sans-serif;
         font-size: 29px;
     }
     header img {

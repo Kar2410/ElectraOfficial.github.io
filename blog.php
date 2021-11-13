@@ -29,11 +29,7 @@ if (isset($_GET['t_id'])) {
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Poppins:400,400i,700&amp;display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap" rel="stylesheet"> 
+
 
   <!-- Custom Styling -->
   <link rel="stylesheet" href="assets/css/style.css">

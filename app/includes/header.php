@@ -1,7 +1,7 @@
 <header>
 <img src="<?php echo BASE_URL . '/elelogo.png' ?>">
     <a href="<?php echo BASE_URL . '/index' ?>" class="logo">
-      <h1 class="logo-text" ><span>Electra</span>Society</h1>
+      <h1 class="logo-text" ><span>Electra </span>Society</h1>
     </a>
         
 
