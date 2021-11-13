@@ -79,6 +79,54 @@ if (isset($_GET['t_id'])) {
     <link rel="stylesheet" href="home/style.css">
     <link rel="stylesheet" href="home/css/responsive.css">
     <script src="home/js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .electric-loader {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 80%;
+            width: 80vw;
+            height: auto;
+            max-width: 600px;
+        }
+
+        .electric-loader path {
+            fill: none;
+            stroke: #A5F2E7;
+            stroke-width: 0.6;
+            stroke-dasharray: 300;
+            stroke-dashoffset: -300;
+            animation: stroke-anim 2s steps(40) infinite, stroke-color 0.6s steps(10) alternate infinite;
+        }
+
+        @keyframes stroke-anim {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes stroke-color {
+            to {
+                stroke: #49BEB7;
+            }
+        }
+
+        .landing-logo {
+            position: relative;
+
+            width: 600px;
+            height: 600px;
+
+            background-image: url(elelogo.png);
+            background-position: center;
+            background-size: cover;
+            margin-top: -50px;
+            margin-left: -60px
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
@@ -123,30 +171,30 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
                         <!-- login user/admin -->
-                     
+
                         <?php if (isset($_SESSION['id'])) : ?>
-                            <li>
-                                <a href="#">
-                                    <i class="ti-user"></i>
-                                    <?php echo $_SESSION['username']; ?>
-                                    <i class="ti-angle-down"></i>
+                        <li>
+                            <a href="#">
+                                <i class="ti-user"></i>
+                                <?php echo $_SESSION['username']; ?>
+                                <i class="ti-angle-down"></i>
 
-                                </a>
-                                <ul id="dropdown">
-                                    <?php if ($_SESSION['admin']) : ?>
+                            </a>
+                            <ul id="dropdown">
+                                <?php if ($_SESSION['admin']) : ?>
 
 
-                                        <li><a href="<?php echo BASE_URL . '/admin/dashboard' ?>">Dashboard</a></li>
-                                    <?php endif; ?>
+                                <li><a href="<?php echo BASE_URL . '/admin/dashboard' ?>">Dashboard</a></li>
+                                <?php endif; ?>
 
-                                    <li><a href="<?php echo BASE_URL . '/resource' ?>">Resources</a></li>
-                                    <li><a href="<?php echo BASE_URL . '/logout' ?>" class="logout">Logout</a></li>
+                                <li><a href="<?php echo BASE_URL . '/resource' ?>">Resources</a></li>
+                                <li><a href="<?php echo BASE_URL . '/logout' ?>" class="logout">Logout</a></li>
 
-                                </ul>
-                            </li>
+                            </ul>
+                        </li>
                         <?php else : ?>
-                            <!-- <li><a href="<?php echo BASE_URL . '/register' ?>">Sign Up</a></li> -->
-                            <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
+                        <!-- <li><a href="<?php echo BASE_URL . '/register' ?>">Sign Up</a></li> -->
+                        <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
 
                         <?php endif; ?>
 
@@ -169,38 +217,62 @@ if (isset($_GET['t_id'])) {
                             <div class="item">
                                 <h1 style="font-size: 70px;">Electra Society <br /></h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
 
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Idea:</h1>
                                 <div class="space-10"></div>
-                                <p> It requires a small idea to start for something big. Electra Society is open for any productive idea from its fellow members and it implements every feasible idea in the events and activities that it conducts. </p>
+                                <p> It requires a small idea to start for something big. Electra Society is open for any
+                                    productive idea from its fellow members and it implements every feasible idea in the
+                                    events and activities that it conducts. </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society<br />Concept:</h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Teamwork: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=VTvhq276WRo"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Development: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in </p>
                                 <div class="space-50"></div>
-                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
+                                <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ"
+                                    class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch
+                                    Video</a>
                             </div>
                         </div>
                     </div>
@@ -208,9 +280,24 @@ if (isset($_GET['t_id'])) {
                 <div class="hidden-xs hidden-sm col-md-4">
 
 
-                    <div class="item"><img src="home/images/logo/circlelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
-
-
+                    <div class="item">
+                        <!-- <img src="home/images/logo/circlelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""> -->
+                        <div class='landing-logo' style="position:relative">
+                            <!-- <img src="elelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt="" srcset=""> -->
+                            <svg class="electric-loader" style="max-width: 600px; height:650px;margin-top:-60px;margin-left:-5px"
+                                viewBox="0 0 100 100">
+                                <defs>
+                                    <filter id="goo">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur" />
+                                        <feColorMatrix in="blur" mode="matrix"
+                                            values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 17 -2.15" result="goo" />
+                                        <feComposite in="SourceGraphic" in2="goo" operator="over" />
+                                    </filter>
+                                </defs>
+                                <g filter="url(#goo)"></g>
+                            </svg>
+                        </div>
+                    </div>
 
                     <div class="home_screen_nav">
                         <span class="ti-angle-left testi_prev"></span>
@@ -231,7 +318,8 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">About Us</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -292,7 +380,8 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Keywords of Electra Society</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -303,7 +392,8 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Idea</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -317,7 +407,8 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Concept</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -348,7 +439,8 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Teamwork</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                         </div>
                     </a>
@@ -362,7 +454,8 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididugnt ut labore</p>
                             </div>
                         </div>
                     </a>
@@ -382,7 +475,8 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> ANNOUNCEMENTS</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -396,31 +490,40 @@ if (isset($_GET['t_id'])) {
                 ?>
 
 
-                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="panel text-center single-blog">
-                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="panel text-center single-blog">
+                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
 
-                            <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
+                        <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
 
-                            <div class="padding-20">
-                                <ul class="list-unstyled list-inline">
-                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
-                                    <li><span class="ti-calendar"></span> </li>
-                                </ul>
-                                <div class="space-10"></div>
-                                <a href="blog-details-right-sidebar.html">
-                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-                                </a>
-                                <div class="space-15"></div>
-                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
-                                <div class="space-20"></div>
-                                <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                                <div class="space-20"></div>
-                            </div>
+                        <div class="padding-20">
+                            <ul class="list-unstyled list-inline">
+                                <li> <i class="ti-user">
+                                        <?php echo $post['username']; ?>
+                                    </i></li>
+                                <i class="ti-calendar">
+                                    <?php echo date('F j, Y', strtotime($post['created_at'])); ?>
+                                </i>
+                                <li><span class="ti-calendar"></span> </li>
+                            </ul>
+                            <div class="space-10"></div>
+                            <a href="blog-details-right-sidebar.html">
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>">
+                                        <?php echo $post['title']; ?>
+                                    </a></h3>
+                            </a>
+                            <div class="space-15"></div>
+                            <p>
+                                <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?>
+                            </p>
+                            <div class="space-20"></div>
+                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read
+                                more</a>
+                            <div class="space-20"></div>
                         </div>
                     </div>
+                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -444,7 +547,8 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> BLOG</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -458,29 +562,37 @@ if (isset($_GET['t_id'])) {
                 ?>
 
 
-                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="panel text-center single-blog">
-                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                            <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
+                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="panel text-center single-blog">
+                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                        <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
 
-                            <div class="padding-20">
-                                <ul class="list-unstyled list-inline">
-                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
-                                    <li><span class="ti-calendar"></span> </li>
-                                </ul>
-                                <div class="space-10"></div>
-                                <a href="blog-details-right-sidebar.html">
-                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-                                </a>
-                                <div class="space-15"></div>
-                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
-                                <div class="space-20"></div>
-                                <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                                <div class="space-20"></div>
-                            </div>
+                        <div class="padding-20">
+                            <ul class="list-unstyled list-inline">
+                                <li> <i class="ti-user">
+                                        <?php echo $post['username']; ?>
+                                    </i></li>
+                                <i class="ti-calendar">
+                                    <?php echo date('F j, Y', strtotime($post['created_at'])); ?>
+                                </i>
+                                <li><span class="ti-calendar"></span> </li>
+                            </ul>
+                            <div class="space-10"></div>
+                            <a href="blog-details-right-sidebar.html">
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>">
+                                        <?php echo $post['title']; ?>
+                                    </a></h3>
+                            </a>
+                            <div class="space-15"></div>
+                            <p>
+                                <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?>
+                            </p>
+                            <div class="space-20"></div>
+                            <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                            <div class="space-20"></div>
                         </div>
                     </div>
+                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -504,7 +616,8 @@ if (isset($_GET['t_id'])) {
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Our Team</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt
+                        ut labore Lorem ipsum madolor sit amet.</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -806,6 +919,90 @@ if (isset($_GET['t_id'])) {
     <script type="text/javascript"
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>
     <script src="home/js/maps.js"></script>
+
+    <script>
+        console.clear();
+
+        var svgns = "http://www.w3.org/2000/svg";
+        var twoPI = Math.PI * 2;
+
+        function ElectricLine(radius = 48, startOffset = 0) {
+
+            var path = document.createElementNS(svgns, 'path');
+
+            var coords = [];
+            var centerX = 50;
+            var centerY = 50;
+
+            for (var i = 0; i <= twoPI + 0.1; i += 0.1) {
+                coords.push(
+                    centerX + (Math.sin(i + startOffset) * radius),
+                    centerY + (Math.cos(i + startOffset) * radius)
+                );
+            }
+
+            // Slightly randomize the points
+            function updateElectricLine() {
+                path.setAttribute(
+                    'd',
+                    coords.map((point, i) => {
+                        return (
+                            i == 0 ? 'M' :
+                                i % 2 == 0 ? 'L' :
+                                    ','
+                        )
+                            + Math.round((point + Math.random() * 3) * 100) / 100
+                    }).join(''));
+            }
+
+            path.style.animationDelay = '0s, ' + (-Math.random()) + 's';
+            //path.style.animationDuration = (1.5 + Math.random()) + 's, ' + 0.2 + ( Math.random() * 0.4 ) + 's';
+
+            updateElectricLine();
+
+            // Have to get it in the dom for `getTotalLength` to work
+            var tempSVG = document.createElementNS(svgns, 'svg');
+            tempSVG.appendChild(path);
+            document.body.appendChild(tempSVG);
+
+            // Get the line length
+            var length = path.getTotalLength();
+            document.body.removeChild(tempSVG);
+
+            // Set an accurate strokeDasharray & offset for the animation
+            path.style.strokeDasharray = length / 2; //( length * 0.48 ) + ' ' + ( length * 0.52 );
+            path.style.strokeDashoffset = -length;
+
+            return {
+                el: path,
+                update: updateElectricLine
+            }
+        }
+
+
+        var lines = [
+            new ElectricLine(35, Math.PI * 0.0),
+            new ElectricLine(34.5, Math.PI * 1.0),
+            new ElectricLine(34, Math.PI * 0.25),
+            new ElectricLine(33.5, Math.PI * 1.25),
+            new ElectricLine(33, Math.PI * 0.5),
+            new ElectricLine(32.5, Math.PI * 1.5)
+        ];
+
+        var svg = document.querySelector('.electric-loader g');
+        lines.forEach(line => { svg.appendChild(line.el); });
+
+        var t = 0;
+        function update() {
+            requestAnimationFrame(update);
+            if (t % 7 == 0) {
+                lines.forEach(line => { line.update(); })
+            }
+            t++;
+        }
+
+        update();
+    </script>
 </body>
 
 
