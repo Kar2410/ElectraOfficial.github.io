@@ -22,13 +22,13 @@ $announcements = array();
 $announcementsTitle = 'Recent Announcements';
 
 if (isset($_GET['t_id'])) {
-  $announcements = getPostsByTopicId($_GET['t_id']);
-  $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
+    $announcements = getPostsByTopicId($_GET['t_id']);
+    $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
 } else if (isset($_POST['search-term'])) {
-  $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
-  $announcements = searchAnnouncements($_POST['search-term']);
+    $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
+    $announcements = searchAnnouncements($_POST['search-term']);
 } else {
-  $announcements = getPublishedAnnouncements();
+    $announcements = getPublishedAnnouncements();
 }
 
 // announcements ends
@@ -118,7 +118,7 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
                         <li><a href="#team">Team</a></li>
-                         
+
                         <li><a href="alumni.php">Alumni</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
@@ -126,20 +126,30 @@ if (isset($_GET['t_id'])) {
                         <?php if (isset($_SESSION['id'])) : ?>
                             <li>
                                 <a href="#">
-                                    <i class="fa fa-user"></i>
+                                    <i class="ti-user"></i>
                                     <?php echo $_SESSION['username']; ?>
-                                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
-                                </a>
-                                <ul>
+                                    <i class="ti-angle-down menu-toggle" ></i>
 
+                                </a>
+                                <ul id="dropdown">
+                                    <?php if ($_SESSION['admin']) : ?>
+
+
+                                        <li><a href="<?php echo BASE_URL . '/admin/dashboard' ?>">Dashboard</a></li>
+                                    <?php endif; ?>
+
+                                    <li><a href="<?php echo BASE_URL . '/resource' ?>">Resources</a></li>
+                                    <li><a href="<?php echo BASE_URL . '/logout' ?>" class="logout">Logout</a></li>
+
+                                </ul>
                             </li>
                         <?php else : ?>
-
+                            <!-- <li><a href="<?php echo BASE_URL . '/register' ?>">Sign Up</a></li> -->
                             <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
 
                         <?php endif; ?>
-                      
-                         
+
+
 
                     </ul>
                 </div>
@@ -323,7 +333,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/bluelogo.png" alt="" >
+                    <img src="home/images/logo/bluelogo.png" alt="">
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
@@ -376,40 +386,40 @@ if (isset($_GET['t_id'])) {
             </div>
             <div class="space-60"></div>
             <div class="row">
-                
+
                 <?php
                 $i = 0;
                 foreach ($announcements as $post) :
                     if ($i++ > 2) break;
-                
+
                 ?>
 
 
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="panel text-center single-blog">
-                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                      
-                          <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
+                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="panel text-center single-blog">
+                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+
+                            <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
 
-                        <div class="padding-20">
-                            <ul class="list-unstyled list-inline">
-                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
-                                <li><span class="ti-calendar"></span> </li>
-                            </ul>
-                            <div class="space-10"></div>
-                            <a href="blog-details-right-sidebar.html">
-                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-                            </a>
-                            <div class="space-15"></div>
-                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
-                            <div class="space-20"></div>
-                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                            <div class="space-20"></div>
+                            <div class="padding-20">
+                                <ul class="list-unstyled list-inline">
+                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                    <li><span class="ti-calendar"></span> </li>
+                                </ul>
+                                <div class="space-10"></div>
+                                <a href="blog-details-right-sidebar.html">
+                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                                </a>
+                                <div class="space-15"></div>
+                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                                <div class="space-20"></div>
+                                <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                                <div class="space-20"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -422,7 +432,7 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
-    
+
     <!-- announcements section ends -->
 
 
@@ -438,38 +448,38 @@ if (isset($_GET['t_id'])) {
             </div>
             <div class="space-60"></div>
             <div class="row">
-                
+
                 <?php
                 $i = 0;
                 foreach ($posts as $post) :
                     if ($i++ > 2) break;
-                
+
                 ?>
 
 
-                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="panel text-center single-blog">
-                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                        <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
+                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="panel text-center single-blog">
+                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                            <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
 
-                        <div class="padding-20">
-                            <ul class="list-unstyled list-inline">
-                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
-                                <li><span class="ti-calendar"></span> </li>
-                            </ul>
-                            <div class="space-10"></div>
-                            <a href="blog-details-right-sidebar.html">
-                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-                            </a>
-                            <div class="space-15"></div>
-                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
-                            <div class="space-20"></div>
-                            <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                            <div class="space-20"></div>
+                            <div class="padding-20">
+                                <ul class="list-unstyled list-inline">
+                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                    <li><span class="ti-calendar"></span> </li>
+                                </ul>
+                                <div class="space-10"></div>
+                                <a href="blog-details-right-sidebar.html">
+                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                                </a>
+                                <div class="space-15"></div>
+                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                                <div class="space-20"></div>
+                                <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                                <div class="space-20"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -482,10 +492,10 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
-  <!-- blog ends -->
+    <!-- blog ends -->
 
 
-  
+
     <!--Team-Section-->
     <section class="gray-bg" id="team">
         <div class="space-40"></div>
@@ -636,7 +646,7 @@ if (isset($_GET['t_id'])) {
     </section>
     <!--Team-Section/-->
 
-   <!-- faq section begin -->
+    <!-- faq section begin -->
 
     <section class="fix" id="faq">
         <div class="space-80"></div>
@@ -695,7 +705,7 @@ if (isset($_GET['t_id'])) {
         <div class="space-40"></div>
     </section>
 
-  <!-- faq ends   -->
+    <!-- faq ends   -->
 
     <!--Footer-area-->
 
