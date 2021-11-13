@@ -123,12 +123,13 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
                         <!-- login user/admin -->
+                     
                         <?php if (isset($_SESSION['id'])) : ?>
                             <li>
                                 <a href="#">
                                     <i class="ti-user"></i>
                                     <?php echo $_SESSION['username']; ?>
-                                    <i class="ti-angle-down menu-toggle" ></i>
+                                    <i class="ti-angle-down"></i>
 
                                 </a>
                                 <ul id="dropdown">
