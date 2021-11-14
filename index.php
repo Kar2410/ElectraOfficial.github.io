@@ -650,11 +650,11 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
 
-
+        <div class="space-60"></div>
             <h3 class="text-uppercase">JUNIOR MEMBERS</h3>
             <section class="gray-bg" id="team">
         
-            <div class="space-60"></div>
+           
             <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="single-team relative panel fix">
@@ -939,10 +939,11 @@ if (isset($_GET['t_id'])) {
                         </div>
                     </div>
                 </div>
+                </div>
                 
                
             </div>
-        </div>
+        
         <div class="space-80"></div>
             
 
