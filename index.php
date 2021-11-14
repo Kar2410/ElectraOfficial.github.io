@@ -1074,6 +1074,7 @@ if (isset($_GET['t_id'])) {
     <script src="home/js/wow.min.js"></script>
     <script src="home/js/plugins.js"></script>
     <!--Active JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="home/js/main.js"></script>
     <!--Maps JS-->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>
