@@ -230,7 +230,7 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">About Us</h3>
                     <p>
-                        Forming a society of its own under each and every department is an age old tradition in NITS. Hence,Electrical Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves various other purposes for the betterment of the students:
+                        Forming a society of its own under each and every department is an age old tradition in NITS. Hence,Electrical Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves various other purposes for the betterment of the students.
 
                     </p>
                 </div>
