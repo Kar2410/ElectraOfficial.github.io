@@ -58,7 +58,7 @@ if (isset($_GET['t_id'])) {
 
     <!-- Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" href="home/images/apple-touch-icon.png">
-    <link rel="shortcut icon" type="home/image/ico" href="home/images/favicon.ico" />
+    <link rel="shortcut icon" type="home/image/ico" href="home/images/elelogo.png" />
 
     <!-- footer css -->
     <link rel="stylesheet" href="assets/css/footer.css">
