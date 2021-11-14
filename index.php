@@ -222,9 +222,7 @@ if (isset($_GET['t_id'])) {
                     <h3 class="text-uppercase">About Us</h3>
                     <p >
                         Forming a society of its own under each and every department is an age old tradition in NITS. Hence,Electrical      Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves various other purposes for the betterment of the students:
-                        <li style="text-align:left;">The society helps in bringing out the best of its student traits.</li>
-                        <li style="text-align:left;">The society aims at providing guidance to the students in undertaking various activities.</li>
-                        <li style="text-align:left;">Various activities like technical seminars, debates, etc are organized in the field of electrical engineering for the students which enables them to gather knowledge and keep pace with the dynamic technologies.</li>
+                       
                     </p>
                 </div>
             </div>
