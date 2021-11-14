@@ -22,13 +22,13 @@ $announcements = array();
 $announcementsTitle = 'Recent Announcements';
 
 if (isset($_GET['t_id'])) {
-    $announcements = getPostsByTopicId($_GET['t_id']);
-    $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
+  $announcements = getPostsByTopicId($_GET['t_id']);
+  $announcementsTitle = "You searched for posts under '" . $_GET['name'] . "'";
 } else if (isset($_POST['search-term'])) {
-    $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
-    $announcements = searchAnnouncements($_POST['search-term']);
+  $announcementsTitle = "You searched for '" . $_POST['search-term'] . "'";
+  $announcements = searchAnnouncements($_POST['search-term']);
 } else {
-    $announcements = getPublishedAnnouncements();
+  $announcements = getPublishedAnnouncements();
 }
 
 // announcements ends
@@ -118,39 +118,28 @@ if (isset($_GET['t_id'])) {
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="Electra_Nits/index.html">Electra NITS</a></li>
                         <li><a href="#team">Team</a></li>
-
+                         
                         <li><a href="alumni.php">Alumni</a></li>
                         <li><a href="#faq">FAQ</a></li>
                         <!-- <li><a href="register.php">Sign Up</a></li> -->
                         <!-- login user/admin -->
-                     
                         <?php if (isset($_SESSION['id'])) : ?>
                             <li>
                                 <a href="#">
-                                    <i class="ti-user"></i>
+                                    <i class="fa fa-user"></i>
                                     <?php echo $_SESSION['username']; ?>
-                                    <i class="ti-angle-down"></i>
-
+                                    <i class="fa fa-chevron-down" style="font-size: .8em;"></i>
                                 </a>
-                                <ul id="dropdown">
-                                    <?php if ($_SESSION['admin']) : ?>
+                                <ul>
 
-
-                                        <li><a href="<?php echo BASE_URL . '/admin/dashboard' ?>">Dashboard</a></li>
-                                    <?php endif; ?>
-
-                                    <li><a href="<?php echo BASE_URL . '/resource' ?>">Resources</a></li>
-                                    <li><a href="<?php echo BASE_URL . '/logout' ?>" class="logout">Logout</a></li>
-
-                                </ul>
                             </li>
                         <?php else : ?>
-                            <!-- <li><a href="<?php echo BASE_URL . '/register' ?>">Sign Up</a></li> -->
+
                             <li><a href="<?php echo BASE_URL . '/login' ?>">Login</a></li>
 
                         <?php endif; ?>
-
-
+                      
+                         
 
                     </ul>
                 </div>
@@ -169,7 +158,7 @@ if (isset($_GET['t_id'])) {
                             <div class="item">
                                 <h1 style="font-size: 70px;">Electra Society <br /></h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Forming a society of its own under each and every department is an age old tradition in NITS. Hence, Electrical Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves various other purposes for the betterment of the students.</p>
                                 <div class="space-50"></div>
                                 <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
 
@@ -184,21 +173,21 @@ if (isset($_GET['t_id'])) {
                             <div class="item">
                                 <h1>Electra Society<br />Concept:</h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>The objective of the society is the overall development of its students. Be it technical or non-technical, it aims at making its students efficient and capable enough to face any problem in the real world.</p>
                                 <div class="space-50"></div>
                                 <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Teamwork: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>Team efforts make the impossible possible. It is the backbone of Electra Society. Every member contributes in the best possible way to achieve the predefined set of goals.</p>
                                 <div class="space-50"></div>
                                 <a href="https://www.youtube.com/watch?v=VTvhq276WRo" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
                             <div class="item">
                                 <h1>Electra Society <br />Development: </h1>
                                 <div class="space-10"></div>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+                                <p>A good leadership and a sense of responsibility is very important for the smooth running of a team. Under the proper guidance of the able seniors, the juniors here are guided towards a better future. </p>
                                 <div class="space-50"></div>
                                 <a href="https://www.youtube.com/watch?v=Jolt8lGTQvQ" class="btn btn-icon video-popup"><span class="ti-control-play"></span>Watch Video</a>
                             </div>
@@ -231,7 +220,12 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">About Us</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p >
+                        Forming a society of its own under each and every department is an age old tradition in NITS. Hence,Electrical      Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves various other purposes for the betterment of the students:
+                        <li style="text-align:left;">The society helps in bringing out the best of its student traits.</li>
+                        <li style="text-align:left;">The society aims at providing guidance to the students in undertaking various activities.</li>
+                        <li style="text-align:left;">Various activities like technical seminars, debates, etc are organized in the field of electrical engineering for the students which enables them to gather knowledge and keep pace with the dynamic technologies.</li>
+                    </p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -292,7 +286,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Keywords of Electra Society</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>The keywords of the Electra Society are as follows:</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -303,7 +297,10 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Idea</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>It requires a small idea to start for something
+                        big. Electra Society is open for any productive idea from its fellow members and it implements
+                        every feasible idea in the events and activities
+                        that it conducts.</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -317,7 +314,10 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-body text-right">
                                 <h5>Concept</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>The objective of the society is the overall
+                        development of its students. Be it technical or non-technical, it aims at making its students
+                        efficient and capable enough to face any problem
+                        in the real world.</p>
                             </div>
                             <div class="media-right">
                                 <div class="border-icon">
@@ -334,7 +334,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/bluelogo.png" alt="">
+                    <img src="home/images/logo/bluelogo.png" alt="" >
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
@@ -348,7 +348,9 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Teamwork</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>Team efforts make the impossible possible. It
+                        is the backbone of Electra Society. Every member contributes in the best possible way to achieve
+                        the predefined set of goals.</p>
                             </div>
                         </div>
                     </a>
@@ -362,7 +364,10 @@ if (isset($_GET['t_id'])) {
                             </div>
                             <div class="media-body">
                                 <h5>Development</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                                <p>A good leadership and a sense of
+                        responsibility is very important for the smooth running of a team. Under the proper guidance of
+                        the able seniors, the juniors here are guided towards
+                        a better future.</p>
                             </div>
                         </div>
                     </a>
@@ -382,45 +387,45 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> ANNOUNCEMENTS</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Recent announcements are shown below. Click on 'View All' to go to Announcements page</p>
                 </div>
             </div>
             <div class="space-60"></div>
             <div class="row">
-
+                
                 <?php
                 $i = 0;
                 foreach ($announcements as $post) :
                     if ($i++ > 2) break;
-
+                
                 ?>
 
 
-                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="panel text-center single-blog">
-                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="panel text-center single-blog">
+                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                      
+                          <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
-                            <!-- <img src="home/images/logo/bluelogo.png" alt="" class="img-full"> -->
 
-
-                            <div class="padding-20">
-                                <ul class="list-unstyled list-inline">
-                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
-                                    <li><span class="ti-calendar"></span> </li>
-                                </ul>
-                                <div class="space-10"></div>
-                                <a href="blog-details-right-sidebar.html">
-                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-                                </a>
-                                <div class="space-15"></div>
-                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
-                                <div class="space-20"></div>
-                                <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                                <div class="space-20"></div>
-                            </div>
+                        <div class="padding-20">
+                            <ul class="list-unstyled list-inline">
+                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                <li><span class="ti-calendar"></span> </li>
+                            </ul>
+                            <div class="space-10"></div>
+                            <a href="blog-details-right-sidebar.html">
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                            </a>
+                            <div class="space-15"></div>
+                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                            <div class="space-20"></div>
+                            <a href="announce_single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                            <div class="space-20"></div>
                         </div>
                     </div>
+                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -433,7 +438,7 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
-
+    
     <!-- announcements section ends -->
 
 
@@ -444,43 +449,43 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase"> BLOG</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Recent blogs are shown below. Click on 'View All' to go to Blogs page</p>
                 </div>
             </div>
             <div class="space-60"></div>
             <div class="row">
-
+                
                 <?php
                 $i = 0;
                 foreach ($posts as $post) :
                     if ($i++ > 2) break;
-
+                
                 ?>
 
 
-                    <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="panel text-center single-blog">
-                            <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
-                            <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
+                <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="panel text-center single-blog">
+                        <!-- <img src="home/images/blog/blog2.jpg" class="img-full" alt=""> -->
+                        <img src="<?php echo BASE_URL . '/assets/images/' . $post['image']; ?>" alt="" class="img-full">
 
-                            <div class="padding-20">
-                                <ul class="list-unstyled list-inline">
-                                    <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
-                                    <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
-                                    <li><span class="ti-calendar"></span> </li>
-                                </ul>
-                                <div class="space-10"></div>
-                                <a href="blog-details-right-sidebar.html">
-                                    <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
-                                </a>
-                                <div class="space-15"></div>
-                                <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
-                                <div class="space-20"></div>
-                                <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
-                                <div class="space-20"></div>
-                            </div>
+                        <div class="padding-20">
+                            <ul class="list-unstyled list-inline">
+                                <li> <i class="ti-user"> <?php echo $post['username']; ?></i></li>
+                                <i class="ti-calendar"> <?php echo date('F j, Y', strtotime($post['created_at'])); ?></i>
+                                <li><span class="ti-calendar"></span> </li>
+                            </ul>
+                            <div class="space-10"></div>
+                            <a href="blog-details-right-sidebar.html">
+                                <h3><a href="single.php?id=<?php echo $post['id']; ?>"><?php echo $post['title']; ?></a></h3>
+                            </a>
+                            <div class="space-15"></div>
+                            <p> <?php echo html_entity_decode(substr($post['body'], 0, 150) . '...'); ?></p>
+                            <div class="space-20"></div>
+                            <a href="single.php?id=<?php echo $post['id']; ?>" class="btn btn-link">Read more</a>
+                            <div class="space-20"></div>
                         </div>
                     </div>
+                </div>
                 <?php endforeach; ?>
 
             </div>
@@ -493,10 +498,10 @@ if (isset($_GET['t_id'])) {
             </div>
         </div>
     </section>
-    <!-- blog ends -->
+  <!-- blog ends -->
 
 
-
+  
     <!--Team-Section-->
     <section class="gray-bg" id="team">
         <div class="space-40"></div>
@@ -504,150 +509,457 @@ if (isset($_GET['t_id'])) {
             <div class="row">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Our Team</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>The Electra Society Team consists of the following members:</p>
                 </div>
             </div>
             <div class="space-60"></div>
+            
+            <h3 class="text-uppercase">SENIOR MEMBERS</h3>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team1.jpg" alt="">
+                        <img src="assets/images/about/bullbul_bhaiya.jpg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">JEMY SEDONCE</h5>
-                            <p>Co. Founder</p>
+                            <h5 class="text-uppercase">BULBUL HUSSAIN</h5>
+                            <p>President</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team2.jpg" alt="">
+                        <img src="assets/images/about/gaurav_bhaiya.jpg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">Deborah Brown</h5>
-                            <p>UX Designer</p>
+                            <h5 class="text-uppercase">GAURAV SINGH</h5>
+                            <p>General Secretary</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team3.jpg" alt="">
+                        <img src="assets/images/about/Prastuti.jpg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">Harry Banks</h5>
-                            <p>Founder</p>
+                            <h5 class="text-uppercase">PRASTUTI MAJUMDAR</h5>
+                            <p>Vice President(General)</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team4.jpg" alt="">
+                        <img src="assets/images/about/arko.png" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">Victoria Clark</h5>
-                            <p>Creative Director</p>
+                            <h5 class="text-uppercase">ARKADEEP KASHYAP</h5>
+                            <p>Vice President(Technical)</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
+                                <a href="#"><span class="ti-github"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-
-            <div class="row">
+                <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team1.jpg" alt="">
+                        <img src="assets/images/about/Priyanki.jpg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">JEMY SEDONCE</h5>
-                            <p>Co. Founder</p>
+                            <h5 class="text-uppercase">PRIYANKI PRIYAM BORGOHAIN</h5>
+                            <p>Assistant General Secretary</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team2.jpg" alt="">
+                        <img src="assets/images/about/kartik.jpg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">Deborah Brown</h5>
-                            <p>UX Designer</p>
+                            <h5 class="text-uppercase">KARTIK VERMA</h5>
+                            <p>Senior Technical Member</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
+                                <a href="#"><span class="ti-github"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team3.jpg" alt="">
+                        <img src="assets/images/about/Nihal.jpeg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">Harry Banks</h5>
-                            <p>Founder</p>
+                            <h5 class="text-uppercase">NIHAL DWIVEDI</h5>
+                            <p>Senior Technical Member</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="single-team relative panel fix">
-                        <img src="home/images/team/team4.jpg" alt="">
+                        <img src="assets/images/about/Sonali.jpg" alt="">
                         <div class="team_details text-center">
-                            <h5 class="text-uppercase">Victoria Clark</h5>
-                            <p>Creative Director</p>
+                            <h5 class="text-uppercase">SONALI KANU</h5>
+                            <p>Senior Executive Member</p>
                             <div class="social-menu">
                                 <hr>
                                 <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-twitter-alt"></span></a>
                                 <a href="#"><span class="ti-linkedin"></span></a>
-                                <a href="#"><span class="ti-pinterest-alt"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/Sarmistha.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">SARMISTHA BORA</h5>
+                            <p>Literary Representative</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a href="#"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+            <h3 class="text-uppercase">JUNIOR MEMBERS</h3>
+            <section class="gray-bg" id="team">
+        
+            <div class="space-60"></div>
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/biju.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">BIJU BORAH</h5>
+                            <p>Technical Member(Web-D)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a href="#"><span class="ti-github"></span></a>
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/debasish.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">DEBASISH KONWAR</h5>
+                            <p>Technical Member(Web-D)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a href="#"><span class="ti-github"></span></a>
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/ritesh.jpeg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">RITESH KUMAR</h5>
+                            <p>Technical Member(Web-D)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a href="#"><span class="ti-github"></span></a>
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/tanmay.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">TANMAY TRIPATHY</h5>
+                            <p>Technical Member(Graphics)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/reetom.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">REETOM RANA DUTTA</h5>
+                            <p>Technical Member(Graphics)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/rohan.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">ROHAN DEB</h5>
+                            <p>Technical Member(Graphics)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a href="#"><span class="ti-github"></span></a>
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/juman.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">JUMAN JIN DEKA</h5>
+                            <p>Technical Member(Graphics)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/prakritish.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">PROKRITISH NISSAN BORA</h5>
+                            <p>Technical Member(Graphics)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+            </div>
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/arpit.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">ARPIT JAISWAL</h5>
+                            <p>Technical Member(Graphics)</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/miraj.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">MIRAJ DEKA</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/ajay.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">GUDLA AJAY BABU</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/kavya.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">KAVYA SHARMA</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/gillian.jpeg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">GILLIAN ANTHONY</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/suman.jpeg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">SUMAN GOSWAMI</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/debalina.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">DEBALINA BORAH</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/soumya.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">SOUMYA SONI</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/shriyal.jpeg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">SHRIYAL TANDON</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/reisha.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">REISHA AHMED</h5>
+                            <p>Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a href="#"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a href="#"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+        <div class="space-80"></div>
+            
+
+                
         <div class="space-80"></div>
     </section>
     <!--Team-Section/-->
 
-    <!-- faq section begin -->
+
+
+
+
+
+
+    <!-- new -->
+    <!-- end -->
+   <!-- faq section begin -->
 
     <section class="fix" id="faq">
         <div class="space-80"></div>
@@ -655,7 +967,7 @@ if (isset($_GET['t_id'])) {
             <div class="row wow fadeInUp">
                 <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
                     <h3 class="text-uppercase">Frequently asked questions</h3>
-                    <p>Lorem ipsum madolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor coli incididunt ut labore Lorem ipsum madolor sit amet.</p>
+                    <p>Following are some Frequently Asked Questions by students:</p>
                 </div>
             </div>
             <div class="space-60"></div>
@@ -665,35 +977,56 @@ if (isset($_GET['t_id'])) {
                     <div class="panel-group" id="accordion">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Sedeiusmod tempor inccsetetur aliquatraiy? </a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Q: Brief about Department of Electrical Engineering, National Institute of Technology, Silchar. </a></h4>
                             </div>
-                            <div id="collapse1" class="panel-collapse collapse in">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.</div>
+                            <div id="collapse1" class="panel-collapse collapse ">
+                                <div class="panel-body">The Department of Electrical Engineering of NIT, Silchar is one of the finest and well equipped Electrical departments of the north-east region. It boasts of having a highly qualified faculty with an unparalled level of expertise in
+                        their field. Under the able Headship of Dr. B. K. Roy and a strong faculty team, the Department offers an 8 Semester B.Tech. Programme in Electrical Engineering, a four Semester M.Tech. Programme in Power Energy Systems Engineering
+                        and also a well integrated Ph.D. programme. The department offers core courses in Power Systems, Control Systems, Electrical Machines, Instrumentation, Switchgear and Industrial Protection, Microprocessors and Microcontrollers
+                        etc. Apart from these, the final year students can choose from a wide array of electives in the form of Computer Aided Power Systems, Flexible AC Transmission etc. In coordination with the highly stimulating lectures and quality
+                        enhancing tutorials in these courses, various practical courses are also held in the state-of-the-art Lab facilities of the department like Machine Lab, Measurement Lab, Circuit Theory Lab and Microprocessor Lab, to name a few.
+                        The Department of Electrical Engineering is dynamic and vibrant in true sense. Various research and development activities taken up by the department put the students on busy schedules enabling them to blend to the modern industrial
+                        requirements. The course structure is constantly restructured to meet the ever changing requirements of the volatile industrial market, keeping the essence of the core Electrical Engineering intact. The pure expertise and dedication
+                        of the faculty members along with infrastructural facilities coupled with the perseverance of the students have catapulted the branch to the top league. Placement offers to the students have always shown an ever increasing trend
+                        and promise to be the best in future with the incoming boom of Power sector. The department also has its own society, the 'Electra' comprising of the faculty members and the 300 strong student members. It caters to all the academic
+                        and co-curricular persona of the branch. Cultural events for the members are never scarce along with quizzes, aptitude tests, presentations and industrial tours which are organised to bring the best out of a today's Electrical
+                        Engineer.</div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Tempor inccsetetur aliquatraiy?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Q:  What are the Programme Educational Objectives (PEOs) of the Department of Electrical Engineering ? </a></h4>
                             </div>
                             <div id="collapse2" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div class="panel-body">Programme Educational Objectives (B.Tech):<br> The Electrical Engineering Department in conjunction with its constituents has established the following Program Educational Objectives. The Electrical Engineering Program will graduate
+                        Electrical Engineering students who :<br> 1. will be productive in the professional practice of engineering and related fields, will be able to identify, formulate, create, analyze, design, develop, optimize, and implement electrical
+                        systems.<br> 2. will contribute to industry and/or government organizations by applying the skills and knowledge acquired during the program period.<br> 3. shall be prepared for the successful pursuit of graduate studies and shall
+                        have the ability to engage in lifelong learning in electrical engineering and related fields and will understand the challenges of a dynamically and globalized changing world adapting their skills through continuous learning and
+                        self improvement.<br> 4. will be provided with solid foundation in mathematical and engineering fundamentals required to solve engineering problems and also to pursue research within the appropriate technological, global, societal,
+                        ethical and organizational context.<br> 5. will be able to inculcate a sense of ethics, professionalism and effective communication skills amongst graduates.</div>
                             </div>
                         </div>
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lorem ipsum dolor amet, consectetur adipisicing ?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Q:  Brief about the academics of Electrical Engineering Department.</a></h4>
                             </div>
                             <div id="collapse3" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div class="panel-body">The Electrical Engineering Department was established in 1977 along with the establishment of Institute. It has been one of the best departments in terms of infrastructural facilities and faculties. It has got many well equipped
+                        labs with modern equipment ranging from the highly equipped Machine Lab to the latest PCs in the Computer Labs. It also has a well equipped CAD laboratory..</div>
                             </div>
                         </div>
 
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lorem ipsum dolor amet, consectetur adipisicing ?</a></h4>
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Q:  What are the Courses involved ?</a></h4>
                             </div>
                             <div id="collapse4" class="panel-collapse collapse">
-                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                                <div class="panel-body"><b>Core</b><br> 1. Circuit Theory<br> 2. Electrical Engineering Materials<br> 3. Linear Electronic Circuits<br> 4. Measurement & Measuring Instruments<br> 5. Electromagnetic Fields<br> 6. Control System<br> 7. Power System<br> 8. Electrical
+                        Machines<br> 9. Digital Electronic Circuits<br> 10. Microprocessor Systems and Applications<br> 11. Industrial Electronics<br> 12. Industrial Instrumentation<br> 13. Switchgear and Protection<br> 14. Principles of Communication<br>                        15. Electric Drives<br> 16. Renewable Energy Source and Management<br> 17. Signal Processing and Applications<br> 18. Computer Applications in Electrical Engineering<br>
+
+
+                        <b>Electives</b><br> 1. High Voltage Engineering<br> 2. Higher Control System<br> 3. Digital Computer Organisation<br> 4. Computer Application in Power System<br> 5. Hydro Electric Engineering<br> 6. Electric Power Utilisation and
+                        Traction<br> 7. E.H.V., A.C. and D.C. Transmission<br> 8. Industrial Management<br> 9. Control System Components and System Design<br> 10. Fault Detection and Diagnostic<br> 11. Electrodynamics and Advanced Field Theory.<br></div>
                             </div>
                         </div>
                     </div>
@@ -706,7 +1039,7 @@ if (isset($_GET['t_id'])) {
         <div class="space-40"></div>
     </section>
 
-    <!-- faq ends   -->
+  <!-- faq ends   -->
 
     <!--Footer-area-->
 
