@@ -141,7 +141,10 @@
     position: absolute;
     bottom: 0px;
     left: 0px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -211,4 +214,11 @@
     .post-slider .prev {
         left: 10px;
     }
+}
+
+@media screen and (max-width:500px) {
+    .footer .footer-bottom{
+        height: auto;
+    }
+    
 }
