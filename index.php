@@ -529,10 +529,10 @@ if (isset($_GET['t_id'])) {
                         <div class="team_details text-center">
                             <h5 class="text-uppercase">BULBUL HUSSAIN</h5>
                             <p>President</p>
-                            <div class="social-menu">
+                            <div class="social-menu" target>
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100009279933916"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -545,8 +545,8 @@ if (isset($_GET['t_id'])) {
                             <p>General Secretary</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href=" https://www.facebook.com/profile.php?id=100003308682971"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/gaurav-singh-5824881b4/ "><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -559,8 +559,8 @@ if (isset($_GET['t_id'])) {
                             <p>Vice President(General)</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href=" https://www.facebook.com/prastuti.mazumdar.3"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -573,9 +573,9 @@ if (isset($_GET['t_id'])) {
                             <p>Vice President(Technical)</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
-                                <a href="#"><span class="ti-github"></span></a>
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/arko.kashyap"><span class="ti-facebook"></span></a>
+                                <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                <a target="_blank"  href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -591,8 +591,8 @@ if (isset($_GET['t_id'])) {
                                 <p>Assistant General Secretary</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a href="#"><span class="ti-facebook"></span></a>
-                                    <a href="#"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank"  href=" https://www.facebook.com/pihu.gohain.58"><span class="ti-facebook"></span></a>
+                                    <a target="_blank"  href=" https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -605,9 +605,9 @@ if (isset($_GET['t_id'])) {
                                 <p>Senior Technical Member</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a href="#"><span class="ti-facebook"></span></a>
-                                    <a href="#"><span class="ti-github"></span></a>
-                                    <a href="#"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank"  href="https://www.facebook.com/kartik.verma.5492"><span class="ti-facebook"></span></a>
+                                    <a target="_blank"  href="https://github.com/Kar2410"><span class="ti-github"></span></a>
+                                    <a target="_blank"  href="https://www.linkedin.com/in/kartik07/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -620,8 +620,8 @@ if (isset($_GET['t_id'])) {
                                 <p>Senior Technical Member</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a href="#"><span class="ti-facebook"></span></a>
-                                    <a href="#"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank"  href="https://www.facebook.com/nihal.dwivedi.7549"><span class="ti-facebook"></span></a>
+                                    <a target="_blank"  href="https://www.linkedin.com/in/nihal-dwivedi-6623281a0/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -634,8 +634,8 @@ if (isset($_GET['t_id'])) {
                                 <p>Senior Executive Member</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a href="#"><span class="ti-facebook"></span></a>
-                                    <a href="#"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank"  href="https://www.facebook.com/sonalikanu.999"><span class="ti-facebook"></span></a>
+                                    <a target="_blank"  href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
@@ -651,8 +651,8 @@ if (isset($_GET['t_id'])) {
                                     <p>Literary Representative</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/sarmistha.bora1"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/sarmistha-bora/"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -674,9 +674,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Web-D)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
-                                        <a href="#"><span class="ti-github"></span></a>
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://github.com/biju-borah"><span class="ti-github"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -689,9 +689,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Web-D)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
-                                        <a href="#"><span class="ti-github"></span></a>
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/debasish.konwar.25"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://github.com/debasish-konwar"><span class="ti-github"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/debasishkonwar/"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -704,9 +704,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Web-D)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
-                                        <a href="#"><span class="ti-github"></span></a>
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/people/Ritesh-Kumar/100006925869901/"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://github.com/Ritesh565"><span class="ti-github"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/ritesh-kumar-435b08216"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -719,9 +719,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Graphics)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/profile.php?id=100009726932773"><span class="ti-facebook"></span></a>
                                         <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/tanmay-tripathy"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -738,9 +738,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Graphics)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/reetom.ranadutta"><span class="ti-facebook"></span></a>
                                         <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/reetom-rana-dutta-34156220a"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -754,9 +754,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Graphics)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
-                                        <a href="#"><span class="ti-github"></span></a>
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/rohan.deb.908579"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://github.com/RohanDeb1"><span class="ti-github"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/rohan-deb-444ab8204"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -769,9 +769,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Graphics)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/juman.sos"><span class="ti-facebook"></span></a>
                                         <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/juman-jin-deka-4a3188202/"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -784,9 +784,9 @@ if (isset($_GET['t_id'])) {
                                     <p>Technical Member(Graphics)</p>
                                     <div class="social-menu">
                                         <hr>
-                                        <a href="#"><span class="ti-facebook"></span></a>
+                                        <a target="_blank"  href="https://www.facebook.com/prakritish.nissan"><span class="ti-facebook"></span></a>
                                         <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a href="#"><span class="ti-linkedin"></span></a>
+                                        <a target="_blank"  href="https://www.linkedin.com/in/prakritish-nissan-249428220/"><span class="ti-linkedin"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -803,9 +803,9 @@ if (isset($_GET['t_id'])) {
                             <p>Technical Member(Graphics)</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/arpit.jaiswal.965/"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/arpit-jaiswal-7166b0201/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -818,9 +818,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/miraz.deka"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/miraj-deka-32a78720a"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -833,9 +833,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/ajay.dhoni.904"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/ajay-gudla-31545b20a"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -848,9 +848,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100008131120392"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/kavya-sharma-b143651ba"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -865,9 +865,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/gillian.anthony.18"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/gillian-anthony-40b1a521a"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -880,9 +880,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100058459812857"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/suman-goswami-aabb93218/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -895,9 +895,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/debalina.borah.9"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -910,9 +910,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100056034555533"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/soumya-soni-7a060719b"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -927,9 +927,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://m.facebook.com/shriyal.tandon.1"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -942,9 +942,9 @@ if (isset($_GET['t_id'])) {
                             <p>Executive Member</p>
                             <div class="social-menu">
                                 <hr>
-                                <a href="#"><span class="ti-facebook"></span></a>
+                                <a target="_blank"  href="https://www.facebook.com/reisha.ahmed.7"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a href="#"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/reisa-ahmed-238a0b19a"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
