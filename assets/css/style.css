@@ -610,13 +610,14 @@ header .menu-toggle {
         margin: 9px;
         font-family: 'Poppins', sans-serif;
         font-size: 29px;
+        margin-left: 61px;
     }
     header img {
         height: auto;
         width: 100%;
         max-width: 61px;
-        margin-left: -6px;
-        margin-top: 2px;
+        /* margin-left: -6px;
+        margin-top: 2px; */
         position: absolute;
     }
 }
