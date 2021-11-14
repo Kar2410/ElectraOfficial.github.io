@@ -106,18 +106,6 @@ input:-webkit-autofill:focus {
 
 /* header  */
 
-header ul {
-    float: right;
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-header ul li {
-    float: left;
-    position: relative;
-}
-
 header ul li ul {
     position: absolute;
     top: 40px;
