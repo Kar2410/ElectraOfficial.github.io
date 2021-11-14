@@ -659,7 +659,7 @@ if (isset($_GET['t_id'])) {
                         </div>
                     </div>
                 
-
+                    <div class="space-80"></div>
                 <!-- <div class="space-60"></div> -->
                 <h3 class="text-uppercase">JUNIOR MEMBERS</h3>
                 <section class="gray-bg" id="team">
