@@ -41,7 +41,6 @@ if (isset($_GET['t_id'])) {
 <html class="no-js" lang="zxx">
 
 
-<!-- Mirrored from quomodosoft.com/html/appro/demo/index6.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Nov 2021 12:41:30 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
@@ -86,9 +85,7 @@ if (isset($_GET['t_id'])) {
 </head>
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  
 
     <div class="preloade">
         <span><i class="ti-mobile"></i></span>
