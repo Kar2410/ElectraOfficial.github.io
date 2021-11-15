@@ -109,7 +109,7 @@ input:-webkit-autofill:focus {
 header ul li ul {
     position: absolute;
     top: 40px;
-    right: -80px;
+    right: -50px;
     width: 180px;
     display: none;
     z-index: 88888;
