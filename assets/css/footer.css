@@ -46,7 +46,8 @@
 /* FOOTER */
 
 .footer {
-    background: rgba(255, 255, 255, 0.4);
+    /* background: rgba(255, 255, 255, 0.4); */
+    background-color: whitesmoke;
     color: #3b3b3b;
     height: 400px;
     position: relative;
