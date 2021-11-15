@@ -665,13 +665,13 @@ Preloader
     background: linear-gradient(to right, rgba(58, 123, 213, 0.8), rgba(0, 210, 255, 0.8));
     border-radius: 100%;
     bottom: 0;
-    height: 60px;
+    height: 100px;
     left: 0;
     margin: auto;
     position: absolute;
     right: 0;
     top: 0;
-    width: 60px;
+    width: 100px;
     -webkit-animation: mymove 1.5s infinite linear;
     animation: mymove 1.5s infinite linear;
 }

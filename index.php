@@ -104,7 +104,8 @@ if (isset($_GET['t_id'])) {
   
 
     <div class="preloade">
-        <span><i class="ti-mobile"></i></span>
+        <!-- <span><i class="ti-mobile"></i></span> -->
+        <span><img src="home/images/logo/elelogo-min.png" alt="" srcset=""></span>
     </div>
 
     <!--Header-Area-->
