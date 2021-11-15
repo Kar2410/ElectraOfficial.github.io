@@ -63,6 +63,10 @@ if (isset($_GET['t_id'])) {
     <!-- footer css -->
     <link rel="stylesheet" href="assets/css/footer.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
     <!-- Plugin-CSS -->
     <link rel="stylesheet" href="home/css/bootstrap.min.css">
@@ -1074,6 +1078,7 @@ if (isset($_GET['t_id'])) {
     <script src="home/js/wow.min.js"></script>
     <script src="home/js/plugins.js"></script>
     <!--Active JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <script src="home/js/main.js"></script>
     <!--Maps JS-->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>

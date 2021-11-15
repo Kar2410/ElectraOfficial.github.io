@@ -577,21 +577,21 @@ address {
 }
 
 #scrollUp {
-    background-color: #50d1c0;
-    border: 1px solid #50d1c0;
+    /* background-color: #50d1c0;
+    border: 1px solid #50d1c0; */
     border-radius: 2px;
-    bottom: 30px;
+    bottom: 80px;
     color: #ffffff;
     height: 40px;
     line-height: 3;
-    right: 30px;
+    right: 16px;
     text-align: center;
-    width: 40px;
+    /* width: 40px; */
 }
 
-#scrollUp:hover {
+/* #scrollUp:hover {
     background-color: #55c4b5;
-}
+} */
 
 .img-full {
     width: 100%;
