@@ -34,7 +34,7 @@ if (isset($_GET['t_id'])) {
   <!-- Custom Styling -->
   <link rel="stylesheet" href="assets/css/style.css">
 
-  <title>Electra Society</title>
+  <title>Blog</title>
 </head>
 
 <body >

@@ -35,7 +35,7 @@ a {
 }
 
 .btn {
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
     background: #3ccdbb;
     color: white;
     border: 1px solid transparent;
@@ -45,7 +45,7 @@ a {
 }
 
 .btn-big {
-    padding: 0.7rem 1.3rem;
+    /* padding: 0.7rem 1.3rem; */
     line-height: 1.3rem;
 }
 
@@ -498,7 +498,7 @@ header .menu-toggle {
 
 .footer .footer-content .contact-form .contact-btn {
     float: right;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-family: 'Poppins', sans-serif;
 }
 

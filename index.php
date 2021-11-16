@@ -915,7 +915,7 @@ if (isset($_GET['t_id'])) {
                                 <hr>
                                 <a target="_blank"  href="https://www.facebook.com/debalina.borah.9"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
+                                <a target="_blank"  href="https://www.linkedin.com/in/debalina-borah-642791218/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
