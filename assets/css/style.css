@@ -502,6 +502,10 @@ header .menu-toggle {
     font-family: 'Poppins', sans-serif;
 }
 
+.footer .footer-content .contact-form .contact-btn:hover {
+    cursor: pointer;
+}
+
 .footer .footer-bottom {
     background: #343a40;
     color: #686868;
