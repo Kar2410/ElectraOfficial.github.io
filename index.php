@@ -82,13 +82,32 @@ if (isset($_GET['t_id'])) {
     <link rel="stylesheet" href="home/style.css">
     <link rel="stylesheet" href="home/css/responsive.css">
     <script src="home/js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .move-up-icon {
+            width: 100px;
+            height: 100px;
+        }
+
+        @media screen and (max-width:768px) {
+            .move-up-icon {
+                width: 75px;
+                height: 75px;
+            }
+
+            #scrollUp {
+                right: 0px;
+                bottom: 40px;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
 
 
     <div class="preloade">
-        <span><i class="ti-mobile"></i></span>
+        <!-- <span><i class="ti-mobile"></i></span> -->
+        <span><img src="home/images/logo/elelogo-min.png" alt="" srcset=""></span>
     </div>
 
     <!--Header-Area-->
@@ -229,10 +248,7 @@ if (isset($_GET['t_id'])) {
 
 
                     <div class="item"><img src="home/images/logo/circlelogo.png"
-                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""
-                            class="rotateimg180"></div>
-                    <!-- <div class="item"><img src="home/images/logo/elelogo.png" style="max-width: 350px; height:350px;margin-left:64px;margin-top:-620px" alt="" ></div> -->
-
+                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
 
 
 
@@ -372,7 +388,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/bluelogo.png" alt="" style="margin-top:60px;">
+                    <img src="home/images/logo/bluelogo.png" alt="">
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
@@ -381,7 +397,7 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-left">
                                 <div class="border-icon">
-                                    <span class="ti-user"></span>
+                                    <span class="ti-eye"></span>
                                 </div>
                             </div>
                             <div class="media-body">
@@ -692,7 +708,6 @@ if (isset($_GET['t_id'])) {
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
                     <div class="single-team relative panel fix">
                         <img src="assets/images/about/Sonali.jpg" alt="">
@@ -1009,272 +1024,250 @@ if (isset($_GET['t_id'])) {
                                     <a target="_blank" href="https://www.facebook.com/debalina.borah.9"><span
                                             class="ti-facebook"></span></a>
                                     <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                    <a target="_blank"
-                                        href="https://www.linkedin.com/in/debalina-borah-642791218/"><span
+                                    <a target="_blank" href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span
                                             class="ti-linkedin"></span></a>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                                <div class="single-team relative panel fix">
-                                    <img src="assets/images/about/soumya.jpg" alt="">
-                                    <div class="team_details text-center">
-                                        <h5 class="text-uppercase">SOUMYA SONI</h5>
-                                        <p>Executive Member</p>
-                                        <div class="social-menu">
-                                            <hr>
-                                            <a target="_blank"
-                                                href="https://www.facebook.com/profile.php?id=100056034555533"><span
-                                                    class="ti-facebook"></span></a>
-                                            <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                            <a target="_blank"
-                                                href="https://www.linkedin.com/in/soumya-soni-7a060719b"><span
-                                                    class="ti-linkedin"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                                <div class="single-team relative panel fix">
-                                    <img src="assets/images/about/shriyal.jpeg" alt="">
-                                    <div class="team_details text-center">
-                                        <h5 class="text-uppercase">SHRIYAL TANDON</h5>
-                                        <p>Executive Member</p>
-                                        <div class="social-menu">
-                                            <hr>
-                                            <a target="_blank" href="https://m.facebook.com/shriyal.tandon.1"><span
-                                                    class="ti-facebook"></span></a>
-                                            <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                            <a target="_blank"
-                                                href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span
-                                                    class="ti-linkedin"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
-                                <div class="single-team relative panel fix">
-                                    <img src="assets/images/about/reisha.jpg" alt="">
-                                    <div class="team_details text-center">
-                                        <h5 class="text-uppercase">REISHA AHMED</h5>
-                                        <p>Executive Member</p>
-                                        <div class="social-menu">
-                                            <hr>
-                                            <a target="_blank" href="https://www.facebook.com/reisha.ahmed.7"><span
-                                                    class="ti-facebook"></span></a>
-                                            <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                            <a target="_blank"
-                                                href="https://www.linkedin.com/in/reisa-ahmed-238a0b19a"><span
-                                                    class="ti-linkedin"></span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                    <div class="space-80"></div>
-
-
-
-                    <div class="space-80"></div>
-            </section>
-            <!--Team-Section/-->
-
-
-
-
-
-
-
-            <!-- new -->
-            <!-- end -->
-            <!-- faq section begin -->
-
-            <section class="fix" id="faq">
-                <div class="space-80"></div>
-                <div class="container">
-                    <div class="row wow fadeInUp">
-                        <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
-                            <h3 class="text-uppercase">Frequently asked questions</h3>
-                            <p>Following are some Frequently Asked Questions by students:</p>
                         </div>
                     </div>
-                    <div class="space-60"></div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-6 wow fadeInUp">
-                            <div class="space-60"></div>
-                            <div class="panel-group" id="accordion">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapse1">Q: Brief about Department of Electrical Engineering,
-                                                National Institute of Technology, Silchar. </a></h4>
-                                    </div>
-                                    <div id="collapse1" class="panel-collapse collapse ">
-                                        <div class="panel-body">The Department of Electrical Engineering of NIT, Silchar
-                                            is one of the finest and well equipped Electrical departments of the
-                                            north-east region. It boasts of having a highly qualified faculty with an
-                                            unparalled level of expertise in
-                                            their field. Under the able Headship of Dr. B. K. Roy and a strong faculty
-                                            team, the Department offers an 8 Semester B.Tech. Programme in Electrical
-                                            Engineering, a four Semester M.Tech. Programme in Power Energy Systems
-                                            Engineering
-                                            and also a well integrated Ph.D. programme. The department offers core
-                                            courses in Power Systems, Control Systems, Electrical Machines,
-                                            Instrumentation, Switchgear and Industrial Protection, Microprocessors and
-                                            Microcontrollers
-                                            etc. Apart from these, the final year students can choose from a wide array
-                                            of electives in the form of Computer Aided Power Systems, Flexible AC
-                                            Transmission etc. In coordination with the highly stimulating lectures and
-                                            quality
-                                            enhancing tutorials in these courses, various practical courses are also
-                                            held in the state-of-the-art Lab facilities of the department like Machine
-                                            Lab, Measurement Lab, Circuit Theory Lab and Microprocessor Lab, to name a
-                                            few.
-                                            The Department of Electrical Engineering is dynamic and vibrant in true
-                                            sense. Various research and development activities taken up by the
-                                            department put the students on busy schedules enabling them to blend to the
-                                            modern industrial
-                                            requirements. The course structure is constantly restructured to meet the
-                                            ever changing requirements of the volatile industrial market, keeping the
-                                            essence of the core Electrical Engineering intact. The pure expertise and
-                                            dedication
-                                            of the faculty members along with infrastructural facilities coupled with
-                                            the perseverance of the students have catapulted the branch to the top
-                                            league. Placement offers to the students have always shown an ever
-                                            increasing trend
-                                            and promise to be the best in future with the incoming boom of Power sector.
-                                            The department also has its own society, the 'Electra' comprising of the
-                                            faculty members and the 300 strong student members. It caters to all the
-                                            academic
-                                            and co-curricular persona of the branch. Cultural events for the members are
-                                            never scarce along with quizzes, aptitude tests, presentations and
-                                            industrial tours which are organised to bring the best out of a today's
-                                            Electrical
-                                            Engineer.</div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapse2">Q: What are the Programme Educational Objectives
-                                                (PEOs) of the Department of Electrical Engineering ? </a></h4>
-                                    </div>
-                                    <div id="collapse2" class="panel-collapse collapse">
-                                        <div class="panel-body">Programme Educational Objectives (B.Tech):<br> The
-                                            Electrical Engineering Department in conjunction with its constituents has
-                                            established the following Program Educational Objectives. The Electrical
-                                            Engineering Program will graduate
-                                            Electrical Engineering students who :<br> 1. will be productive in the
-                                            professional practice of engineering and related fields, will be able to
-                                            identify, formulate, create, analyze, design, develop, optimize, and
-                                            implement electrical
-                                            systems.<br> 2. will contribute to industry and/or government organizations
-                                            by applying the skills and knowledge acquired during the program period.<br>
-                                            3. shall be prepared for the successful pursuit of graduate studies and
-                                            shall
-                                            have the ability to engage in lifelong learning in electrical engineering
-                                            and related fields and will understand the challenges of a dynamically and
-                                            globalized changing world adapting their skills through continuous learning
-                                            and
-                                            self improvement.<br> 4. will be provided with solid foundation in
-                                            mathematical and engineering fundamentals required to solve engineering
-                                            problems and also to pursue research within the appropriate technological,
-                                            global, societal,
-                                            ethical and organizational context.<br> 5. will be able to inculcate a sense
-                                            of ethics, professionalism and effective communication skills amongst
-                                            graduates.</div>
-                                    </div>
-                                </div>
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapse3">Q: Brief about the academics of Electrical Engineering
-                                                Department.</a></h4>
-                                    </div>
-                                    <div id="collapse3" class="panel-collapse collapse">
-                                        <div class="panel-body">The Electrical Engineering Department was established in
-                                            1977 along with the establishment of Institute. It has been one of the best
-                                            departments in terms of infrastructural facilities and faculties. It has got
-                                            many well equipped
-                                            labs with modern equipment ranging from the highly equipped Machine Lab to
-                                            the latest PCs in the Computer Labs. It also has a well equipped CAD
-                                            laboratory..</div>
-                                    </div>
-                                </div>
-
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
-                                                href="#collapse4">Q: What are the Courses involved ?</a></h4>
-                                    </div>
-                                    <div id="collapse4" class="panel-collapse collapse">
-                                        <div class="panel-body"><b>Core</b><br> 1. Circuit Theory<br> 2. Electrical
-                                            Engineering Materials<br> 3. Linear Electronic Circuits<br> 4. Measurement &
-                                            Measuring Instruments<br> 5. Electromagnetic Fields<br> 6. Control
-                                            System<br> 7. Power System<br> 8. Electrical
-                                            Machines<br> 9. Digital Electronic Circuits<br> 10. Microprocessor Systems
-                                            and Applications<br> 11. Industrial Electronics<br> 12. Industrial
-                                            Instrumentation<br> 13. Switchgear and Protection<br> 14. Principles of
-                                            Communication<br> 15. Electric Drives<br> 16. Renewable Energy Source and
-                                            Management<br> 17. Signal Processing and Applications<br> 18. Computer
-                                            Applications in Electrical Engineering<br>
-
-
-                                            <b>Electives</b><br> 1. High Voltage Engineering<br> 2. Higher Control
-                                            System<br> 3. Digital Computer Organisation<br> 4. Computer Application in
-                                            Power System<br> 5. Hydro Electric Engineering<br> 6. Electric Power
-                                            Utilisation and
-                                            Traction<br> 7. E.H.V., A.C. and D.C. Transmission<br> 8. Industrial
-                                            Management<br> 9. Control System Components and System Design<br> 10. Fault
-                                            Detection and Diagnostic<br> 11. Electrodynamics and Advanced Field
-                                            Theory.<br>
-                                        </div>
-                                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/soumya.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">SOUMYA SONI</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank"
+                                        href="https://www.facebook.com/profile.php?id=100056034555533"><span
+                                            class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/soumya-soni-7a060719b"><span
+                                            class="ti-linkedin"></span></a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1 wow fadeInRight ">
-                            <img src="home/images/faq.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="space-40"></div>
-            </section>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/shriyal.jpeg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">SHRIYAL TANDON</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://m.facebook.com/shriyal.tandon.1"><span
+                                            class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span
+                                            class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/reisha.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">REISHA AHMED</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/reisha.ahmed.7"><span
+                                            class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/reisa-ahmed-238a0b19a"><span
+                                            class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-            <!-- faq ends   -->
 
-            <!--Footer-area-->
+        </div>
 
-            <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
+        <div class="space-80"></div>
 
 
-            <!--Vendor JS-->
-            <script src="home/js/vendor/jquery-1.12.4.min.js"></script>
-            <script src="home/js/vendor/bootstrap.min.js"></script>
-            <!--Plugin JS-->
-            <script src="home/js/owl.carousel.min.js"></script>
-            <script src="home/js/scrollUp.min.js"></script>
-            <script src="home/js/magnific-popup.min.js"></script>
-            <script src="home/js/ripples-min.js"></script>
-            <script src="home/js/contact-form.js"></script>
-            <script src="home/js/spectragram.min.js"></script>
-            <script src="home/js/particles.min.js"></script>
-            <script src="home/js/particles-app.js"></script>
-            <script src="home/js/ajaxchimp.js"></script>
-            <script src="home/js/wow.min.js"></script>
-            <script src="home/js/plugins.js"></script>
-            <!--Active JS-->
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <script src="home/js/main.js"></script>
-            <!--Maps JS-->
-            <script type="text/javascript"
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>
-            <script src="home/js/maps.js"></script>
+
+        <div class="space-80"></div>
+    </section>
+    <!--Team-Section/-->
+
+
+
+
+
+
+
+    <!-- new -->
+    <!-- end -->
+    <!-- faq section begin -->
+
+    <section class="fix" id="faq">
+        <div class="space-80"></div>
+        <div class="container">
+            <div class="row wow fadeInUp">
+                <div class="col-xs-12 col-md-6 col-md-offset-3 text-center">
+                    <h3 class="text-uppercase">Frequently asked questions</h3>
+                    <p>Following are some Frequently Asked Questions by students:</p>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 wow fadeInUp">
+                    <div class="space-60"></div>
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse1">Q: Brief about Department of Electrical Engineering, National
+                                        Institute of Technology, Silchar. </a></h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse ">
+                                <div class="panel-body">The Department of Electrical Engineering of NIT, Silchar is one
+                                    of the finest and well equipped Electrical departments of the north-east region. It
+                                    boasts of having a highly qualified faculty with an unparalled level of expertise in
+                                    their field. Under the able Headship of Dr. B. K. Roy and a strong faculty team, the
+                                    Department offers an 8 Semester B.Tech. Programme in Electrical Engineering, a four
+                                    Semester M.Tech. Programme in Power Energy Systems Engineering
+                                    and also a well integrated Ph.D. programme. The department offers core courses in
+                                    Power Systems, Control Systems, Electrical Machines, Instrumentation, Switchgear and
+                                    Industrial Protection, Microprocessors and Microcontrollers
+                                    etc. Apart from these, the final year students can choose from a wide array of
+                                    electives in the form of Computer Aided Power Systems, Flexible AC Transmission etc.
+                                    In coordination with the highly stimulating lectures and quality
+                                    enhancing tutorials in these courses, various practical courses are also held in the
+                                    state-of-the-art Lab facilities of the department like Machine Lab, Measurement Lab,
+                                    Circuit Theory Lab and Microprocessor Lab, to name a few.
+                                    The Department of Electrical Engineering is dynamic and vibrant in true sense.
+                                    Various research and development activities taken up by the department put the
+                                    students on busy schedules enabling them to blend to the modern industrial
+                                    requirements. The course structure is constantly restructured to meet the ever
+                                    changing requirements of the volatile industrial market, keeping the essence of the
+                                    core Electrical Engineering intact. The pure expertise and dedication
+                                    of the faculty members along with infrastructural facilities coupled with the
+                                    perseverance of the students have catapulted the branch to the top league. Placement
+                                    offers to the students have always shown an ever increasing trend
+                                    and promise to be the best in future with the incoming boom of Power sector. The
+                                    department also has its own society, the 'Electra' comprising of the faculty members
+                                    and the 300 strong student members. It caters to all the academic
+                                    and co-curricular persona of the branch. Cultural events for the members are never
+                                    scarce along with quizzes, aptitude tests, presentations and industrial tours which
+                                    are organised to bring the best out of a today's Electrical
+                                    Engineer.</div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse2">Q: What are the Programme Educational Objectives (PEOs) of the
+                                        Department of Electrical Engineering ? </a></h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">Programme Educational Objectives (B.Tech):<br> The Electrical
+                                    Engineering Department in conjunction with its constituents has established the
+                                    following Program Educational Objectives. The Electrical Engineering Program will
+                                    graduate
+                                    Electrical Engineering students who :<br> 1. will be productive in the professional
+                                    practice of engineering and related fields, will be able to identify, formulate,
+                                    create, analyze, design, develop, optimize, and implement electrical
+                                    systems.<br> 2. will contribute to industry and/or government organizations by
+                                    applying the skills and knowledge acquired during the program period.<br> 3. shall
+                                    be prepared for the successful pursuit of graduate studies and shall
+                                    have the ability to engage in lifelong learning in electrical engineering and
+                                    related fields and will understand the challenges of a dynamically and globalized
+                                    changing world adapting their skills through continuous learning and
+                                    self improvement.<br> 4. will be provided with solid foundation in mathematical and
+                                    engineering fundamentals required to solve engineering problems and also to pursue
+                                    research within the appropriate technological, global, societal,
+                                    ethical and organizational context.<br> 5. will be able to inculcate a sense of
+                                    ethics, professionalism and effective communication skills amongst graduates.</div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse3">Q: Brief about the academics of Electrical Engineering
+                                        Department.</a></h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">The Electrical Engineering Department was established in 1977
+                                    along with the establishment of Institute. It has been one of the best departments
+                                    in terms of infrastructural facilities and faculties. It has got many well equipped
+                                    labs with modern equipment ranging from the highly equipped Machine Lab to the
+                                    latest PCs in the Computer Labs. It also has a well equipped CAD laboratory..</div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse4">Q: What are the Courses involved ?</a></h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body"><b>Core</b><br> 1. Circuit Theory<br> 2. Electrical Engineering
+                                    Materials<br> 3. Linear Electronic Circuits<br> 4. Measurement & Measuring
+                                    Instruments<br> 5. Electromagnetic Fields<br> 6. Control System<br> 7. Power
+                                    System<br> 8. Electrical
+                                    Machines<br> 9. Digital Electronic Circuits<br> 10. Microprocessor Systems and
+                                    Applications<br> 11. Industrial Electronics<br> 12. Industrial Instrumentation<br>
+                                    13. Switchgear and Protection<br> 14. Principles of Communication<br> 15. Electric
+                                    Drives<br> 16. Renewable Energy Source and Management<br> 17. Signal Processing and
+                                    Applications<br> 18. Computer Applications in Electrical Engineering<br>
+
+
+                                    <b>Electives</b><br> 1. High Voltage Engineering<br> 2. Higher Control System<br> 3.
+                                    Digital Computer Organisation<br> 4. Computer Application in Power System<br> 5.
+                                    Hydro Electric Engineering<br> 6. Electric Power Utilisation and
+                                    Traction<br> 7. E.H.V., A.C. and D.C. Transmission<br> 8. Industrial Management<br>
+                                    9. Control System Components and System Design<br> 10. Fault Detection and
+                                    Diagnostic<br> 11. Electrodynamics and Advanced Field Theory.<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-5 col-md-offset-1 wow fadeInRight ">
+                    <img src="home/images/faq.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="space-40"></div>
+    </section>
+
+    <!-- faq ends   -->
+
+    <!--Footer-area-->
+
+    <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
+
+
+    <!--Vendor JS-->
+    <script src="home/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="home/js/vendor/bootstrap.min.js"></script>
+    <!--Plugin JS-->
+    <script src="home/js/owl.carousel.min.js"></script>
+    <script src="home/js/scrollUp.min.js"></script>
+    <script src="home/js/magnific-popup.min.js"></script>
+    <script src="home/js/ripples-min.js"></script>
+    <script src="home/js/contact-form.js"></script>
+    <script src="home/js/spectragram.min.js"></script>
+    <script src="home/js/particles.min.js"></script>
+    <script src="home/js/particles-app.js"></script>
+    <script src="home/js/ajaxchimp.js"></script>
+    <script src="home/js/wow.min.js"></script>
+    <script src="home/js/plugins.js"></script>
+    <!--Active JS-->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="home/js/main.js"></script>
+    <!--Maps JS-->
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&amp;sensor=false"></script>
+    <script src="home/js/maps.js"></script>
 </body>
 
 
