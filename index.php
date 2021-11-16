@@ -81,30 +81,13 @@ if (isset($_GET['t_id'])) {
     <link rel="stylesheet" href="home/style.css">
     <link rel="stylesheet" href="home/css/responsive.css">
     <script src="home/js/vendor/modernizr-2.8.3.min.js"></script>
-    <style>
-        .move-up-icon{
-            width: 100px;
-            height: 100px;
-        }
-        @media screen and (max-width:768px) {
-            .move-up-icon{
-                width: 75px;
-                height: 75px;
-            }
-            #scrollUp{
-                right: 0px;
-                bottom: 40px;
-            }
-        }
-    </style>
 </head>
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
 
 
     <div class="preloade">
-        <!-- <span><i class="ti-mobile"></i></span> -->
-        <span><img src="home/images/logo/elelogo-min.png" alt="" srcset=""></span>
+        <span><i class="ti-mobile"></i></span>
     </div>
 
     <!--Header-Area-->
@@ -906,7 +889,6 @@ if (isset($_GET['t_id'])) {
                             </div>
                         </div>
                     </div>
-<<<<<<< HEAD
                     <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="single-team relative panel fix">
                             <img src="assets/images/about/debalina.jpg" alt="">
@@ -919,20 +901,6 @@ if (isset($_GET['t_id'])) {
                                     <!-- <a href="#"><span class="ti-github"></span></a> -->
                                     <a target="_blank" href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
                                 </div>
-=======
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/debalina.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">DEBALINA BORAH</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/debalina.borah.9"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/debalina-borah-642791218/"><span class="ti-linkedin"></span></a>
->>>>>>> 270b8295ef27b72653f34fa6b4e4bdbaacd38d35
                             </div>
                         </div>
                     </div>
