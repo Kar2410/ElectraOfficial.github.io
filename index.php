@@ -343,7 +343,7 @@ if (isset($_GET['t_id'])) {
                     <!-- <div class="down-offset relative "> -->
                     <!-- <img src="images/mobile21.png" alt=""> -->
 
-                    <img src="home/images/logo/bluelogo.png" alt="">
+                    <img src="home/images/logo/bluelogo.png" alt="" style="margin-top:60px;">
                     <!-- </div> -->
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInRight">
