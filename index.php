@@ -81,13 +81,30 @@ if (isset($_GET['t_id'])) {
     <link rel="stylesheet" href="home/style.css">
     <link rel="stylesheet" href="home/css/responsive.css">
     <script src="home/js/vendor/modernizr-2.8.3.min.js"></script>
+    <style>
+        .move-up-icon{
+            width: 100px;
+            height: 100px;
+        }
+        @media screen and (max-width:768px) {
+            .move-up-icon{
+                width: 75px;
+                height: 75px;
+            }
+            #scrollUp{
+                right: 0px;
+                bottom: 40px;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
 
 
     <div class="preloade">
-        <span><i class="ti-mobile"></i></span>
+        <!-- <span><i class="ti-mobile"></i></span> -->
+        <span><img src="home/images/logo/elelogo-min.png" alt="" srcset=""></span>
     </div>
 
     <!--Header-Area-->

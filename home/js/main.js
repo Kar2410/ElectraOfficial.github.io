@@ -9,7 +9,7 @@ jQuery(document).ready(function ($) {
     /* Scroll to top
     ===================*/
     $.scrollUp({
-        scrollText: '<lottie-player src="https://assets5.lottiefiles.com/packages/lf20_eaooo35f.json"  background="transparent"  speed="1"  style="width: 100px; height:100px"  loop  autoplay></lottie-player>',
+        scrollText: '<lottie-player class="move-up-icon" src="https://assets5.lottiefiles.com/packages/lf20_eaooo35f.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>',
         easingType: 'linear',
         scrollSpeed: 900,
         animation: 'fade'
