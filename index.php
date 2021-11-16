@@ -63,8 +63,7 @@ if (isset($_GET['t_id'])) {
     <link rel="stylesheet" href="assets/css/footer.css">
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
     <!-- Plugin-CSS -->
@@ -85,7 +84,7 @@ if (isset($_GET['t_id'])) {
 </head>
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
-  
+
 
     <div class="preloade">
         <span><i class="ti-mobile"></i></span>
@@ -207,7 +206,9 @@ if (isset($_GET['t_id'])) {
                 <div class="hidden-xs hidden-sm col-md-4">
 
 
-                    <div class="item"><img src="home/images/logo/circlelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
+                    <div class="item"><img src="home/images/logo/circlelogo.png" style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt="" class="rotateimg180"></div>
+                    <!-- <div class="item"><img src="home/images/logo/elelogo.png" style="max-width: 350px; height:350px;margin-left:64px;margin-top:-620px" alt="" ></div> -->
+
 
 
 
@@ -532,8 +533,8 @@ if (isset($_GET['t_id'])) {
                             <p>President</p>
                             <div class="social-menu" target>
                                 <hr>
-                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100009279933916"><span class="ti-facebook"></span></a>
-                                <a target="_blank"  href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/"><span class="ti-linkedin"></span></a>
+                                <a target="_blank" href="https://www.facebook.com/profile.php?id=100009279933916"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -546,8 +547,8 @@ if (isset($_GET['t_id'])) {
                             <p>General Secretary</p>
                             <div class="social-menu">
                                 <hr>
-                                <a target="_blank"  href=" https://www.facebook.com/profile.php?id=100003308682971"><span class="ti-facebook"></span></a>
-                                <a target="_blank"  href="https://www.linkedin.com/in/gaurav-singh-5824881b4/ "><span class="ti-linkedin"></span></a>
+                                <a target="_blank" href=" https://www.facebook.com/profile.php?id=100003308682971"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/gaurav-singh-5824881b4/ "><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -560,8 +561,8 @@ if (isset($_GET['t_id'])) {
                             <p>Vice President(General)</p>
                             <div class="social-menu">
                                 <hr>
-                                <a target="_blank"  href=" https://www.facebook.com/prastuti.mazumdar.3"><span class="ti-facebook"></span></a>
-                                <a target="_blank"  href="https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><span class="ti-linkedin"></span></a>
+                                <a target="_blank" href=" https://www.facebook.com/prastuti.mazumdar.3"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
@@ -574,383 +575,383 @@ if (isset($_GET['t_id'])) {
                             <p>Vice President(Technical)</p>
                             <div class="social-menu">
                                 <hr>
-                                <a target="_blank"  href="https://www.facebook.com/arko.kashyap"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.facebook.com/arko.kashyap"><span class="ti-facebook"></span></a>
                                 <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/"><span class="ti-linkedin"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/"><span class="ti-linkedin"></span></a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/Priyanki.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">PRIYANKI PRIYAM BORGOHAIN</h5>
+                            <p>Assistant General Secretary</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a target="_blank" href=" https://www.facebook.com/pihu.gohain.58"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href=" https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/kartik.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">KARTIK VERMA</h5>
+                            <p>Senior Technical Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a target="_blank" href="https://www.facebook.com/kartik.verma.5492"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://github.com/Kar2410"><span class="ti-github"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/kartik07/"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/Nihal.jpeg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">NIHAL DWIVEDI</h5>
+                            <p>Senior Technical Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a target="_blank" href="https://www.facebook.com/nihal.dwivedi.7549"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/nihal-dwivedi-6623281a0/"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/Sonali.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">SONALI KANU</h5>
+                            <p>Senior Executive Member</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a target="_blank" href="https://www.facebook.com/sonalikanu.999"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="single-team relative panel fix">
+                        <img src="assets/images/about/Sarmistha.jpg" alt="">
+                        <div class="team_details text-center">
+                            <h5 class="text-uppercase">SARMISTHA BORA</h5>
+                            <p>Literary Representative</p>
+                            <div class="social-menu">
+                                <hr>
+                                <a target="_blank" href="https://www.facebook.com/sarmistha.bora1"><span class="ti-facebook"></span></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/sarmistha-bora/"><span class="ti-linkedin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-80"></div>
+            <!-- <div class="space-60"></div> -->
+            <h3 class="text-uppercase">JUNIOR MEMBERS</h3>
+            <section class="gray-bg" id="team">
+
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="single-team relative panel fix">
-                            <img src="assets/images/about/Priyanki.jpg" alt="">
+                            <img src="assets/images/about/biju.jpg" alt="">
                             <div class="team_details text-center">
-                                <h5 class="text-uppercase">PRIYANKI PRIYAM BORGOHAIN</h5>
-                                <p>Assistant General Secretary</p>
+                                <h5 class="text-uppercase">BIJU BORAH</h5>
+                                <p>Technical Member(Web-D)</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a target="_blank"  href=" https://www.facebook.com/pihu.gohain.58"><span class="ti-facebook"></span></a>
-                                    <a target="_blank"  href=" https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><span class="ti-facebook"></span></a>
+                                    <a target="_blank" href="https://github.com/biju-borah"><span class="ti-github"></span></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="single-team relative panel fix">
-                            <img src="assets/images/about/kartik.jpg" alt="">
+                            <img src="assets/images/about/debasish.jpg" alt="">
                             <div class="team_details text-center">
-                                <h5 class="text-uppercase">KARTIK VERMA</h5>
-                                <p>Senior Technical Member</p>
+                                <h5 class="text-uppercase">DEBASISH KONWAR</h5>
+                                <p>Technical Member(Web-D)</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a target="_blank"  href="https://www.facebook.com/kartik.verma.5492"><span class="ti-facebook"></span></a>
-                                    <a target="_blank"  href="https://github.com/Kar2410"><span class="ti-github"></span></a>
-                                    <a target="_blank"  href="https://www.linkedin.com/in/kartik07/"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank" href="https://www.facebook.com/debasish.konwar.25"><span class="ti-facebook"></span></a>
+                                    <a target="_blank" href="https://github.com/debasish-konwar"><span class="ti-github"></span></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/debasishkonwar/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="single-team relative panel fix">
-                            <img src="assets/images/about/Nihal.jpeg" alt="">
+                            <img src="assets/images/about/ritesh.jpeg" alt="">
                             <div class="team_details text-center">
-                                <h5 class="text-uppercase">NIHAL DWIVEDI</h5>
-                                <p>Senior Technical Member</p>
+                                <h5 class="text-uppercase">RITESH KUMAR</h5>
+                                <p>Technical Member(Web-D)</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a target="_blank"  href="https://www.facebook.com/nihal.dwivedi.7549"><span class="ti-facebook"></span></a>
-                                    <a target="_blank"  href="https://www.linkedin.com/in/nihal-dwivedi-6623281a0/"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank" href="https://www.facebook.com/people/Ritesh-Kumar/100006925869901/"><span class="ti-facebook"></span></a>
+                                    <a target="_blank" href="https://github.com/Ritesh565"><span class="ti-github"></span></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/ritesh-kumar-435b08216"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="single-team relative panel fix">
-                            <img src="assets/images/about/Sonali.jpg" alt="">
+                            <img src="assets/images/about/tanmay.jpg" alt="">
                             <div class="team_details text-center">
-                                <h5 class="text-uppercase">SONALI KANU</h5>
-                                <p>Senior Executive Member</p>
+                                <h5 class="text-uppercase">TANMAY TRIPATHY</h5>
+                                <p>Technical Member(Graphics)</p>
                                 <div class="social-menu">
                                     <hr>
-                                    <a target="_blank"  href="https://www.facebook.com/sonalikanu.999"><span class="ti-facebook"></span></a>
-                                    <a target="_blank"  href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/"><span class="ti-linkedin"></span></a>
+                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100009726932773"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/tanmay-tripathy"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/Sarmistha.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">SARMISTHA BORA</h5>
-                                    <p>Literary Representative</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/sarmistha.bora1"><span class="ti-facebook"></span></a>
-                                        <a target="_blank"  href="https://www.linkedin.com/in/sarmistha-bora/"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                
-                    <div class="space-80"></div>
-                <!-- <div class="space-60"></div> -->
-                <h3 class="text-uppercase">JUNIOR MEMBERS</h3>
-                <section class="gray-bg" id="team">
 
-
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/biju.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">BIJU BORAH</h5>
-                                    <p>Technical Member(Web-D)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><span class="ti-facebook"></span></a>
-                                        <a target="_blank"  href="https://github.com/biju-borah"><span class="ti-github"></span></a>
-                                        <a target="_blank"  href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/debasish.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">DEBASISH KONWAR</h5>
-                                    <p>Technical Member(Web-D)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/debasish.konwar.25"><span class="ti-facebook"></span></a>
-                                        <a target="_blank"  href="https://github.com/debasish-konwar"><span class="ti-github"></span></a>
-                                        <a target="_blank"  href="https://www.linkedin.com/in/debasishkonwar/"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/ritesh.jpeg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">RITESH KUMAR</h5>
-                                    <p>Technical Member(Web-D)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/people/Ritesh-Kumar/100006925869901/"><span class="ti-facebook"></span></a>
-                                        <a target="_blank"  href="https://github.com/Ritesh565"><span class="ti-github"></span></a>
-                                        <a target="_blank"  href="https://www.linkedin.com/in/ritesh-kumar-435b08216"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/tanmay.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">TANMAY TRIPATHY</h5>
-                                    <p>Technical Member(Graphics)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/profile.php?id=100009726932773"><span class="ti-facebook"></span></a>
-                                        <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a target="_blank"  href="https://www.linkedin.com/in/tanmay-tripathy"><span class="ti-linkedin"></span></a>
-                                    </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/reetom.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">REETOM RANA DUTTA</h5>
+                                <p>Technical Member(Graphics)</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/reetom.ranadutta"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/reetom-rana-dutta-34156220a"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/rohan.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">ROHAN DEB</h5>
+                                <p>Technical Member(Graphics)</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/rohan.deb.908579"><span class="ti-facebook"></span></a>
+                                    <a target="_blank" href="https://github.com/RohanDeb1"><span class="ti-github"></span></a>
+                                    <a target="_blank" href="https://www.linkedin.com/in/rohan-deb-444ab8204"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/juman.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">JUMAN JIN DEKA</h5>
+                                <p>Technical Member(Graphics)</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/juman.sos"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/juman-jin-deka-4a3188202/"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/prakritish.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">PROKRITISH NISSAN BORA</h5>
+                                <p>Technical Member(Graphics)</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/prakritish.nissan"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/prakritish-nissan-249428220/"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/reetom.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">REETOM RANA DUTTA</h5>
-                                    <p>Technical Member(Graphics)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/reetom.ranadutta"><span class="ti-facebook"></span></a>
-                                        <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a target="_blank"  href="https://www.linkedin.com/in/reetom-rana-dutta-34156220a"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/rohan.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">ROHAN DEB</h5>
-                                    <p>Technical Member(Graphics)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/rohan.deb.908579"><span class="ti-facebook"></span></a>
-                                        <a target="_blank"  href="https://github.com/RohanDeb1"><span class="ti-github"></span></a>
-                                        <a target="_blank"  href="https://www.linkedin.com/in/rohan-deb-444ab8204"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/juman.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">JUMAN JIN DEKA</h5>
-                                    <p>Technical Member(Graphics)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/juman.sos"><span class="ti-facebook"></span></a>
-                                        <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a target="_blank"  href="https://www.linkedin.com/in/juman-jin-deka-4a3188202/"><span class="ti-linkedin"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                            <div class="single-team relative panel fix">
-                                <img src="assets/images/about/prakritish.jpg" alt="">
-                                <div class="team_details text-center">
-                                    <h5 class="text-uppercase">PROKRITISH NISSAN BORA</h5>
-                                    <p>Technical Member(Graphics)</p>
-                                    <div class="social-menu">
-                                        <hr>
-                                        <a target="_blank"  href="https://www.facebook.com/prakritish.nissan"><span class="ti-facebook"></span></a>
-                                        <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                        <a target="_blank"  href="https://www.linkedin.com/in/prakritish-nissan-249428220/"><span class="ti-linkedin"></span></a>
-                                    </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/arpit.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">ARPIT JAISWAL</h5>
+                                <p>Technical Member(Graphics)</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/arpit.jaiswal.965/"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/arpit-jaiswal-7166b0201/"><span class="ti-linkedin"></span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-            
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/arpit.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">ARPIT JAISWAL</h5>
-                            <p>Technical Member(Graphics)</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/arpit.jaiswal.965/"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/arpit-jaiswal-7166b0201/"><span class="ti-linkedin"></span></a>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/miraj.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">MIRAJ DEKA</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/miraz.deka"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/miraj-deka-32a78720a"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/ajay.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">GUDLA AJAY BABU</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/ajay.dhoni.904"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/ajay-gudla-31545b20a"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/kavya.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">KAVYA SHARMA</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100008131120392"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/kavya-sharma-b143651ba"><span class="ti-linkedin"></span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/miraj.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">MIRAJ DEKA</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/miraz.deka"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/miraj-deka-32a78720a"><span class="ti-linkedin"></span></a>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/gillian.jpeg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">GILLIAN ANTHONY</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/gillian.anthony.18"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/gillian-anthony-40b1a521a"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/suman.jpeg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">SUMAN GOSWAMI</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100058459812857"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/suman-goswami-aabb93218/"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/debalina.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">DEBALINA BORAH</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/debalina.borah.9"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/soumya.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">SOUMYA SONI</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100056034555533"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/soumya-soni-7a060719b"><span class="ti-linkedin"></span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/ajay.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">GUDLA AJAY BABU</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/ajay.dhoni.904"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/ajay-gudla-31545b20a"><span class="ti-linkedin"></span></a>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/shriyal.jpeg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">SHRIYAL TANDON</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://m.facebook.com/shriyal.tandon.1"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="single-team relative panel fix">
+                            <img src="assets/images/about/reisha.jpg" alt="">
+                            <div class="team_details text-center">
+                                <h5 class="text-uppercase">REISHA AHMED</h5>
+                                <p>Executive Member</p>
+                                <div class="social-menu">
+                                    <hr>
+                                    <a target="_blank" href="https://www.facebook.com/reisha.ahmed.7"><span class="ti-facebook"></span></a>
+                                    <!-- <a href="#"><span class="ti-github"></span></a> -->
+                                    <a target="_blank" href="https://www.linkedin.com/in/reisa-ahmed-238a0b19a"><span class="ti-linkedin"></span></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/kavya.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">KAVYA SHARMA</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100008131120392"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/kavya-sharma-b143651ba"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/gillian.jpeg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">GILLIAN ANTHONY</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/gillian.anthony.18"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/gillian-anthony-40b1a521a"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/suman.jpeg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">SUMAN GOSWAMI</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100058459812857"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/suman-goswami-aabb93218/"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.6s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/debalina.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">DEBALINA BORAH</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/debalina.borah.9"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.8s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/soumya.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">SOUMYA SONI</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/profile.php?id=100056034555533"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/soumya-soni-7a060719b"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/shriyal.jpeg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">SHRIYAL TANDON</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://m.facebook.com/shriyal.tandon.1"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-3 wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="single-team relative panel fix">
-                        <img src="assets/images/about/reisha.jpg" alt="">
-                        <div class="team_details text-center">
-                            <h5 class="text-uppercase">REISHA AHMED</h5>
-                            <p>Executive Member</p>
-                            <div class="social-menu">
-                                <hr>
-                                <a target="_blank"  href="https://www.facebook.com/reisha.ahmed.7"><span class="ti-facebook"></span></a>
-                                <!-- <a href="#"><span class="ti-github"></span></a> -->
-                                <a target="_blank"  href="https://www.linkedin.com/in/reisa-ahmed-238a0b19a"><span class="ti-linkedin"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
         </div>
