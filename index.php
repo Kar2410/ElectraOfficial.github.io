@@ -352,7 +352,7 @@ if (isset($_GET['t_id'])) {
                         <div class="media single-feature">
                             <div class="media-left">
                                 <div class="border-icon">
-                                    <span class="ti-eye"></span>
+                                    <span class="ti-user"></span>
                                 </div>
                             </div>
                             <div class="media-body">
