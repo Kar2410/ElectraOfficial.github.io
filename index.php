@@ -99,6 +99,14 @@ if (isset($_GET['t_id'])) {
                 bottom: 40px;
             }
         }
+        .nav-logo{
+            height: 50px;
+        }
+        @media screen and (max-width:600px) {
+            .nav-logo{
+                height: 52px;
+            }
+        }
     </style>
 </head>
 
@@ -127,6 +135,7 @@ if (isset($_GET['t_id'])) {
                         <!-- <img src="images/logo/2mobile.png" alt=""> -->
                         <h2 class="text-white logo-text">Electra Society</h2>
                     </a>
+                    <img class="nav-logo" src="home/images/elelogo.png" alt="" srcset="">
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="mainmenu">
                     <ul class="nav navbar-nav">
