@@ -783,6 +783,5 @@
 
     <!-- Custom Script -->
     <script src="assets/js/scripts.js"></script>
-
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
 </body>
