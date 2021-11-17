@@ -104,7 +104,9 @@ if (isset($_GET['t_id'])) {
         }
         @media screen and (max-width:600px) {
             .nav-logo{
-                height: 52px;
+                height: 60px;
+                width: 60px;
+                margin-left: -9px;
             }
         }
     </style>
