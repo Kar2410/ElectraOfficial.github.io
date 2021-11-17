@@ -24,9 +24,9 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `posts`
+/*-- Table structure for table `posts`
 --
-
+*/
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,

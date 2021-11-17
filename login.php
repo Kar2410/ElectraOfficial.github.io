@@ -19,6 +19,9 @@ guestsOnly();
 
   <!-- Custom Styling -->
   <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- browser tab icon -->
+<link rel="shortcut icon" type="home/image/ico" href="home/images/elelogo.png" />
 
   <title>Login</title>
 </head>
@@ -45,7 +48,7 @@ guestsOnly();
       <div>
         <button type="submit" name="login-btn" class="btn btn-big">Login</button>
       </div>
-      <p>Or <a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></p>
+      <!-- <p>Or <a href="<?php echo BASE_URL . '/register.php' ?>">Sign Up</a></p> -->
     </form>
 
   </div>
