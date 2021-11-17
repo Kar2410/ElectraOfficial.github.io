@@ -10,11 +10,10 @@
         
           <li><a href="<?php echo BASE_URL . '/index' ?>">Home</a></li>
           <!-- <li><a href="<?php echo BASE_URL . '/about' ?>">About</a></li> -->
-          <li><a href="<?php echo BASE_URL . '/announcement' ?>">Announcement</a></li>
-
-          
+          <li><a href="<?php echo BASE_URL . '/announcement' ?>">Announcement</a></li>  
+            <li><a href="<?php echo BASE_URL . '/blog' ?>">Blog</a></li>
             <li><a href="<?php echo BASE_URL . '/Explore_NITS/index.html' ?>">Electra NITS</a></li>
-            <li><a href="<?php echo BASE_URL . '/alumni' ?>">Alumni</a></li>
+
 
 
       <?php if (isset($_SESSION['id'])): ?>
