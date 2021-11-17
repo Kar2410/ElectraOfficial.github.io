@@ -149,14 +149,13 @@ header ul li a:hover {
     transition: 0.5s;
 }
 
-
-/* img.rotateimg180 {
+img.rotateimg180 {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-    animation: rotation 5s linear infinite;
+    animation: rotation 3.5s linear infinite;
 }
 
 @keyframes rotation {
@@ -166,4 +165,4 @@ header ul li a:hover {
     to {
         transform: rotate(359deg);
     }
-} */
+}
