@@ -66,9 +66,11 @@
 /*----------------------
 Header-Background
 -----------------------*/
+
 .parallax-image img {
     position: absolute;
 }
+
 .section-bg {
     height: 100%;
     left: 0;
@@ -425,12 +427,12 @@ Angle-background
     width: 40px;
 }
 
-.table > tbody > tr > td,
-.table > tbody > tr > th,
-.table > tfoot > tr > td,
-.table > tfoot > tr > th,
-.table > thead > tr > td,
-.table > thead > tr > th {
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
     vertical-align: middle;
     border: none;
     margin: 10px 0;
@@ -446,21 +448,25 @@ address {
     min-height: 45px;
     font-size: 14px;
 }
+
 .subscrie-form .form-control:focus {
- color: #666666;
+    color: #666666;
 }
+
 .subscrie-form .btn {
     border-radius: 0 100px 100px 0;
     min-width: 150px;
     min-height: 45px;
 }
+
 .mt10 {
-  bottom: -38px;
-  left: 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
+    bottom: -38px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
 }
+
 .md-icon {
     font-size: 26px;
 }
@@ -589,6 +595,7 @@ address {
     /* width: 40px; */
 }
 
+
 /* #scrollUp:hover {
     background-color: #55c4b5;
 } */
@@ -635,8 +642,8 @@ address {
     left: 50%;
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     width: 83%;
 }
 
@@ -818,14 +825,17 @@ Pagination
     -webkit-transform: translateY(0px);
     transform: translateY(0px);
 }
+
 .hover-shadow:hover {
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.2);
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
+
 .no-round {
     border-radius: 2px !important;
 }
+
 .fixed {
     position: fixed;
     top: 0;
