@@ -247,8 +247,10 @@ if (isset($_GET['t_id'])) {
                 <div class="hidden-xs hidden-sm col-md-4">
 
 
-                    <div class="item"><img src="home/images/logo/circlelogo.png"
-                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-50px" alt=""></div>
+                    <div class="item"><img src="home/images/logo/elelogo.png"
+                            style="max-width: 300px; height:300px;margin-left:90px;margin-top:80px" alt=""></div>
+                    <div class="item"><img src="home/images/logo/logo.gif"
+                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-450px" alt=""></div>
 
 
 
