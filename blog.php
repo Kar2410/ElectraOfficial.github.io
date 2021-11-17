@@ -34,6 +34,9 @@ if (isset($_GET['t_id'])) {
   <!-- Custom Styling -->
   <link rel="stylesheet" href="assets/css/style.css">
 
+<!-- browser tab icon -->
+  <link rel="shortcut icon" type="home/image/ico" href="home/images/elelogo.png" />
+
   <title>Blog</title>
 </head>
 
