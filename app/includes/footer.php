@@ -24,7 +24,7 @@
       <br>
       <ul>
         <li><a href="<?php echo BASE_URL . '/index' ?>">Home</a></li>
-        <li><a href="<?php echo BASE_URL . '/about' ?>">About</a></li>
+        
         <li><a href="<?php echo BASE_URL . '/announcement' ?>">Announcement</a></li>
 
 
