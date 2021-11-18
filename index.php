@@ -259,9 +259,9 @@ if (isset($_GET['t_id'])) {
 
 
                     <div class="item"><img src="home/images/logo/elelogo.png"
-                            style="max-width: 300px; height:300px;margin-left:90px;margin-top:80px" alt=""></div>
-                    <div class="item"><img src="home/images/logo/logo.gif"
-                            style="max-width: 600px; height:600px;margin-left:-60px;margin-top:-450px" alt="" class="rotateimg280"></div>
+                            style="max-width: 300px; height:300px;margin-left:92px;margin-top:87px" alt=""></div> 
+                    <div class="item"><img src="home/images/logo/circle.png"
+                            style="max-width: 600px; height:600px;margin-left:-57px;margin-top:-460px" alt="" class="rotateimg180"></div>
 
 
 
