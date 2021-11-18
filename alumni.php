@@ -1,4 +1,8 @@
-<?php include('path.php'); ?>
+<?php include('path.php'); 
+include(ROOT_PATH . "/app/controllers/topics.php");
+
+
+?>
 
 
 <!DOCTYPE html>
@@ -14,7 +18,6 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/alumni.css" />
-    <script src="assets/js/modernizr.custom.js"></script>
 
 <!-- browser tab icon -->
 <link rel="shortcut icon" type="home/image/ico" href="home/images/elelogo.png" />
@@ -45,11 +48,6 @@
             /* background-image: linear-gradient(315deg, #ffffff 0%, #afb2b3 74%); */
         }
 
-        .container{
-            /* background-image: url('assets/images/alumni/alumni-bg.svg');
-            background-position: center;
-            background-size: cover; */
-        }
         /* updated */
         #card-section {
             display: flex;
@@ -392,6 +390,10 @@
     <!-- Custom Script -->
     <script src="assets/js/scripts.js"></script>
     <script src="assets/js/cbpFWTabs.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+
+    
+
     <script>
         (function () {
 
