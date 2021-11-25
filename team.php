@@ -47,7 +47,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
 
   <section>
-    <h1 style="text-align: center;font-size: xxx-large;margin-top: 5rem;">Our Senior Members</h1>
+    <h1 style="text-align: center;font-size: xxx-large;margin-top: 3rem;">Our Senior Members</h1>
     <div class="container">
       <div class="card card2">
          <div class="card-image">
