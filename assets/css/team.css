@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;500;600&display=swap");
+
+:root {
+  --dark: #1b1f22;
+  --light: #f3f3f3;
+  --fGlobal: "Hahmlet", serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 42px;
+  font-weight: 600;
+  color: var(--light);
+}
+.card {
+  height: 400px;
+  width: 300px;
+  border-radius: 12px;
+  position: relative;
+  margin: 100px 30px;
+}
+.card-image img {
+  border-radius: 12px;
+}
+
+.card2 {
+  overflow: hidden;
+}
+.card2 .card-image {
+  transition: all 0.9s ease-in-out;
+}
+.card2:hover .card2-content {
+  transform: translateY(-400px);
+}
+.card2:hover .card-image {
+  transform: translateY(-80px);
+}
+.card2-content {
+  height: 400px;
+  width: 300px;
+  background-color: var(--light);
+  z-index: 2;
+  border-radius: 12px;
+  clip-path: polygon(0 50%, 100% 25%, 100% 100%, 0% 100%);
+  text-align: center;
+  padding-top: 190px;
+  font-size: 14px;
+  color: #1b1f2290;
+  font-weight: 600;
+  transition: all 0.6s ease-in-out;
+}
+.card2-content p {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--dark);
+}
+.card2-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 0;
+}
+.card2-icons i {
+  color: #1b1f22;
+  opacity: 80%;
+  transform: scale(1.8);
+}
+.card2-icons i:hover {
+  opacity: 1;
+}
+
+.card-btn a {
+  background-color: var(--dark);
+  color: var(--light);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+.card-btn:hover {
+  opacity: 0.9;
+}
+@keyframes move {
+  from {
+    bottom: -50px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
+
+@keyframes card3View {
+  to {
+    opacity: 1;
+  }
+}

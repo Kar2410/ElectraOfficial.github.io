@@ -7,12 +7,6 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 <html class="no-js" lang="zxx">
 
 
-
-
-
-
-
-
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
