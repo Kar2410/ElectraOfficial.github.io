@@ -20,6 +20,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
      <!-- header css -->
      <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/team.css">
 
 
   
@@ -41,15 +42,31 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
 <body data-spy="scroll" data-target="#mainmenu" data-offset="50">
 
-   <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-    <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
+  <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+  <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
 
 
     <section>
-
-
-    
-    </section>
+    <div class="container">
+      <div class="card card2">
+         <div class="card-image">
+            <img
+               src="https://images.unsplash.com/photo-1517530094915-500495b15ade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80"
+               alt="Picture" style="height: 395px; width: 300px;">
+         </div>
+         <div class="card2-content">
+            <p>Adam Burns</p>
+            Product Deisgner<br><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, perspiciatis.
+            <div class="card2-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+  </section>
 
     
   <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
