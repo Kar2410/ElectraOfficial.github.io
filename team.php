@@ -46,22 +46,156 @@ include(ROOT_PATH . "/app/controllers/topics.php");
   <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
 
 
-    <section>
+  <section>
     <div class="container">
       <div class="card card2">
          <div class="card-image">
-            <img
-               src="https://images.unsplash.com/photo-1517530094915-500495b15ade?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80"
-               alt="Picture" style="height: 395px; width: 300px;">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/bullbul_bhaiya.jpg);">
+            </div>
          </div>
          <div class="card2-content">
-            <p>Adam Burns</p>
-            Product Deisgner<br><br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, perspiciatis.
+            <p>Bulbul Hussain</p>
+            President<br><br>
+            4th Year
             <div class="card2-icons">
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="https://www.facebook.com/profile.php?id=100009279933916"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/gaurav_bhaiya.jpg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Gaurav Singh</p>
+            General Secretary<br><br>
+            4th Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/profile.php?id=100003308682971"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/gaurav-singh-5824881b4/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/Prastuti.jpg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Prastuti Majumdar</p>
+            Vice President(General)<br><br>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/prastuti.mazumdar.3 "><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/arko.png);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Arkadeep Kashyap</p>
+            Vice President(Technical)<br><br>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/arko.kashyap "><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/Priyanki.jpg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Priyanki Priyam Borgohain</p>
+            Assistant General Secretary<br><br>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/pihu.gohain.58"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/Nihal.jpeg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Nihal Dwivedi</p>
+            Senior Technical Member<br><br>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/nihal.dwivedi.7549"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/nihal-dwivedi-6623281a0/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/kartik.jpg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Kartik Verma</p>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/kartik.verma.5492"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/kartik07/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/Sonali.jpg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Sonali Kanu</p>
+            Senior Executive Member<br><br>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/sonalikanu.999"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/"><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+      </div>
+
+      <div class="card card2">
+         <div class="card-image">
+            <div class="img"
+               style="width: 300px;height: 395px;background-color: white;background-position: center;background-size: cover;background-image: url(assets/images/about/Sarmistha.jpg);">
+            </div>
+         </div>
+         <div class="card2-content">
+            <p>Sarmistha Bora</p>
+            Literary Representative<br><br>
+            3rd Year
+            <div class="card2-icons">
+               <a href="https://www.facebook.com/sarmistha.bora1"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/sarmistha-bora/"><i class="fab fa-linkedin"></i></a>
             </div>
          </div>
       </div>

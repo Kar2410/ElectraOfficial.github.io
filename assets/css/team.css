@@ -12,6 +12,7 @@
   scroll-behavior: smooth;
 }
 .container {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,7 +28,7 @@
   width: 300px;
   border-radius: 12px;
   position: relative;
-  margin: 100px 30px;
+  margin: 30px 30px;
 }
 .card-image img {
   border-radius: 12px;
@@ -47,7 +48,8 @@
 }
 .card2-content {
   height: 400px;
-  width: 300px;
+  width: 302px;
+  margin: auto;
   background-color: var(--light);
   z-index: 2;
   border-radius: 12px;
