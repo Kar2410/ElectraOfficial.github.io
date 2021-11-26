@@ -158,7 +158,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
             </div>
          </div>
          <div class="card2-content">
+            
             <p>Kartik Verma</p>
+            Senior Technical Member<br><br>
             3rd Year
             <div class="card2-icons">
                <a href="https://www.facebook.com/kartik.verma.5492"><i class="fab fa-facebook-f"></i></a>
