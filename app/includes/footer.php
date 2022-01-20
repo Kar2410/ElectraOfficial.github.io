@@ -2,7 +2,7 @@
   <div class="footer-content">
 
     <div class="footer-section about">
-      <h1 class="logo-text"><span>Electra</span>Society</h1>
+      <h1 class="logo-text"><span style="color:#3ccdbb;">Electra</span>Society</h1>
       <p>
         The society aims at the growth of its branch at all levels. Be it technical or non-technical, its students must
         be able to face the world in all its realms.<br>
