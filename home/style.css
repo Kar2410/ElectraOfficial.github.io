@@ -166,3 +166,13 @@ img.rotateimg180 {
         transform: rotate(359deg);
     }
 }
+
+@media screen and (max-width: 768px) {
+    header ul li ul{
+        max-width: 120px;
+        padding-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        right: 0;
+    }
+}
