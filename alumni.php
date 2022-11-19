@@ -160,6 +160,10 @@ include(ROOT_PATH . "/app/controllers/topics.php");
             opacity: 1;
         }
 
+        .batch span:hover{
+            color:grey;
+        }
+        
         .card-container .card .sci li:nth-child(2) {
             transition-delay: 0.1s;
         }
@@ -195,10 +199,10 @@ include(ROOT_PATH . "/app/controllers/topics.php");
             <div class="tabs tabs-style-linebox">
                 <nav>
                     <ul>
-                        <li><a href="#section-linebox-1"><span>2017-2021</span></a></li>
-                        <li><a href="#section-linebox-2"><span>2016-2020</span></a></li>
-                        <li><a href="#section-linebox-3"><span>2015-2019</span></a></li>
-                        <li><a href="#section-linebox-4"><span>2013-2018</span></a></li>
+                        <li class="batch"><a href="#section-linebox-1" ><span>2017-2021</span></a></li>
+                        <li class="batch"><a href="#section-linebox-2" ><span>2016-2020</span></a></li>
+                        <li class="batch"><a href="#section-linebox-3" ><span>2015-2019</span></a></li>
+                        <li class="batch"><a href="#section-linebox-4" ><span>2014-2018</span></a></li>
                     </ul>
                 </nav>
                 <div class="content-wrap">
