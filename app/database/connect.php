@@ -2,7 +2,8 @@
 
 $host = 'localhost';
 $user = 'root';
-$pass =  '';
+
+$pass = '';
 $db_name = 'blog3';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);

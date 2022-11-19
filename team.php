@@ -54,9 +54,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
     <div class="main center">
           
     <div class="box center">
-                <img src="assets/images/about/bullbul_bhaiya.jpg" alt="">
+                <img src="assets/images/about/Prastuti.jpg" alt="">
                <div>
-                <p class="user_name">Bulbul Hussain</p>
+                <p class="user_name">Prastuti Mazumdar</p>
                 <p class="skill">President</p>
                 </div>
                 <div class="arr_container center ">
@@ -65,8 +65,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=100009279933916"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/prastuti.mazumdar.3 "><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/"><i class="fab fa-linkedin"></i></a>
                     
                 </div>
                 <div class="cancel center">
@@ -78,9 +78,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
         
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/gaurav_bhaiya.jpg" alt="">
+                <img src="assets/images/about/Nihal.jpeg" alt="">
                <div>
-                <p class="user_name">Gaurav Singh</p>
+                <p class="user_name">Nihal Dwivedi</p>
                 <p class="skill">General Secretary</p>
                 </div>
                 <div class="arr_container center ">
@@ -89,8 +89,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=100003308682971"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/gaurav-singh-5824881b4/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/nihal.dwivedi.7549"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/nihal-dwivedi-6623281a0/"><i class="fab fa-linkedin"></i></a>
                     
                 </div>
                 <div class="cancel center">
@@ -101,87 +101,13 @@ include(ROOT_PATH . "/app/controllers/topics.php");
         </div>   
 
 
-
-        <div class="main center">
-           <div class="box center">
-                <img src="assets/images/about/Prastuti.jpg" alt="">
-               <div>
-                <p class="user_name">Prastuti Mazumdar</p>
-                <p class="skill">Vice President(General)</p>
-                </div>
-                <div class="arr_container center ">
-                <i class="fas fa-arrow-right"></i>
-                </div>
-               <div class="left_container off">
-
-                <div class="icons">
-                <a href="https://www.facebook.com/prastuti.mazumdar.3 "><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><i class="fab fa-linkedin"></i></a>
-                    
-                </div>
-                <div class="cancel center">
-                    <i class="fas fa-times"></i>
-                </div>
-              </div>
-            </div>
-        </div>   
-
-
-
-
-        <div class="main center">
-           <div class="box center">
-                <img src="assets/images/about/arko.png" alt="">
-               <div>
-                <p class="user_name">Arkadeep Kashyap</p>
-                <p class="skill">Vice President(Technical)</p>
-                </div>
-                <div class="arr_container center ">
-                <i class="fas fa-arrow-right"></i>
-                </div>
-               <div class="left_container off">
-
-                <div class="icons">
-                <a href="https://www.facebook.com/arko.kashyap "><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="cancel center">
-                    <i class="fas fa-times"></i>
-                </div>
-              </div>
-            </div>
-        </div>   
-
-        <div class="main center">
-           <div class="box center">
-                <img src="assets/images/about/Priyanki.jpg" alt="">
-               <div>
-                <p class="user_name" style="font-size:1.1rem;">Priyanki Priyam Borgohain</p>
-            
-                <p class="skill">Assistant General Secretary</p>
-                </div>
-                <div class="arr_container center ">
-                <i class="fas fa-arrow-right"></i>
-                </div>
-               <div class="left_container off">
-
-                <div class="icons">
-                <a href="https://www.facebook.com/pihu.gohain.58"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="cancel center">
-                    <i class="fas fa-times"></i>
-                </div>
-              </div>
-            </div>
-        </div>   
 
         <div class="main center">
            <div class="box center">
                 <img src="assets/images/about/kartik.jpg" alt="">
                <div>
                 <p class="user_name">Kartik Verma</p>
-                <p class="skill">Senior Technical Member</p>
+                <p class="skill">Treasurer</p>
                 </div>
                 <div class="arr_container center ">
                 <i class="fas fa-arrow-right"></i>
@@ -197,15 +123,16 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                 </div>
               </div>
             </div>
-        </div>   
+        </div>
+
 
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/Nihal.jpeg" alt="">
+                <img src="assets/images/about/kavya.jpg" alt="">
                <div>
-                <p class="user_name">Nihal Dwivedi</p>
-                <p class="skill">Senior Technical Member</p>
+                <p class="user_name">Kavya Sharma</p>
+                <p class="skill">Vice President</p>
                 </div>
                 <div class="arr_container center ">
                 <i class="fas fa-arrow-right"></i>
@@ -213,8 +140,35 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/nihal.dwivedi.7549"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/nihal-dwivedi-6623281a0/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100008131120392"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/kavya-sharma-b143651ba  "><i class="fab fa-linkedin"></i></a>
+                    
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div>   
+
+        
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/gillian.jpeg" alt="">
+               <div>
+                <p class="user_name" style="font-size:1.1rem;">Gillian Anthony</p>
+            
+                <p class="skill">Assistant General Secretary</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/gillian.anthony.18"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/gillian-anthony-40b1a521a"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -225,10 +179,10 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/Sonali.jpg" alt="">
+                <img src="assets/images/about/biju.JPG" alt="">
                <div>
-                <p class="user_name">Sonali Kanu</p>
-                <p class="skill">Senior Executive Member</p>
+                <p class="user_name">Biju Borah</p>
+                <p class="skill">Technical Head</p>
                 </div>
                 <div class="arr_container center ">
                 <i class="fas fa-arrow-right"></i>
@@ -236,8 +190,32 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/sonalikanu.999"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/biju.borah.77582"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div>   
+
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/miraj.jpg" alt="">
+               <div>
+                <p class="user_name">Miraj Deka</p>
+                <p class="skill">Executive Head</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/miraz.deka"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/miraj-deka-32a78720a/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -248,9 +226,32 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/Sarmistha.jpg" alt="">
+                <img src="assets/images/about/Tropci.jpg" alt="">
                <div>
-                <p class="user_name">Sarmistha Bora</p>
+                <p class="user_name">Tropcilina Saikia</p>
+                <p class="skill">Cultural Head</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/tropcilina.saikia.9"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/tropcilina-saikia-47445520a/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div>   
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/ajay.jpg" alt="">
+               <div>
+                <p class="user_name">Ajay Gudla Babu</p>
                 <p class="skill"> Literary Representative</p>
                 </div>
                 <div class="arr_container center ">
@@ -259,8 +260,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/sarmistha.bora1"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/sarmistha-bora/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/ajay.dhoni.904"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/ajay-gudla-31545b20a"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
