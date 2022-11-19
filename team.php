@@ -299,9 +299,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
     <div class="main center">
           
     <div class="box center">
-                <img src="assets/images/about/biju.JPG" alt="">
+                <img src="assets/images/about/Sudeshna Mozumder.jpg" alt="">
                <div>
-                <p class="user_name">Biju Borah</p>
+                <p class="user_name">Sudeshna Mozumder</p>
                 <p class="skill">Technical Member(Web-D)</p>
                 </div>
                 <div class="arr_container center ">
@@ -310,9 +310,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/biju-borah-1bb78620a/"><i class="fab fa-linkedin"></i></a>
-               <a href="https://github.com/biju-borah"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076528503599"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/sudeshna-mozumder-1952b5227/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -323,9 +322,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
         
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/debasish.jpg" alt="">
+                <img src="assets/images/about/Sulak.jpg" alt="">
                <div>
-                <p class="user_name">Debasish Konwar</p>
+                <p class="user_name">Sulakshana Chetry</p>
                 <p class="skill">Technical Member(Web-D)</p>
                 </div>
                 <div class="arr_container center ">
@@ -334,9 +333,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/debasish.konwar.25"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/debasishkonwar/"><i class="fab fa-linkedin"></i></a>
-               <a href="https://github.com/debasish-konwar"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/people/Sulakshana-Chetry/100075904432321/"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/sulakshanachetry/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -349,9 +347,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/ritesh.jpeg" alt="">
+                <img src="assets/images/about/Srijan Krishna.png" alt="">
                <div>
-                <p class="user_name">Ritesh Kumar</p>
+                <p class="user_name">Srijan Krishna</p>
                 <p class="skill">Technical Member(Web-D)</p>
                 </div>
                 <div class="arr_container center ">
@@ -360,9 +358,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/people/Ritesh-Kumar/100006925869901/"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/ritesh-kumar-435b08216"><i class="fab fa-linkedin"></i></a>
-               <a href="https://github.com/Ritesh565"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/srijan.krishna.33/"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/srijan-krishna-64826a24b/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -376,9 +373,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/tanmay.jpg" alt="">
+                <img src="assets/images/about/Devanshu.jpg" alt="">
                <div>
-                <p class="user_name">Tanmay Tripathy</p>
+                <p class="user_name">Devanshu Singh</p>
                 <p class="skill">Technical Member(Graphic)</p>
                 </div>
                 <div class="arr_container center ">
@@ -387,8 +384,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=100009726932773"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/tanmay-tripathy"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009443903285"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/devanshu-singh-rajput-541622242/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -399,9 +396,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
         
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/reetom.jpg" alt="">
+                <img src="assets/images/about/Ishan Das.jpg" alt="">
                <div>
-                <p class="user_name">Reetom Rana Dutta</p>
+                <p class="user_name">Ishan Das</p>
                 <p class="skill">Technical Member(Graphic)</p>
                 </div>
                 <div class="arr_container center ">
@@ -410,8 +407,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/reetom.ranadutta"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/reetom-rana-dutta-34156220a"><i class="fab fa-linkedin"></i></a>
+                <a href="https://m.facebook.com/100007658834360/"><i class="fab fa-facebook-f"></i></a>
+               <a href="http://linkedin.com/in/ishan-das-b4290b240"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -422,9 +419,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/rohan.jpg" alt="">
+                <img src="assets/images/about/Dorothy Phukon.jpg" alt="">
                <div>
-                <p class="user_name">Rohan Deb</p>
+                <p class="user_name">Dorothy Phukon</p>
                 <p class="skill">Technical Member(Graphic)</p>
                 </div>
                 <div class="arr_container center ">
@@ -433,8 +430,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/rohan.deb.908579 "><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/rohan-deb-444ab8204"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076166561248 "><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/dorothy-phukon-48a066230"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -445,9 +442,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/juman.jpg" alt="">
+                <img src="assets/images/about/Sadman.jpeg" alt="">
                <div>
-                <p class="user_name">Juman Jin Deka</p>
+                <p class="user_name">Sadman Saquib</p>
                 <p class="skill">Technical Member(Graphic)</p>
                 </div>
                 <div class="arr_container center ">
@@ -456,8 +453,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/juman.sos"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/juman-jin-deka-4a3188202/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/sadman.saquibe.9"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/sadman-saquib-a6104a22a"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -468,9 +465,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/arpit.jpg" alt="">
+                <img src="assets/images/about/Ashutosh Kumar.jpeg" alt="">
                <div>
-                <p class="user_name">Arpit Jaiswal</p>
+                <p class="user_name">Ashutosh Ojha</p>
                 <p class="skill">Technical Member(Graphic)</p>
                 </div>
                 <div class="arr_container center ">
@@ -479,8 +476,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/arpit.jaiswal.965/"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/arpit-jaiswal-7166b0201/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100073385629944"><i class="fab fa-facebook-f"></i></a>
+               <a href="www.linkedin.com/in/ashutosh-ojha-850353227"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -491,32 +488,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/prakritish.jpg" alt="">
+                <img src="assets/images/about/Rudranka Das.jpg" alt="">
                <div>
-                <p class="user_name">Prokritish Nissan Bora</p>
-                <p class="skill">Technical Member(Graphic)</p>
-                </div>
-                <div class="arr_container center ">
-                <i class="fas fa-arrow-right"></i>
-                </div>
-               <div class="left_container off">
-
-                <div class="icons">
-                <a href="https://www.facebook.com/prakritish.nissan"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/prakritish-nissan-249428220/"><i class="fab fa-linkedin"></i></a>
-                </div>
-                <div class="cancel center">
-                    <i class="fas fa-times"></i>
-                </div>
-              </div>
-            </div>
-        </div>   
-
-        <div class="main center">
-           <div class="box center">
-                <img src="assets/images/about/miraj.jpg" alt="">
-               <div>
-                <p class="user_name">Miraj Deka</p>
+                <p class="user_name">Rudranka Das</p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -525,8 +499,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/miraz.deka"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/ajay-gudla-31545b20a"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/rudranka.das.3"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/rudranka-das-9a0b46222"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -537,9 +511,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/ajay.jpg" alt="">
+                <img src="assets/images/about/Srijon.JPG" alt="">
                <div>
-                <p class="user_name">Gudla Ajay Babu</p>
+                <p class="user_name">Srijon Bordoloi </p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -548,8 +522,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/ajay.dhoni.904"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/ajay-gudla-31545b20a"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076257966491"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/srijon-bordoloi-913608206"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -560,9 +534,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/debalina.jpg" alt="">
+                <img src="assets/images/about/Nikita sinha.jpg" alt="">
                <div>
-                <p class="user_name">Debalina Borah</p>
+                <p class="user_name">Nikita Sinha</p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -571,9 +545,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/debalina.borah.9"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-linkedin"></i></a>
-               <a href="https://github.com/Debalina-Borah"><i class="fab fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076463865684"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/nikita-sinha-071a69237/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -584,9 +557,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/gillian.jpeg" alt="">
+                <img src="assets/images/about/Suprateek Baruah.jpg" alt="">
                <div>
-                <p class="user_name">Gillian Anthony</p>
+                <p class="user_name">Suprateek Raj Baruah </p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -595,8 +568,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/gillian.anthony.18"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/gillian-anthony-40b1a521a"><i class="fab fa-linkedin"></i></a>
+                <a href="http://facebook.com/in/SuprateekBaruah"><i class="fab fa-facebook-f"></i></a>
+               <a href="http://linkedin.com/in/SuprateekBaruah"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -607,9 +580,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/kavya.jpg" alt="">
+                <img src="assets/images/about/Isha Shree.jpeg" alt="">
                <div>
-                <p class="user_name">Kavya Sharma</p>
+                <p class="user_name">Isha Shree</p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -618,8 +591,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=100008131120392"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/kavya-sharma-b143651ba"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076080344490"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/isha-s-0429b7222/"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -630,9 +603,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/soumya.jpg" alt="">
+                <img src="assets/images/about/Arju Sachan.jpg" alt="">
                <div>
-                <p class="user_name">Soumya Soni</p>
+                <p class="user_name">Arju Sachan</p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -641,8 +614,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=100056034555533"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/soumya-soni-7a060719b"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100009400249242"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/anirudh-sachan-41348a21a"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -653,9 +626,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/suman.jpeg" alt="">
-               <div>
-                <p class="user_name">Suman Goswami</p>
+                <img src="assets/images/about/Rimlee Ghosh.jpg" alt="">
+               <div> 
+                <p class="user_name">Rimlee Ghosh</p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -664,8 +637,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=100058459812857"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/suman-goswami-aabb93218/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100075884483252"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/rimlee-ghosh-678b65237"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -676,9 +649,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/shriyal.jpeg" alt="">
+                <img src="assets/images/about/Satyam.jpg" alt="">
                <div>
-                <p class="user_name">Shriyal Tandon</p>
+                <p class="user_name">Satyam Dhar</p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -687,8 +660,31 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://m.facebook.com/shriyal.tandon.1"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/mwlite/in/s-t-4599aa21a"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076270296148"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/satyam-dhar-528145229"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div>   
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/Saluja kataria.jpg" alt="">
+               <div>
+                <p class="user_name">Saluja kataria </p>
+                <p class="skill">Executive Member</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/saluja.kataria"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/saluja-kataria-b57920228"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -700,9 +696,9 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/reisha.jpg" alt="">
+                <img src="assets/images/about/Tanvi Sneha Pachani.jpg" alt="">
                <div>
-                <p class="user_name">Reisha Ahmed</p>
+                <p class="user_name">Tanvi Sneha Pachani </p>
                 <p class="skill">Executive Member</p>
                 </div>
                 <div class="arr_container center ">
@@ -711,8 +707,8 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                <div class="left_container off">
 
                 <div class="icons">
-                <a href="https://www.facebook.com/reisha.ahmed.7"><i class="fab fa-facebook-f"></i></a>
-               <a href="https://www.linkedin.com/in/reisa-ahmed-238a0b19a"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100076207058198"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/tanvi-sneha-pachani-86801222a"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="cancel center">
                     <i class="fas fa-times"></i>
@@ -720,6 +716,127 @@ include(ROOT_PATH . "/app/controllers/topics.php");
               </div>
             </div>
         </div>   
+
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/Nihal Singh.jpg" alt="">
+               <div>
+                <p class="user_name">Nihal Singh</p>
+                <p class="skill">Executive Member</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100023071661662"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/nihal-singh-0809b5218"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div>   
+
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/Alton.jpg" alt="">
+               <div>
+                <p class="user_name">Alton Kumar Das</p>
+                <p class="skill">Executive Member</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100069693880310"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/alton-kumar-das-8a53a4203"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div>   
+
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/Devjyoti Sharma.jpg" alt="">
+               <div>
+                <p class="user_name">Devjyoti Sharma</p>
+                <p class="skill">Executive Member</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/aksharsharma.2722"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/devjyoti-sharma-63b6a2228"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div> 
+        
+        
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/Nishanth Naidu Talari.jpg" alt="">
+               <div>
+                <p class="user_name">Talari Nishanth Naidu </p>
+                <p class="skill">Executive Member</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://m.facebook.com/100075603833220/"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/nishanth-naidu-talari-133742223"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div> 
+
+
+        <div class="main center">
+           <div class="box center">
+                <img src="assets/images/about/RAJEEB PRASAD SAH.jpg" alt="">
+                <div>
+                <p class="user_name">Rajeeb Prasad Sah</p>
+                <p class="skill">Executive Member</p>
+                </div>
+                <div class="arr_container center ">
+                <i class="fas fa-arrow-right"></i>
+                </div>
+               <div class="left_container off">
+
+                <div class="icons">
+                <a href="https://www.facebook.com/rajeeb.sah.587"><i class="fab fa-facebook-f"></i></a>
+               <a href="https://www.linkedin.com/in/rajeeb-prasad-sah-4b9163229"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="cancel center">
+                    <i class="fas fa-times"></i>
+                </div>
+              </div>
+            </div>
+        </div> 
+
 
       
 

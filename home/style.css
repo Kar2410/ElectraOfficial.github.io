@@ -121,6 +121,7 @@ header ul li:hover ul {
 
 header ul li ul li {
     width: 100%;
+    list-style:none;
 }
 
 header ul li ul li a {
@@ -164,5 +165,15 @@ img.rotateimg180 {
     }
     to {
         transform: rotate(359deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header ul li ul{
+        max-width: 120px;
+        padding-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        right: 0;
     }
 }
