@@ -199,14 +199,66 @@ include(ROOT_PATH . "/app/controllers/topics.php");
             <div class="tabs tabs-style-linebox">
                 <nav>
                     <ul>
-                        <li class="batch"><a href="#section-linebox-1" ><span>2017-2021</span></a></li>
-                        <li class="batch"><a href="#section-linebox-2" ><span>2016-2020</span></a></li>
-                        <li class="batch"><a href="#section-linebox-3" ><span>2015-2019</span></a></li>
-                        <li class="batch"><a href="#section-linebox-4" ><span>2014-2018</span></a></li>
+                         <!-- s  -->
+                         <li class="batch"><a href="#section-linebox-1" ><span>2018-2022</span></a></li>
+                         <!-- s  -->
+                        <li class="batch"><a href="#section-linebox-2" ><span>2017-2021</span></a></li>
+                        <li class="batch"><a href="#section-linebox-3" ><span>2016-2020</span></a></li>
+                        <li class="batch"><a href="#section-linebox-4" ><span>2015-2019</span></a></li>
+                        <li class="batch"><a href="#section-linebox-5" ><span>2014-2018</span></a></li>
                     </ul>
                 </nav>
                 <div class="content-wrap">
+                    <!-- s  -->
                     <section id="section-linebox-1">
+                        <div id='card-section'>
+                            <div class="card-container">
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/pr2021.jpg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Bulbul Hussain<br /><span>President</span></h3>
+                                        </div>
+                                    </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/profile.php?id=100009279933916" target="_blank"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/" target="_blank"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="card">
+                                    <div class="content">
+                                        <div class="imgBx">
+                                            <img src="assets/images/alumni/gs2021.jpg" />
+                                        </div>
+                                        <div class="contentBx">
+                                            <h3>Gaurav Singh<br /><span>General Secretary</span></h3>
+                                        </div>
+                                    </div>
+                                    <ul class="sci">
+                                        <li>
+                                            <a href="https://www.facebook.com/profile.php?id=100003308682971" target="_blank"><i
+                                                    class="fab fa-facebook"></i> </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/gaurav-singh-5824881b4/" target="_blank"><i
+                                                    class="fab fa-linkedin"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- s  -->
+                    <section id="section-linebox-2">
                         <div id='card-section'>
                             <div class="card-container">
                                 <div class="card">
@@ -220,11 +272,11 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/bolisetti.dheeraj.7"><i
+                                            <a href="https://www.facebook.com/bolisetti.dheeraj.7" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/bolisetti-dheeraj"><i
+                                            <a href="https://www.linkedin.com/in/bolisetti-dheeraj" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
@@ -241,11 +293,11 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/tanmay.sardar.7355"><i
+                                            <a href="https://www.facebook.com/tanmay.sardar.7355" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/tanmay-s-14206213a"><i
+                                            <a href="https://www.linkedin.com/in/tanmay-s-14206213a" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
@@ -253,7 +305,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                             </div>
                         </div>
                     </section>
-                    <section id="section-linebox-2">
+                    <section id="section-linebox-3">
                         <div id='card-section'>
                             <div class="card-container">
                                 <div class="card">
@@ -267,11 +319,11 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/binit.roy.338"><i
+                                            <a href="https://www.facebook.com/binit.roy.338" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/binit-roy-b4154b160/"><i
+                                            <a href="https://www.linkedin.com/in/binit-roy-b4154b160/" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
@@ -288,11 +340,11 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/swapnil.jadon.5"><i
+                                            <a href="https://www.facebook.com/swapnil.jadon.5" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/swapnil-jadon/"><i
+                                            <a href="https://www.linkedin.com/in/swapnil-jadon/" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
@@ -300,7 +352,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                             </div>
                         </div>
                     </section>
-                    <section id="section-linebox-3">
+                    <section id="section-linebox-4">
                         <div id='card-section'>
                             <div class="card-container">
                                 <div class="card">
@@ -314,7 +366,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.linkedin.com/in/anishpaul95/"><i
+                                            <a href="https://www.linkedin.com/in/anishpaul95/" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
@@ -331,11 +383,11 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/ashim.goswami.581"><i
+                                            <a href="https://www.facebook.com/ashim.goswami.581" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/ashim-goswami-bb25a2110/"><i
+                                            <a href="https://www.linkedin.com/in/ashim-goswami-bb25a2110/" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
@@ -343,7 +395,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                             </div>
                         </div>
                     </section>
-                    <section id="section-linebox-4">
+                    <section id="section-linebox-5">
                         <div id='card-section'>
                             <div class="card-container">
                                 <div class="card">
@@ -357,7 +409,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/aditya.raj.3990418"><i
+                                            <a href="https://www.facebook.com/aditya.raj.3990418" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                     </ul>
@@ -374,11 +426,11 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                                     </div>
                                     <ul class="sci">
                                         <li>
-                                            <a href="https://www.facebook.com/vinaykumar.sonkar.98"><i
+                                            <a href="https://www.facebook.com/vinaykumar.sonkar.98" target="_blank"><i
                                                     class="fab fa-facebook"></i> </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/vk-sonkar-0b335a163"><i
+                                            <a href="https://www.linkedin.com/in/vk-sonkar-0b335a163" target="_blank"><i
                                                     class="fab fa-linkedin"></i> </a>
                                         </li>
                                     </ul>
