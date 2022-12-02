@@ -148,6 +148,7 @@ if (isset($_GET['t_id'])) {
 
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="Explore_NITS/index.html">Electra NITS</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
                         <li><a href="team.php">Team</a></li>
 
                         <li><a href="alumni.php">Alumni</a></li>
