@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap');
+
+.gallery * {
+    box-sizing: border-box;
+    padding: 0.25% 2%;
+}
+
+.gallery h1,
+a,
+select {
+    font-family: 'Karla', sans-serif;
+}
+
+
+.gallery a {
+    text-decoration: none;
+}
+
+.gallery select {
+    background-color: transparent;
+    border: none;
+}
+
+.gallery button {
+    background-color: transparent;
+    border: none;
+}
+
+.gallery h1 {
+    font-size: 26px;
+    color: #648381;
+    text-transform: uppercase;
+    margin: 24px 24px 40px;
+}
+
+
+
+.gallery .filters {
+    width: 100%;
+}
+
+.gallery .filter-btn {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #648381;
+    margin: 0px 8px 16px 0px;
+    text-transform: capitalize;
+}
+
+.gallery .active,
+.gallery .filter-btn:hover {
+    color: #506967;
+    font-weight: 700;
+    border-bottom: 3px solid #506967;
+}
+
+.gallery .imgGallery {
+    width: 100%;
+    /*flex*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gallery .imgGallery img {
+    width: 33%;
+    height: 450px;
+    object-fit: cover;
+    object-position: bottom;
+}
