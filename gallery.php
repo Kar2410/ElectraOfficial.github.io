@@ -1,66 +1,118 @@
 <?php include('path.php'); 
 include(ROOT_PATH . "/app/controllers/topics.php");
-
-
 ?>
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <title>Alumni</title>
-    <!-- <link rel="stylesheet" type="text/css" href="assets/css/about.css"> -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/about.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/alumni.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/gallery.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-v4-grid-only@1.0.0/dist/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lightgallery-bundle.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/css/lg-thumbnail.min.css">
 
-<!-- browser tab icon -->
-<link rel="shortcut icon" type="home/image/ico" href="home/images/elelogo.png" />
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/b0f1c3ae66.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Candal|Lora" rel="stylesheet">
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-        crossorigin="anonymous"></script>
-
-
+    <title>Document</title>
 </head>
-
 
 <body>
 
-    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-    <?php include(ROOT_PATH . "/app/includes/messages.php"); ?>
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row">
 
-    <div class="gallery">
-        <h1>Cactus gallery</h1>
-        <div id="filters" class="filters"></div>
-        <div class="imgGallery" id="imgGallery"></div>
+            <!-- THUMBNAIL CONTAINER -->
+            <div class="col-md-3">
+                <div class="awesome__thumbnails">
+                    <div class="thumb active" data-rel="0">
+                        <img src="https://images.unsplash.com/photo-1622910076411-b126ff7e469b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="Image 1">
+                    </div>
+                    <div class="thumb" data-rel="1">
+                        <img src="https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100&q=80"
+                            alt="image 2">
+                    </div>
+                    <div class="thumb" data-rel="2">
+                        <img src="https://images.unsplash.com/photo-1613637069737-2cce919a4ab7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 3">
+                    </div>
+                    <div class="thumb" data-rel="3">
+                        <img src="https://images.unsplash.com/photo-1615217482859-6b0c8a50129d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="4">
+                        <img src="https://images.unsplash.com/photo-1553691158-91a7f9183156?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="5">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                </div>
+                <div class="popup__btns">
+                    <div class="bord"></div>
+                    <div class="awesome__ba" id="ba_gallery">
+                        Before &amp; Afters
+                        <small>(popup gallery)</small>
+                    </div>
+                    <div class="bord"></div>
+                    <div class="awesome__videos" id="vid_gallery">
+                        Video Gallery
+                        <small>(youtube &amp; vimeo)</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SLIDER CONTAINER -->
+            <div class="col-md-9">
+                <div class="awesome__slider">
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1622910076411-b126ff7e469b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="Image 1">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1611080541599-8c6dbde6ed28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80"
+                            alt="image 2">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1613637069737-2cce919a4ab7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 3">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1615217482859-6b0c8a50129d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1553691158-91a7f9183156?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Custom Script -->
-    <script src="assets/js/scripts.js"></script>
-    <script src="assets/js/gallery.js"></script>
-    <script src="assets/js/cbpFWTabs.js"></script>
-    <script src="assets/js/modernizr.custom.js"></script>
 
-    
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/lightgallery.umd.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.5.0-beta.5/plugins/video/lg-video.min.js"></script>
+    <script src="assets/js/gallery.js"></script>
 
     <script>
         (function () {
@@ -72,5 +124,6 @@ include(ROOT_PATH . "/app/controllers/topics.php");
         })();
     </script>
 
-    <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
 </body>
+
+</html>

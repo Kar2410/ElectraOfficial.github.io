@@ -1,72 +1,192 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
 
-.gallery * {
-    box-sizing: border-box;
-    padding: 0.25% 2%;
+body {
+    /* background: #f4f4f4; */
+    background: lightsteelblue;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-top: 50px;
 }
 
-.gallery h1,
-a,
-select {
-    font-family: 'Karla', sans-serif;
+.container.description {
+    background: white;
+    border: 1px solid #eee;
+    padding: 10px 25px;
+    margin-top: 40px;
 }
 
-
-.gallery a {
-    text-decoration: none;
+.container.description h1 {
+    font-size: 35px;
+    font-weight: 300;
 }
 
-.gallery select {
-    background-color: transparent;
-    border: none;
-}
-
-.gallery button {
-    background-color: transparent;
-    border: none;
-}
-
-.gallery h1 {
-    font-size: 26px;
-    color: #648381;
-    text-transform: uppercase;
-    margin: 24px 24px 40px;
-}
-
-
-
-.gallery .filters {
-    width: 100%;
-}
-
-.gallery .filter-btn {
-    font-family: 'Karla', sans-serif;
+.container.description h1 small {
+    display: block;
     font-size: 16px;
-    font-weight: 500;
-    color: #648381;
-    margin: 0px 8px 16px 0px;
-    text-transform: capitalize;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-.gallery .active,
-.gallery .filter-btn:hover {
-    color: #506967;
-    font-weight: 700;
-    border-bottom: 3px solid #506967;
+.container.description p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #666;
 }
 
-.gallery .imgGallery {
+.container.description h3 {
+    color: #0080a7;
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.container.description h5 {
+    font-size: 12px;
+}
+
+.container.description code {
+    background: #eee;
+    font-size: 12px;
+}
+
+.awesome__slider div {
+    background: grey;
+    min-height: 460px;
+    text-align: center;
+    position: relative;
+}
+
+.awesome__slider div img {
     width: 100%;
-    /*flex*/
+    height: 100%;
+}
+
+.awesome__slider div h3 {
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.prev-img,
+.next-img {
+    display: block;
+    border: none;
+    background: none;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.next-img {
+    right: 0;
+    left: auto;
+}
+
+.awesome__thumbnails {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+    flex-basis: 50%;
+    position: relative;
+    gap: 5px;
+    width: 100%;
 }
 
-.gallery .imgGallery img {
-    width: 33%;
-    height: 450px;
-    object-fit: cover;
-    object-position: bottom;
+.awesome__thumbnails .thumb {
+    width: 48%;
+    cursor: pointer;
+    position: relative;
+}
+
+.awesome__thumbnails .thumb img {
+    max-width: 100%;
+    filter: blur(1.2px);
+}
+
+.awesome__thumbnails .thumb.active img {
+    filter: blur(0);
+    box-shadow: 0px 0px 8px 0px #e0dbdf;
+}
+
+@media screen and (max-width: 749px) {
+    .awesome__thumbnails {
+        display: none;
+    }
+}
+
+.awesome__ba,
+.awesome__videos {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3.2rem;
+    padding: calc(-0.125rem) calc(0.5rem);
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 98%;
+}
+
+.awesome__ba small,
+.awesome__videos small {
+    display: block;
+    font-weight: lighter;
+}
+
+.awesome__ba:hover,
+.awesome__videos:hover,
+.awesome__ba:focus,
+.awesome__videos:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.awesome__ba:hover,
+.awesome__videos:hover {
+    transform: translateY(-1px);
+}
+
+.awesome__ba:active,
+.awesome__videos:active {
+    background-color: #f0f0f1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.bord {
+    width: 98%;
+    border-top: 1px dashed #ccc;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 749px) {
+    .popup__btns {
+        display: flex;
+        gap: 5px;
+    }
+
+    .popup__btns .bord {
+        display: none;
+    }
 }
