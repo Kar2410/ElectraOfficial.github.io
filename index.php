@@ -142,7 +142,7 @@ if (isset($_GET['t_id'])) {
                 <div class="collapse navbar-collapse navbar-right" id="mainmenu">
                     <ul class="nav navbar-nav">
                         <li><a href="#home">Home</a></li>
-                        <li><a href="#work">About</a></li>
+                        <!-- <li><a href="#work">About</a></li> -->
 
                         <li><a href="#announcement">Announcements</a></li>
 

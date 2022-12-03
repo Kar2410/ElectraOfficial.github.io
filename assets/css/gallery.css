@@ -1,10 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
 
 body {
-    /* background: #f4f4f4; */
-    background: lightsteelblue;
+    background: #f4f4f4;
     font-family: "Source Sans Pro", sans-serif;
-    padding-top: 50px;
+    padding-top: 20px;
+}
+
+.filters button {
+    background-color: transparent;
+    border: none;
+}
+
+.filters {
+    text-align: center;
+    width: 100%;
+}
+
+.filter-btn {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #648381;
+    margin: 0px 18px 16px 0px;
+    text-transform: capitalize;
+    margin-bottom: 2.5rem;
+}
+
+.filters .active,
+.filter-btn:hover {
+    color: #506967;
+    font-weight: 700;
+    border-bottom: 3px solid #506967;
 }
 
 .container.description {

@@ -106,12 +106,17 @@ const vidGallery = window.lightGallery($dynamicGallery, {
             </div>`
         },
         {
-            src: "//www.youtube.com/watch?v=egyIeygdS_E",
+            src: "https://www.youtube.com/watch?v=Jolt8lGTQvQ",
             poster: "https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg",
-            thumb: "https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg"
+            thumb: "https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg",
+            subHtml: `<div class="lightGallery-captions">
+                <h4>Photo by <a href="https://unsplash.com/@brookecagle">Brooke Cagle</a></h4>
+                <p>Description of the slide 2</p>
+            </div>`
         }
     ]
 });
 $vidGallery.addEventListener("click", () => {
     vidGallery.openGallery(0);
 });
+

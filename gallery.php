@@ -23,7 +23,12 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 </head>
 
 <body>
-
+    <div class="filters">
+        <button class="filter-btn active">Glimpses</button>
+        <button class="filter-btn" id="ba_gallery">Photo Gallery</button>
+        <button class="filter-btn" id="vid_gallery">Video Gallery</button>
+        <button class="filter-btn">Past Session</button>
+    </div>
     <div class="container">
         <div class="row flex-column-reverse flex-md-row">
 
@@ -54,8 +59,40 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                         <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
                             alt="image 4">
                     </div>
+                    <div class="thumb" data-rel="6">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="7">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="8">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="9">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="10">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="11">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="12">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
+                    <div class="thumb" data-rel="13">
+                        <img src="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=100"
+                            alt="image 4">
+                    </div>
                 </div>
-                <div class="popup__btns">
+                <!-- <div class="popup__btns">
                     <div class="bord"></div>
                     <div class="awesome__ba" id="ba_gallery">
                         Before &amp; Afters
@@ -66,7 +103,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                         Video Gallery
                         <small>(youtube &amp; vimeo)</small>
                     </div>
-                </div>
+                </div> -->
             </div>
 
             <!-- SLIDER CONTAINER -->
@@ -90,6 +127,34 @@ include(ROOT_PATH . "/app/controllers/topics.php");
                     </div>
                     <div>
                         <img data-lazy="https://images.unsplash.com/photo-1553691158-91a7f9183156?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
+                            alt="image 4">
+                    </div>
+                    <div>
+                        <img data-lazy="https://images.unsplash.com/photo-1592967833769-60d8693bbf91?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700"
                             alt="image 4">
                     </div>
                     <div>
