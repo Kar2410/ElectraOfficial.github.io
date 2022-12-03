@@ -99,11 +99,13 @@ if (isset($_GET['t_id'])) {
                 bottom: 40px;
             }
         }
-        .nav-logo{
+
+        .nav-logo {
             height: 50px;
         }
+
         @media screen and (max-width:600px) {
-            .nav-logo{
+            .nav-logo {
                 height: 50px;
                 /* width: 60px; */
                 margin-left: -10px;
@@ -259,9 +261,10 @@ if (isset($_GET['t_id'])) {
 
 
                     <div class="item"><img src="home/images/logo/elelogo.png"
-                            style="max-width: 290px; height:300px;margin-left:98px;margin-top:87px" alt=""></div> 
+                            style="max-width: 290px; height:300px;margin-left:98px;margin-top:87px" alt=""></div>
                     <div class="item"><img src="home/images/logo/circle.png"
-                            style="max-width: 600px; height:600px;margin-left:-57px;margin-top:-460px" alt="" class="rotateimg180"></div>
+                            style="max-width: 600px; height:600px;margin-left:-57px;margin-top:-460px" alt=""
+                            class="rotateimg180"></div>
 
 
 
@@ -294,7 +297,7 @@ if (isset($_GET['t_id'])) {
                 </div>
             </div>
             <div class="space-60"></div>
-            <div class="row">
+            <div class="row" style="display:flex; flex-wrap:wrap;justify-content: center;">
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.2s">
                     <div class="hover-shadow">
                         <div class="space-60">
@@ -302,7 +305,7 @@ if (isset($_GET['t_id'])) {
                         </div>
                         <div class="space-20"></div>
                         <h5 class="text-uppercase">Head of the Department</h5>
-                        <p>Dr. Jyoti Prakash Mishra</p>
+                        <p>Prof. Arup Kumar Goswami</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.4s">
@@ -316,6 +319,9 @@ if (isset($_GET['t_id'])) {
                         <p>Dr. Prasanta Roy</p>
                     </div>
                 </div>
+            </div>
+            <div class="space-40"></div>
+            <div class="row" style="display:flex; flex-wrap:wrap;justify-content: center;">
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.6s">
                     <div class="hover-shadow">
                         <div class="space-60">
@@ -324,7 +330,7 @@ if (isset($_GET['t_id'])) {
                         </div>
                         <div class="space-20"></div>
                         <h5 class="text-uppercase">President</h5>
-                        <p>Bulbul Hussain</p>
+                        <p>Prastuti Mazumdar</p>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.8s">
@@ -335,12 +341,21 @@ if (isset($_GET['t_id'])) {
                         </div>
                         <div class="space-20"></div>
                         <h5 class="text-uppercase">General Secretary</h5>
-                        <p>Gaurav Singh</p>
+                        <p>Nihal Dwivedi</p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="hover-shadow">
+                        <div class="space-60">
+                            <img src="home/images/Heads/client1.png" alt="" style="height: 70px; ">
+
+                        </div>
+                        <div class="space-20"></div>
+                        <h5 class="text-uppercase">Treasurer</h5>
+                        <p>Kartik Verma</p>
                     </div>
                 </div>
             </div>
-
-        </div>
     </section>
     <!--Work-Section/-->
     <!--  key-Feature-Section-->
@@ -589,7 +604,7 @@ if (isset($_GET['t_id'])) {
 
 
     <!--Team-Section-->
-   
+
     <!--Team-Section/-->
 
 
