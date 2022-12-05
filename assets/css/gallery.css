@@ -141,8 +141,22 @@ body {
 }
 
 @media screen and (max-width: 749px) {
-    .awesome__thumbnails {
+
+    /* .awesome__thumbnails {
         display: none;
+    } */
+    .awesome__thumbnails .thumb {
+        display: flex;
+        justify-content: center;
+    }
+
+    .awesome__thumbnails .thumb img {
+        height: 6rem;
+    }
+
+    .draggable {
+        min-height: 250px;
+        height: 250px !important;
     }
 }
 

@@ -74,32 +74,18 @@ const vidGallery = window.lightGallery($dynamicGallery, {
     plugins: [lgThumbnail, lgVideo],
     dynamicEl: [
         {
-            video: {
-                source: [
-                    {
-                        src: "https://www.lightgalleryjs.com//videos/video1.mp4",
-                        type: "video/mp4"
-                    }
-                ],
-                attributes: { preload: false, controls: true }
-            },
-            thumb: "https://www.lightgalleryjs.com//images/demo/html5-video-poster.jpg",
+            src: "https://www.youtube.com/watch?v=Jolt8lGTQvQ",
+            poster: "../images/v-th-1.jpg",
+            thumb: "../images/v-th-1.jpg",
             subHtml: `<div class="lightGallery-captions">
                 <h4>Photo by <a href="https://unsplash.com/@brookecagle">Brooke Cagle</a></h4>
                 <p>Description of the slide 2</p>
             </div>`
         },
         {
-            video: {
-                source: [
-                    {
-                        src: "https://www.lightgalleryjs.com//videos/video1.mp4",
-                        type: "video/mp4"
-                    }
-                ],
-                attributes: { preload: false, controls: true }
-            },
-            thumb: "https://www.lightgalleryjs.com//images/demo/html5-video-poster.jpg",
+            src: "https://www.youtube.com/watch?v=Jolt8lGTQvQ",
+            poster: "https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg",
+            thumb: "https://img.youtube.com/vi/egyIeygdS_E/maxresdefault.jpg",
             subHtml: `<div class="lightGallery-captions">
                 <h4>Photo by <a href="https://unsplash.com/@brookecagle">Brooke Cagle</a></h4>
                 <p>Description of the slide 2</p>
