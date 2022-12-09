@@ -144,13 +144,13 @@ if (isset($_GET['t_id'])) {
                 <div class="collapse navbar-collapse navbar-right" id="mainmenu">
                     <ul class="nav navbar-nav">
                         <li><a href="#home">Home</a></li>
-                        <!-- <li><a href="#work">About</a></li> -->
+                        <li><a href="#work">About</a></li>
 
                         <li><a href="#announcement">Announcements</a></li>
 
                         <li><a href="#blog">Blog</a></li>
                         <li><a href="Explore_NITS/index.html">Electra NITS</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
+                        <!-- <li><a href="gallery.php">Gallery</a></li> -->
                         <li><a href="team.php">Team</a></li>
 
                         <li><a href="alumni.php">Alumni</a></li>
@@ -302,7 +302,7 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.2s">
                     <div class="hover-shadow">
                         <div class="space-60">
-                            <img src="home/images/Heads/client1.png" alt="" style="height: 70px; ">
+                            <img src="home/images/Heads/arup.jpg" alt="" style="height: 100%;border-radius: 50%; ">
                         </div>
                         <div class="space-20"></div>
                         <h5 class="text-uppercase">Head of the Department</h5>
@@ -312,7 +312,7 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.4s">
                     <div class="hover-shadow">
                         <div class="space-60">
-                            <img src="home/images/Heads/client1.png" alt="" style="height: 70px; ">
+                            <img src="home/images/Heads/prasanta.jpg" alt="" style="height: 100%;border-radius: 50%; ">
 
                         </div>
                         <div class="space-20"></div>
@@ -326,7 +326,7 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.6s">
                     <div class="hover-shadow">
                         <div class="space-60">
-                            <img src="home/images/Heads/client1.png" alt="" style="height: 70px; ">
+                            <img src="home/images/Heads/pras.jpg" alt="" style="height: 100%;border-radius: 50%; ">
 
                         </div>
                         <div class="space-20"></div>
@@ -337,7 +337,7 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.8s">
                     <div class="hover-shadow">
                         <div class="space-60">
-                            <img src="home/images/Heads/client1.png" alt="" style="height: 70px; ">
+                            <img src="home/images/Heads/Nihal.jpeg" alt="" style="height: 100%;border-radius: 50%; ">
 
                         </div>
                         <div class="space-20"></div>
@@ -348,7 +348,7 @@ if (isset($_GET['t_id'])) {
                 <div class="col-xs-12 col-sm-6 col-md-3 text-center wow fadeInUp" data-wow-delay="0.8s">
                     <div class="hover-shadow">
                         <div class="space-60">
-                            <img src="home/images/Heads/client1.png" alt="" style="height: 70px; ">
+                            <img src="home/images/Heads/kartik.jpg" alt="" style="height: 100%;border-radius: 50%; ">
 
                         </div>
                         <div class="space-20"></div>
