@@ -36,59 +36,59 @@ include(ROOT_PATH . "/app/controllers/topics.php");
             <div class="col-md-3">
                 <div class="awesome__thumbnails">
                     <div class="thumb active" data-rel="0">
-                        <img src="assets\images\G-1.jpg"
+                        <img src="assets\images\Gallery\G-1.jpg"
                             alt="Image 1">
                     </div>
                     <div class="thumb" data-rel="1">
-                        <img src="assets\images\G-2.jpg"
+                        <img src="assets\images\Gallery\G-2.jpg"
                             alt="image 2">
                     </div>
                     <div class="thumb" data-rel="2">
-                        <img src="assets\images\G-3.jpg"
+                        <img src="assets\images\Gallery\G-3.jpg"
                             alt="image 3">
                     </div>
                     <div class="thumb" data-rel="3">
-                        <img src="assets\images\G-4.jpg"
+                        <img src="assets\images\Gallery\G-4.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="4">
-                        <img src="assets\images\G-5.jpg"
+                        <img src="assets\images\Gallery\G-5.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="5">
-                        <img src="assets\images\G-6.jpg"
+                        <img src="assets\images\Gallery\G-6.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="6">
-                        <img src="assets\images\G-7.jpg"
+                        <img src="assets\images\Gallery\G-7.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="7">
-                        <img src="assets\images\G-8.jpg"
+                        <img src="assets\images\Gallery\G-8.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="8">
-                        <img  src="assets\images\G-9.jpg"
+                        <img  src="assets\images\Gallery\G-9.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="9">
-                        <img src="assets\images\G-10.jpg"
+                        <img src="assets\images\Gallery\G-10.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="10">
-                        <img src="assets\images\G-11.jpg"
+                        <img src="assets\images\Gallery\G-11.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="11">
-                        <img src="assets\images\G-12.jpg"
+                        <img src="assets\images\Gallery\G-12.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="12">
-                        <img src="assets\images\G-13.jpg"
+                        <img src="assets\images\Gallery\G-13.jpg"
                             alt="image 4">
                     </div>
                     <div class="thumb" data-rel="13">
-                        <img src="assets\images\G-14.jpg"
+                        <img src="assets\images\Gallery\G-14.jpg"
                             alt="image 4">
                     </div>
                 </div>
@@ -110,58 +110,58 @@ include(ROOT_PATH . "/app/controllers/topics.php");
             <div class="col-md-9">
                 <div class="awesome__slider">
                     <div>
-                        <img data-lazy="assets\images\G-1.jpg" alt="Image 1">
+                        <img data-lazy="assets\images\Gallery\G-1.jpg" alt="Image 1">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-2.jpg"
+                        <img data-lazy="assets\images\Gallery\G-2.jpg"
                             alt="image 2">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-3.jpg"
+                        <img data-lazy="assets\images\Gallery\G-3.jpg"
                             alt="image 3">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-4.jpg"
+                        <img data-lazy="assets\images\Gallery\G-4.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-5.jpg"
+                        <img data-lazy="assets\images\Gallery\G-5.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-6.jpg"
+                        <img data-lazy="assets\images\Gallery\G-6.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-7.jpg"
+                        <img data-lazy="assets\images\Gallery\G-7.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-8.jpg"
+                        <img data-lazy="assets\images\Gallery\G-8.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-9.jpg"
+                        <img data-lazy="assets\images\Gallery\G-9.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-10.jpg"
+                        <img data-lazy="assets\images\Gallery\G-10.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-11.jpg"
+                        <img data-lazy="assets\images\Gallery\G-11.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-12.jpg"
+                        <img data-lazy="assets\images\Gallery\G-12.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                        <img data-lazy="assets\images\G-13.jpg"
+                        <img data-lazy="assets\images\Gallery\G-13.jpg"
                             alt="image 4">
                     </div>
                     <div>
-                    <img data-lazy="assets\images\G-14.jpg"
+                    <img data-lazy="assets\images\Gallery\G-14.jpg"
                             alt="image 4">
                 </div>
             </div>

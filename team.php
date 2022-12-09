@@ -179,7 +179,7 @@ include(ROOT_PATH . "/app/controllers/topics.php");
 
         <div class="main center">
            <div class="box center">
-                <img src="assets/images/about/biju.JPG" alt="">
+                <img src="assets/images/about/biju.jpeg" alt="">
                <div>
                 <p class="user_name">Biju Borah</p>
                 <p class="skill">Technical Head</p>
